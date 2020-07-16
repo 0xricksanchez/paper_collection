@@ -215,6 +215,7 @@ Unread papers categorized by a common main theme.
 
 ### Misc
 
+* [2020 - An experimental study oncombining automated andstochastic test data generation - MASTER THESIS](https://gupea.ub.gu.se/bitstream/2077/65502/1/gupea_2077_65502_1.pdf)
 * [2020 - FuzzGen: Automatic Fuzzer Generation](https://www.usenix.org/system/files/sec20fall_ispoglou_prepub.pdf)
 * [2020 - Fuzzing: On the Exponential Cost of Vulnerability Discovery](https://mboehme.github.io/paper/FSE20.EmpiricalLaw.pdf)
 * [2020 - Efficient Binary-Level Coverage Analysis](https://ui.adsabs.harvard.edu/abs/2020arXiv200414191A/abstract)
@@ -243,5 +244,6 @@ Unread papers categorized by a common main theme.
 
 ### Surveys & SoK
 
+* [2002- A Quantitative Comparison of Coverage-Based Greybox Fuzzers](https://sites.google.com/site/yoshidaatnu/TsuzukiAST2020.pdf)
 * [2020 - A Survey of Security Vulnerability Analysis, Discovery, Detection, and Mitigation on IoT Devices](https://www.mdpi.com/1999-5903/12/2/27)
 
