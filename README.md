@@ -61,6 +61,7 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2020 - CSI-Fuzz: Full-speed Edge Tracing Using Coverage Sensitive Instrumentation](https://sci-hub.tw/10.1109/TDSC.2020.3008826)
 * [2020 - Scalable Greybox Fuzzing for Effective Vulnerability Management DISS](https://mediatum.ub.tum.de/doc/1509837/file.pdf)
 * [2020 - HotFuzz Discovering Algorithmic Denial-of-Service Vulnerabilities through Guided Micro-Fuzzing](https://pdfs.semanticscholar.org/6515/a12fc8615a401e3c7a80d5ada59e5d057971.pdf)
 * [2020 - Fuzzing Binaries for Memory Safety Errors with QASan](https://www.researchgate.net/publication/342493914_Fuzzing_Binaries_for_Memory_Safety_Errors_with_QASan)
@@ -194,6 +195,7 @@ Unread papers categorized by a common main theme.
 
 ### Static Binary Analysis
 
+* [2020 - How Far We Have Come: Testing Decompilation Correctness of C Decompilers](https://dl.acm.org/doi/pdf/10.1145/3395363.3397370)
 * [2020 - Dynamic Binary Lifting and Recompilation DISS](https://escholarship.org/content/qt8pz574mn/qt8pz574mn_noSplash_b11493cfba04b6b9c737eb3e42038820.pdf)
 * [2020 - Similarity Based Binary Backdoor Detection via Attributed Control Flow Graph](https://ieeexplore.ieee.org/abstract/document/9085069)
 * [2020 - IoTSIT: A Static Instrumentation Tool for IoT Devices](https://ieeexplore.ieee.org/document/9084145)
