@@ -197,6 +197,7 @@ Unread papers categorized by a common main theme.
 
 ### Format specific fuzzing
 
+* [2020 - Detecting Critical Bugs in SMT Solvers Using Blackbox Mutational Fuzzing](https://arxiv.org/pdf/2004.05934.pdf)
 * [2020 - JS Engine - Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer](https://arxiv.org/abs/2001.04107.pdf)
 * [2020 - JS Engine - Fuzzing JavaScript Engines with Aspect-preserving Mutation](https://jakkdu.github.io/pubs/2020/park:die.pdf)
 * [2020 - CUDA Compiler - CUDAsmith: A Fuzzer for CUDA Compilers](http://jiangbo.buaa.edu.cn/compsac20-CUDAsmith.pdf)
