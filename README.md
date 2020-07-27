@@ -25,10 +25,6 @@ Feel free to suggest decent papers via a PR.
   * **Tags:** NX, canaries, ASLR, new mitigations, mitigation evaluation, recap on memory issues
 * [2020 - SoK: The Progress, Challenges, and Perspectives of Directed Greybox Fuzzing](https://arxiv.org/pdf/2005.11907.pdf)
   * **Tags:** SoK, directed grey box fuzzing, AFL, AFL mutation operators, DGF vs CGF 
- [2020 - MemLock: Memory Usage Guided Fuzzing](https://wcventure.github.io/pdf/ICSE2020_MemLock.pdf)
-  * **Tags:** memory consumption, AFL, memory leak, uncontrolled-recursion, uncontrolled-memory-allocation, static analysis
-* [2019 - AntiFuzz: Impeding Fuzzing Audits of Binary Executables](https://www.usenix.org/system/files/sec19-guler.pdf)
-  * **Tags:** anti fuzzing, prevent crash, delay executions, obscure coverage information, overload symbolic execution
 * [2020 - MemLock: Memory Usage Guided Fuzzing](https://wcventure.github.io/pdf/ICSE2020_MemLock.pdf)
   * **Tags:** memory consumption, AFL, memory leak, uncontrolled-recursion, uncontrolled-memory-allocation, static analysis
 * [2019 - AntiFuzz: Impeding Fuzzing Audits of Binary Executables](https://www.usenix.org/system/files/sec19-guler.pdf)
