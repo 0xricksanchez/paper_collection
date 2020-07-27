@@ -61,6 +61,7 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2020 - WEIZZ: Automatic Grey-Box Fuzzing for Structured Binary Formats](https://andreafioraldi.github.io/assets/weizz-issta2020.pdf)
 * [2020 - Scalable Greybox Fuzzing for Effective Vulnerability Management DISS](https://mediatum.ub.tum.de/doc/1509837/file.pdf)
 * [2020 - HotFuzz Discovering Algorithmic Denial-of-Service Vulnerabilities through Guided Micro-Fuzzing](https://pdfs.semanticscholar.org/6515/a12fc8615a401e3c7a80d5ada59e5d057971.pdf)
 * [2020 - Fuzzing Binaries for Memory Safety Errors with QASan](https://www.researchgate.net/publication/342493914_Fuzzing_Binaries_for_Memory_Safety_Errors_with_QASan)
@@ -197,6 +198,8 @@ Unread papers categorized by a common main theme.
 * [2020 - Dynamic Binary Lifting and Recompilation DISS](https://escholarship.org/content/qt8pz574mn/qt8pz574mn_noSplash_b11493cfba04b6b9c737eb3e42038820.pdf)
 * [2020 - Similarity Based Binary Backdoor Detection via Attributed Control Flow Graph](https://ieeexplore.ieee.org/abstract/document/9085069)
 * [2020 - IoTSIT: A Static Instrumentation Tool for IoT Devices](https://ieeexplore.ieee.org/document/9084145)
+* [2019 - Code Similarity Detection using AST and Textual Information](http://www.ijpe-online.com/EN/10.23940/ijpe.19.10.p14.26832691)
+* [2018 - CodEX: Source Code Plagiarism DetectionBased on Abstract Syntax Trees](https://pdfs.semanticscholar.org/d5bd/a9161deac69e4fed8da63971f773c60f3caf.pdf)
 * [2017 - rev.ng: a unified binary analysis framework to recover CFGs and function boundaries](https://dl.acm.org/doi/abs/10.1145/3033019.3033028)
 * [2017 - Angr: The Next Generation of Binary Analysis](https://ieeexplore.ieee.org/abstract/document/8077799)
 * [2016 - Binary code is not easy](https://dl.acm.org/doi/abs/10.1145/2931037.2931047)
@@ -208,6 +211,7 @@ Unread papers categorized by a common main theme.
 * [2013 - Protocol reverse engineering through dynamic and static binary analysis](https://www.sciencedirect.com/science/article/abs/pii/S1005888513602174)
 * [2013 - BinaryPig: Scalable Static Binary Analysis Over Hadoop](https://media.blackhat.com/us-13/US-13-Hanif-Binarypig-Scalable-Malware-Analytics-in-Hadoop-WP.pdf)
 * [2011 - BAP: A Binary Analysis Platform](https://link.springer.com/chapter/10.1007/978-3-642-22110-1_37)
+* [2009 - Syntax tree fingerprinting for source code similarity detection](https://www.researchgate.net/publication/221219530_Syntax_tree_fingerprinting_for_source_code_similarity_detection)
 * [2008 - BitBlaze: A New Approach to Computer Security via Binary Analysis](https://link.springer.com/chapter/10.1007/978-3-540-89862-7_1)
 * [2005 - Practical analysis of stripped binary code](https://dl.acm.org/doi/abs/10.1145/1127577.1127590)
 * [2004 - Detecting kernel-level rootkits through binary analysis](https://ieeexplore.ieee.org/abstract/document/1377219)
@@ -233,6 +237,7 @@ Unread papers categorized by a common main theme.
 * [2020 - Not All Coverage Measurements Are Equal: Fuzzing by Coverage Accounting for Input Prioritization](https://ajax4sec.github.io/papers/ndss20-fall-paper422.pdf)
 * [2019 - Toward the Analysis of Embedded Firmware through Automated Re-hosting](http://subwire.net/papers/pretender-final.pdf)
 * [2019 - FUZZIFICATION: Anti-Fuzzing Techniques](https://www.usenix.org/system/files/sec19fall_jung_prepub.pdf)
+* [2017 - Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-xu.pdf)
 * [2017 - Synthesizing Program Input Grammars](https://obastani.github.io/docs/pldi17.pdf)
 * [2017 - Designing New Operating Primitives to Improve Fuzzing Performance](https://acmccs.github.io/papers/p2313-xuA.pdf)
 * [2017 - Instruction Punning: Lightweight Instrumentation for x86-64](https://dl.acm.org/doi/pdf/10.1145/3062341.3062344?download=true)
