@@ -144,17 +144,6 @@ Unread papers categorized by a common main theme.
 * [2005 - DART: Directed Automated Random Testing](https://web.eecs.umich.edu/~weimerw/2014-6610/reading/p213-godefroid.pdf)
 
 
-### Misc TODO
-
-* [2020 - Exploiting More Binaries by Using Planning to Assemble ROP Exploiting More Binaries by Using Planning to Assemble ROP Attacks Attacks](https://scholars.unh.edu/cgi/viewcontent.cgi?article=2376&context=thesis)
-* [2020 - ROPminer: Learning-Based Static Detection of ROP Chain Considering Linkability of ROP Gadgets](https://search.ieice.org/bin/summary.php?id=e103-d_7_1476)
-* [2020 - Fast Bit-Vector Satisfiability](https://qingkaishi.github.io/public_pdfs/ISSTA20-Trident.pdf)
-* [2020 - MARDU: Efficient and Scalable Code Re-randomization](https://dl.acm.org/doi/pdf/10.1145/3383669.3398280)
-* [2020 - Towards formal verification of IoT protocols: A Review](https://www.sciencedirect.com/science/article/abs/pii/S1389128619317116)
-* [2020 - Efficient Binary-Level Coverage Analysis](https://ui.adsabs.harvard.edu/abs/2020arXiv200414191A/abstract)
-* [2020 - Poster: Debugging Inputs](https://publications.cispa.saarland/3062/1/icse2020-poster-paper42-camera-ready.pdf)
-
-
 ### IoT fuzzing
 
 * [2020 - P2IM: Scalable and Hardware-independent Firmware Testing via Automatic Peripheral Interface Modeling](https://www.usenix.org/system/files/sec20spring_feng_prepub_0.pdf)
@@ -276,6 +265,7 @@ Unread papers categorized by a common main theme.
 
 ### Misc
 
+* [2020 - Symbolic execution with SYMCC: Don’t interpret, compile!](http://www.s3.eurecom.fr/docs/usenixsec20_symcc.pdf)
 * [2020 - An experimental study oncombining automated andstochastic test data generation - MASTER THESIS](https://gupea.ub.gu.se/bitstream/2077/65502/1/gupea_2077_65502_1.pdf)
 * [2020 - FuzzGen: Automatic Fuzzer Generation](https://www.usenix.org/system/files/sec20fall_ispoglou_prepub.pdf)
 * [2020 - Fuzzing: On the Exponential Cost of Vulnerability Discovery](https://mboehme.github.io/paper/FSE20.EmpiricalLaw.pdf)
