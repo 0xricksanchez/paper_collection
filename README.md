@@ -5,6 +5,8 @@ Feel free to suggest decent papers via a PR.
 
 ## Read & Tagged
 
+* [2020 - Magma: A Ground-Truth Fuzzing Benchmark](https://hexhive.epfl.ch/magma/docs/preprint.pdf)
+  * **Tags:** best practices, fuzzer benchmarking, ground truth, Lava-M 
 * [2020 - Fitness Guided Vulnerability Detection with Greybox Fuzzing](https://www.csa.iisc.ac.in/~raghavan/ReadingMaterial/sbst20.pdf)
   * **Tags:** AFL, vuln specific fitness metric (headroom), buffer/integer overflow detection, AFLGo, pointer analysis, CIL, bad benchmarking
 * [2020 - GREYONE: Data Flow Sensitive Fuzzing](https://www.usenix.org/system/files/sec20spring_gan_prepub.pdf)
@@ -296,6 +298,7 @@ Unread papers categorized by a common main theme.
 
 ### Surveys & SoK
 
+* [2020 - SoK: All You Ever Wanted to Know About x86/x64 Binary Disassembly But Were Afraid to Ask](https://arxiv.org/ftp/arxiv/papers/2007/2007.14266.pdf)
 * [2020 - A Quantitative Comparison of Coverage-Based Greybox Fuzzers](https://sites.google.com/site/yoshidaatnu/TsuzukiAST2020.pdf)
 * [2020 - A Survey of Security Vulnerability Analysis, Discovery, Detection, and Mitigation on IoT Devices](https://www.mdpi.com/1999-5903/12/2/27)
 
