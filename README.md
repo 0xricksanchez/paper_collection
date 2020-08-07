@@ -65,6 +65,7 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2020 - AFLpro: Direction sensitive fuzzing](https://sci-hub.tw/http://www.sciencedirect.com/science/article/pii/S2214212619305733)
 * [2020 - WEIZZ: Automatic Grey-Box Fuzzing for Structured Binary Formats](https://andreafioraldi.github.io/assets/weizz-issta2020.pdf)
 * [2020 - AFL++: Combining Incremental Steps of Fuzzing Research](https://aflplus.plus//papers/aflpp-woot2020.pdf)
 * [2020 - CSI-Fuzz: Full-speed Edge Tracing Using Coverage Sensitive Instrumentation](https://sci-hub.tw/10.1109/TDSC.2020.3008826)
@@ -148,6 +149,8 @@ Unread papers categorized by a common main theme.
 
 ### IoT fuzzing
 
+* 2020 - [EM-Fuzz: Augmented Firmware Fuzzing via Memory Checking](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/EMSOFT20.pdf)
+* [2020 - Verification of Embedded Binaries using Coverage-guidedFuzzing with SystemC-based Virtual Prototypes](http://www.informatik.uni-bremen.de/agra/doc/konf/2020GLSVLSI_Verification-of-Embedded-Binaries-using-Coverage-guided-Fuzzing-with-SystemC-Virtual-Prototypes.pdf)
 * [2020 - P2IM: Scalable and Hardware-independent Firmware Testing via Automatic Peripheral Interface Modeling](https://www.usenix.org/system/files/sec20spring_feng_prepub_0.pdf)
 * [2020 - DICE: Automatic Emulation of DMA Input Channels for Dynamic Firmware Analysis](https://arxiv.org/pdf/2007.01502.pdf)
 * [2020 - Fw‐fuzz: A code coverage‐guided fuzzing framework for network protocols on firmware](https://onlinelibrary.wiley.com/doi/full/10.1002/cpe.5756)
@@ -196,6 +199,7 @@ Unread papers categorized by a common main theme.
 
 ### Exploitation
 
+* [2020 - Speculative Dereferencing of Registers: Reviving Foreshadow](https://arxiv.org/pdf/2008.02307.pdf)
 * [2020 - HAEPG: An Automatic Multi-hop Exploitation Generation Framework](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7338205/)
 * [2020 - Exploiting More Binaries by Using Planning to Assemble ROP Exploiting More Binaries by Using Planning to Assemble ROP Attacks Attacks](https://scholars.unh.edu/cgi/viewcontent.cgi?article=2376&context=thesis)
 * [2020 - ROPminer: Learning-Based Static Detection of ROP Chain Considering Linkability of ROP Gadgets](https://search.ieice.org/bin/summary.php?id=e103-d_7_1476)
@@ -267,6 +271,8 @@ Unread papers categorized by a common main theme.
 
 ### Misc
 
+* [2020 - Inputs from Hell: Learning Input Distributions for Grammar-Based Test Generation](https://publications.cispa.saarland/3167/7/inputs-from-hell.pdf)
+* [2020 - IdSan: An identity-based memory sanitizer for fuzzing binaries](https://arxiv.org/pdf/2007.13113.pdf)
 * [2020 - Symbolic execution with SYMCC: Don’t interpret, compile!](http://www.s3.eurecom.fr/docs/usenixsec20_symcc.pdf)
 * [2020 - An experimental study oncombining automated andstochastic test data generation - MASTER THESIS](https://gupea.ub.gu.se/bitstream/2077/65502/1/gupea_2077_65502_1.pdf)
 * [2020 - FuzzGen: Automatic Fuzzer Generation](https://www.usenix.org/system/files/sec20fall_ispoglou_prepub.pdf)
