@@ -5,6 +5,8 @@ Feel free to suggest decent papers via a PR.
 
 ## Read & Tagged
 
+* [2020 - ParmeSan: Sanitizer-guided Greybox Fuzzing](https://download.vusec.net/papers/parmesan_sec20.pdf)
+  * Tags: interprocedural CFG, data flow analysis, directed fuzzing (DGF), disregarding 'hot paths', LAVA-M based primitives, LLVM, Angora, AFLGo, ASAP, santizer dependent
 * [2020 - Magma: A Ground-Truth Fuzzing Benchmark](https://hexhive.epfl.ch/magma/docs/preprint.pdf)
   * **Tags:** best practices, fuzzer benchmarking, ground truth, Lava-M 
 * [2020 - Fitness Guided Vulnerability Detection with Greybox Fuzzing](https://www.csa.iisc.ac.in/~raghavan/ReadingMaterial/sbst20.pdf)
@@ -29,6 +31,8 @@ Feel free to suggest decent papers via a PR.
   * **Tags:** SoK, directed grey box fuzzing, AFL, AFL mutation operators, DGF vs CGF 
 * [2020 - MemLock: Memory Usage Guided Fuzzing](https://wcventure.github.io/pdf/ICSE2020_MemLock.pdf)
   * **Tags:** memory consumption, AFL, memory leak, uncontrolled-recursion, uncontrolled-memory-allocation, static analysis
+* [2019 - Building Fast Fuzzers](https://arxiv.org/pdf/1911.07707.pdf)
+  * **Tags:** grammar based fuzzing, optimization, bold claims, comparison to badly/non-optimized fuzzers, python, lots of micro-optimizations, nice protocolling of failures, bad ASM optimization
 * [2019 - AntiFuzz: Impeding Fuzzing Audits of Binary Executables](https://www.usenix.org/system/files/sec19-guler.pdf)
   * **Tags:** anti fuzzing, prevent crashes, delay executions, obscure coverage information, overload symbolic execution
 * [2019 - MOpt: Optimized Mutation Scheduling for Fuzzers](https://www.usenix.org/system/files/sec19-lyu.pdf)
@@ -65,6 +69,8 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2020 - MUZZ: Thread-aware Grey-box Fuzzing for Effective Bug Hunting in Multithreaded Programs](https://arxiv.org/pdf/2007.15943.pdf)
+* [2020 - Evolutionary Grammar-Based Fuzzing](https://arxiv.org/pdf/2008.01150.pdf)
 * [2020 - AFLpro: Direction sensitive fuzzing](https://sci-hub.tw/http://www.sciencedirect.com/science/article/pii/S2214212619305733)
 * [2020 - WEIZZ: Automatic Grey-Box Fuzzing for Structured Binary Formats](https://andreafioraldi.github.io/assets/weizz-issta2020.pdf)
 * [2020 - AFL++: Combining Incremental Steps of Fuzzing Research](https://aflplus.plus//papers/aflpp-woot2020.pdf)
@@ -76,7 +82,6 @@ Unread papers categorized by a common main theme.
 * [2020 - AURORA: Statistical Crash Analysis for Automated Root Cause Explanation](https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2020/04/01/aurora.pdf)
 * [2020 - IJON: Exploring Deep State Spaces via Fuzzing](https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2020/02/27/IJON-Oakland20.pdf)
 * [2020 - Binary-level Directed Fuzzing for Use-After-Free Vulnerabilities](https://arxiv.org/pdf/2002.10751.pdf)
-* [2020 - ParmeSan: Sanitizer-guided Greybox Fuzzing](https://download.vusec.net/papers/parmesan_sec20.pdf)
 * [2020 - AFLNET: A Greybox Fuzzer for Network Protocols](https://www.comp.nus.edu.sg/~abhik/pdf/AFLNet-ICST20.pdf)
 * [2020 - PANGOLIN: Incremental Hybrid Fuzzing with Polyhedral Path Abstraction](https://qingkaishi.github.io/public_pdfs/SP2020.pdf)
 * [2020 - UEFI Firmware Fuzzing with Simics Virtual Platform](http://web.cecs.pdx.edu/~zhenkun/pub/uefi-fuzzing-dac20.pdf)
@@ -84,7 +89,6 @@ Unread papers categorized by a common main theme.
 * [2020 - Typestate-Guided Fuzzer for Discovering Use-after-Free Vulnerabilities](https://yuleisui.github.io/publications/icse20.pdf)
 * [2020 - FuzzGuard: Filtering out Unreachable Inputs in Directed Grey-box Fuzzing through Deep Learning](https://www.usenix.org/system/files/sec20summer_zong_prepub.pdf)
 * [2020 - HyDiff: Hybrid Differential Software Analysis](https://yannicnoller.github.io/publications/icse2020_noller_hydiff.pdf)
-* [2019 - Building Fast Fuzzers](https://arxiv.org/pdf/1911.07707.pdf)
 * [2019 - Superion: Grammar-Aware Greybox Fuzzing](https://arxiv.org/pdf/1812.01197.pdf)
 * [2019 - Compiler Fuzzing: How Much Does It Matter?](https://srg.doc.ic.ac.uk/files/papers/compilerbugs-oopsla-19.pdf)
 * [2019 - ProFuzzer: On-the-fly Input Type Probing for Better Zero-day Vulnerability Discovery](https://www.cs.purdue.edu/homes/ma229/papers/SP19.pdf)
@@ -171,6 +175,7 @@ Unread papers categorized by a common main theme.
 
 ### Kernel fuzzing
 
+* [2020 - FINDING RACE CONDITIONS IN KERNELS:FROM FUZZING TO SYMBOLIC EXECUTION - THESIS](https://gts3.org/assets/papers/2020/xu:thesis.pdf)
 * [2020 - Agamotto: Accelerating Kernel Driver Fuzzing with Lightweight Virtual Machine Checkpoints](https://www.usenix.org/conference/usenixsecurity20/presentation/song) 
 * [2020 - X-AFL: a kernel fuzzer combining passive and active fuzzing](https://dl.acm.org/doi/abs/10.1145/3380786.3391400)
 * [2020 - Identification of Kernel Memory Corruption Using Kernel Memory Secret Observation Mechanism](https://search.ieice.org/bin/summary.php?id=e103-d_7_1462)
@@ -246,6 +251,7 @@ Unread papers categorized by a common main theme.
 
 ### Static Binary Analysis
 
+* [2020 - AN APPROACH TO COMPARING CONTROL FLOW GRAPHS BASED ON BASIC BLOCK MATCHING](http://www.ijcse.com/docs/INDJCSE20-11-03-237.pdf)
 * [2020 - How Far We Have Come: Testing Decompilation Correctness of C Decompilers](https://dl.acm.org/doi/pdf/10.1145/3395363.3397370)
 * [2020 - Dynamic Binary Lifting and Recompilation DISS](https://escholarship.org/content/qt8pz574mn/qt8pz574mn_noSplash_b11493cfba04b6b9c737eb3e42038820.pdf)
 * [2020 - Similarity Based Binary Backdoor Detection via Attributed Control Flow Graph](https://ieeexplore.ieee.org/abstract/document/9085069)
@@ -271,6 +277,8 @@ Unread papers categorized by a common main theme.
 
 ### Misc
 
+* [2020 - On Using k-means Clustering for Test Suite Reduction](https://sci-hub.tw/https://ieeexplore.ieee.org/document/9155590)
+* [2020 - Optimizing the Parameters of an Evolutionary Algorithm for Fuzzing and Test Data Generation](https://sci-hub.tw/10.1109/ICSTW50294.2020.00061)
 * [2020 - Inputs from Hell: Learning Input Distributions for Grammar-Based Test Generation](https://publications.cispa.saarland/3167/7/inputs-from-hell.pdf)
 * [2020 - IdSan: An identity-based memory sanitizer for fuzzing binaries](https://arxiv.org/pdf/2007.13113.pdf)
 * [2020 - Symbolic execution with SYMCC: Don’t interpret, compile!](http://www.s3.eurecom.fr/docs/usenixsec20_symcc.pdf)
