@@ -69,6 +69,7 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2020 - Zeror: Speed Up Fuzzing with Coverage-sensitive Tracing and Scheduling](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/ase20.pdf)
 * [2020 - MUZZ: Thread-aware Grey-box Fuzzing for Effective Bug Hunting in Multithreaded Programs](https://arxiv.org/pdf/2007.15943.pdf)
 * [2020 - Evolutionary Grammar-Based Fuzzing](https://arxiv.org/pdf/2008.01150.pdf)
 * [2020 - AFLpro: Direction sensitive fuzzing](https://sci-hub.tw/http://www.sciencedirect.com/science/article/pii/S2214212619305733)
@@ -204,6 +205,7 @@ Unread papers categorized by a common main theme.
 
 ### Exploitation
 
+* [2020 - Localizing Patch Points From One Exploit](https://arxiv.org/pdf/2008.04516.pdf)
 * [2020 - Speculative Dereferencing of Registers: Reviving Foreshadow](https://arxiv.org/pdf/2008.02307.pdf)
 * [2020 - HAEPG: An Automatic Multi-hop Exploitation Generation Framework](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7338205/)
 * [2020 - Exploiting More Binaries by Using Planning to Assemble ROP Exploiting More Binaries by Using Planning to Assemble ROP Attacks Attacks](https://scholars.unh.edu/cgi/viewcontent.cgi?article=2376&context=thesis)
@@ -251,6 +253,7 @@ Unread papers categorized by a common main theme.
 
 ### Static Binary Analysis
 
+* [2020 - What Exactly Determines the Type? Inferring Types with Context](https://sci-hub.tw/https://ieeexplore.ieee.org/document/9159142)
 * [2020 - AN APPROACH TO COMPARING CONTROL FLOW GRAPHS BASED ON BASIC BLOCK MATCHING](http://www.ijcse.com/docs/INDJCSE20-11-03-237.pdf)
 * [2020 - How Far We Have Come: Testing Decompilation Correctness of C Decompilers](https://dl.acm.org/doi/pdf/10.1145/3395363.3397370)
 * [2020 - Dynamic Binary Lifting and Recompilation DISS](https://escholarship.org/content/qt8pz574mn/qt8pz574mn_noSplash_b11493cfba04b6b9c737eb3e42038820.pdf)
@@ -277,6 +280,9 @@ Unread papers categorized by a common main theme.
 
 ### Misc
 
+* [2020 - Collecting Vulnerable Source Code from Open-Source Repositories for Dataset Generation](https://www.mdpi.com/2076-3417/10/4/1270/htm)
+* [2020 - LEOPARD: Identifying Vulnerable Code for Vulnerability Assessment through Program Metrics](https://arxiv.org/pdf/1901.11479.pdf)
+* [2020 - Dynamic Program Analysis Tools in GCC and CLANG Compilers](https://sci-hub.tw/https://doi.org/10.1134/S0361768820010089)
 * [2020 - On Using k-means Clustering for Test Suite Reduction](https://sci-hub.tw/https://ieeexplore.ieee.org/document/9155590)
 * [2020 - Optimizing the Parameters of an Evolutionary Algorithm for Fuzzing and Test Data Generation](https://sci-hub.tw/10.1109/ICSTW50294.2020.00061)
 * [2020 - Inputs from Hell: Learning Input Distributions for Grammar-Based Test Generation](https://publications.cispa.saarland/3167/7/inputs-from-hell.pdf)
@@ -301,17 +307,24 @@ Unread papers categorized by a common main theme.
 * [2020 - Not All Coverage Measurements Are Equal: Fuzzing by Coverage Accounting for Input Prioritization](https://ajax4sec.github.io/papers/ndss20-fall-paper422.pdf)
 * [2019 - Toward the Analysis of Embedded Firmware through Automated Re-hosting](http://subwire.net/papers/pretender-final.pdf)
 * [2019 - FUZZIFICATION: Anti-Fuzzing Techniques](https://www.usenix.org/system/files/sec19fall_jung_prepub.pdf)
+* [2018 - VulinOSS: A Dataset of Security Vulnerabilities in Open-source Systems](https://antonisgkortzis.github.io/files/GMS_MSR_18.pdf)
+* [2017 - VUDDY: A Scalable Approach for Vulnerable CodeClone Discovery](https://squizz617.github.io/pubs/vuddy-sp17.pdf)
 * [2017 - Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-xu.pdf)
 * [2017 - Synthesizing Program Input Grammars](https://obastani.github.io/docs/pldi17.pdf)
 * [2017 - Designing New Operating Primitives to Improve Fuzzing Performance](https://acmccs.github.io/papers/p2313-xuA.pdf)
 * [2017 - Instruction Punning: Lightweight Instrumentation for x86-64](https://dl.acm.org/doi/pdf/10.1145/3062341.3062344?download=true)
+* [2016 - VulPecker: An Automated Vulnerability Detection SystemBased on Code Similarity Analysis](http://www.cs.utsa.edu/~shxu/socs/VulPecker.pdf)
+* [2015 - Challenges with Applying Vulnerability Prediction Models](https://www.microsoft.com/en-us/research/wp-content/uploads/2015/04/ChallengesVulnerabilityModelsMicrosoft_HotSOS.pdf)
 * [2015 - PIE: Parser Identification in Embedded Systems](http://www.s3.eurecom.fr/docs/acsac15_cojocar.pdf)
 * [2014 - Optimizing Seed Selection for Fuzzing](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-rebert.pdf)
 * [2009 - Dynamic Test Generation To Find Integer Bugs in x86 Binary Linux Programs](https://argp.github.io/public/50a11f65857c12c76995f843dbfe6dda.pdf)
 
 
-### Surveys & SoK
+### Surveys, SoKs, and Studies
 
+* [2020 - Fuzzing: Challenges and Reflections](https://www.comp.nus.edu.sg/~abhik/pdf/IEEE-SW-Fuzzing.pdf)
+* [2020 - The Relevance of Classic Fuzz Testing: Have We Solved This One?](https://arxiv.org/pdf/2008.06537.pdf)
+* [2020 - A Practical, Principled Measure of Fuzzer Appeal:A Preliminary Study](https://agroce.github.io/qrs20-1.pdf)
 * [2020 - SoK: All You Ever Wanted to Know About x86/x64 Binary Disassembly But Were Afraid to Ask](https://arxiv.org/ftp/arxiv/papers/2007/2007.14266.pdf)
 * [2020 - A Quantitative Comparison of Coverage-Based Greybox Fuzzers](https://sites.google.com/site/yoshidaatnu/TsuzukiAST2020.pdf)
 * [2020 - A Survey of Security Vulnerability Analysis, Discovery, Detection, and Mitigation on IoT Devices](https://www.mdpi.com/1999-5903/12/2/27)
