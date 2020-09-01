@@ -5,6 +5,12 @@ Feel free to suggest decent papers via a PR.
 
 ## Read & Tagged
 
+* [2020 - What Exactly Determines the Type? Inferring Types with Context](https://sci-hub.tw/https://ieeexplore.ieee.org/document/9159142)
+    * **Tags:** context assisted type inference, stripped binaries, variable and type reconstruction, IDA Pro, Word2Vec, CNN,
+* [2020 - Causal Testing: Understanding Defects’ Root Causes](https://arxiv.org/pdf/1809.06991.pdf)
+    * **Tags:** Defects4J, causal relationships, Eclipse plugin, unit test mutation, program trace diffing, static value diffing, user study
+* [2020 - AURORA: Statistical Crash Analysis for Automated Root Cause Explanation](https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2020/04/01/aurora.pdf)
+  * **Tags:** RCA, program traces, input diversification, Intel PIN, Rust, CFG, 
 * [2020 - ParmeSan: Sanitizer-guided Greybox Fuzzing](https://download.vusec.net/papers/parmesan_sec20.pdf)
   * Tags: interprocedural CFG, data flow analysis, directed fuzzing (DGF), disregarding 'hot paths', LAVA-M based primitives, LLVM, Angora, AFLGo, ASAP, santizer dependent
 * [2020 - Magma: A Ground-Truth Fuzzing Benchmark](https://hexhive.epfl.ch/magma/docs/preprint.pdf)
@@ -33,6 +39,8 @@ Feel free to suggest decent papers via a PR.
   * **Tags:** memory consumption, AFL, memory leak, uncontrolled-recursion, uncontrolled-memory-allocation, static analysis
 * [2019 - Building Fast Fuzzers](https://arxiv.org/pdf/1911.07707.pdf)
   * **Tags:** grammar based fuzzing, optimization, bold claims, comparison to badly/non-optimized fuzzers, python, lots of micro-optimizations, nice protocolling of failures, bad ASM optimization
+* [2019 - Not All Bugs Are the Same: Understanding, Characterizing, and Classifying the Root Cause of Bugs](https://arxiv.org/pdf/1907.11031.pdf)
+    * **Tags:** RCA via bug reports, classification model, F score,
 * [2019 - AntiFuzz: Impeding Fuzzing Audits of Binary Executables](https://www.usenix.org/system/files/sec19-guler.pdf)
   * **Tags:** anti fuzzing, prevent crashes, delay executions, obscure coverage information, overload symbolic execution
 * [2019 - MOpt: Optimized Mutation Scheduling for Fuzzers](https://www.usenix.org/system/files/sec19-lyu.pdf)
@@ -42,25 +50,33 @@ Feel free to suggest decent papers via a PR.
 * [2019 - Fuzzing File Systems via Two-Dimensional Input Space Exploration](https://taesoo.kim/pubs/2019/xu:janus.pdf)
   * **Tags:** Ubuntu, file systems, library OS, ext4, brtfs, meta block mutations, edge cases
 * [2019 - REDQUEEN: Fuzzing with Input-to-State Correspondence](https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2018/12/17/NDSS19-Redqueen.pdf)
-  * **Tags:** feedback-driven, AFL, magic-bytes, nested contraints, input-to-state  correspondence
+  * **Tags:** feedback-driven, AFL, magic-bytes, nested contraints, input-to-state correspondence
 * [2019 - PeriScope: An Effective Probing and Fuzzing Framework for the Hardware-OS Boundary](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_04A-1_Song_paper.pdf)
    * **Tags:** kernel, android, userland, embedded, hardware, Linux, device driver, WiFi
 * [2019 - FirmFuzz: Automated IoT Firmware Introspection and Analysis](https://nebelwelt.net/publications/files/19IOTSP.pdf)
   * **Tags:** emulation, firmadyne, BOF, XSS, CI, NPD, semi-automatic
 * [2019 - Firm-AFL: High-Throughput Greybox Fuzzing of IoT Firmware via Augmented Process Emulation](https://www.usenix.org/system/files/sec19-zheng_0.pdf)
   * **Tags:** emulation, qemu, afl, full vs user mode, syscall redirect, "augmented process emulation", firmadyne
+* [2018 - A Survey of Automated Root Cause Analysisof Software Vulnerability](https://sci-hub.tw/10.1007/978-3-319-93554-6_74)
+    * **Tags:** Exploit mitigations, fuzzing basics, symbolic execution basics, fault localization, high level
 * [2018 - PhASAR: An Inter-procedural Static Analysis Framework for C/C++](https://link.springer.com/content/pdf/10.1007%2F978-3-030-17465-1_22.pdf)
   * **Tags:** LLVM, (inter-procedural) data-flow analysis, call-graph, points-to, class hierachy, CFG, IR
-* [2018 - INSTRIM: Lightweight Instrumentation forCoverage-guided Fuzzing](https://www.csie.ntu.edu.tw/~hchsiao/pub/2018_BAR.pdf)
+* [2018 - INSTRIM: Lightweight Instrumentation for Coverage-guided Fuzzing](https://www.csie.ntu.edu.tw/~hchsiao/pub/2018_BAR.pdf)
   * **Tags:** LLVM, instrumentation optimization, graph algorithms, selective instrumentation, coverage calculation
 * [2018 - What You Corrupt Is Not What You Crash: Challenges in Fuzzing Embedded Devices](http://s3.eurecom.fr/docs/ndss18_muench.pdf)
   * **Tags:** embedded, challenges, heuristics, emulation, crash classification, fault detection
 * [2018 - Evaluating Fuzz Testing](https://www.cs.umd.edu/~mwh/papers/fuzzeval.pdf)
   * **Tags:** fuzzing evaluation, good practices, bad practices
+* [2017 - Root Cause Analysis of Software Bugs using Machine Learning Techniques](https://sci-hub.tw/10.1109/CONFLUENCE.2017.7943132)
+    * **Tags:** ML, RC prediction for filed bug reports,  unsupervides + supervised combination,  RC categorisation, F score 
 * [2017 - kAFL: Hardware-Assisted Feedback Fuzzing for OS Kernels](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-schumilo.pdf)
   * **Tags:** intel PT, kernel, AFL, file systems, Windows, NTFS, Linux, ext, macOS, APFS, driver, feedback-driven
 * [2016 - Driller: Argumenting Fuzzing Through Selective Symbolic Execution](https://sites.cs.ucsb.edu/~vigna/publications/2016_NDSS_Driller.pdf)
   * **Tags:** DARPA, CGC, concolic execution, hybrid fuzzer, binary based
+* [2015 - Challenges with Applying Vulnerability Prediction Models](https://www.microsoft.com/en-us/research/wp-content/uploads/2015/04/ChallengesVulnerabilityModelsMicrosoft_HotSOS.pdf)
+    * **Tags:** VPM vs DPM, prediction models on large scale systems, files with frequent changes leave more vulns, older code exhibits more vulns
+* [2013 - Automatic Recovery of Root Causes from Bug-Fixing Changes](https://soarsmu.github.io/papers/wcre13-rootcause.pdfhttps://soarsmu.github.io/papers/wcre13-rootcause.pdf)
+    * **Tags:** ML + SCA, F score, AST, PPA, source tree analysis
 
 
 ## Unread
@@ -80,7 +96,6 @@ Unread papers categorized by a common main theme.
 * [2020 - HotFuzz Discovering Algorithmic Denial-of-Service Vulnerabilities through Guided Micro-Fuzzing](https://pdfs.semanticscholar.org/6515/a12fc8615a401e3c7a80d5ada59e5d057971.pdf)
 * [2020 - Fuzzing Binaries for Memory Safety Errors with QASan](https://www.researchgate.net/publication/342493914_Fuzzing_Binaries_for_Memory_Safety_Errors_with_QASan)
 * [2020 - Suzzer: A Vulnerability-Guided Fuzzer Based on Deep Learning](https://link.springer.com/chapter/10.1007%2F978-3-030-42921-8_8)
-* [2020 - AURORA: Statistical Crash Analysis for Automated Root Cause Explanation](https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2020/04/01/aurora.pdf)
 * [2020 - IJON: Exploring Deep State Spaces via Fuzzing](https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2020/02/27/IJON-Oakland20.pdf)
 * [2020 - Binary-level Directed Fuzzing for Use-After-Free Vulnerabilities](https://arxiv.org/pdf/2002.10751.pdf)
 * [2020 - AFLNET: A Greybox Fuzzer for Network Protocols](https://www.comp.nus.edu.sg/~abhik/pdf/AFLNet-ICST20.pdf)
@@ -90,6 +105,7 @@ Unread papers categorized by a common main theme.
 * [2020 - Typestate-Guided Fuzzer for Discovering Use-after-Free Vulnerabilities](https://yuleisui.github.io/publications/icse20.pdf)
 * [2020 - FuzzGuard: Filtering out Unreachable Inputs in Directed Grey-box Fuzzing through Deep Learning](https://www.usenix.org/system/files/sec20summer_zong_prepub.pdf)
 * [2020 - HyDiff: Hybrid Differential Software Analysis](https://yannicnoller.github.io/publications/icse2020_noller_hydiff.pdf)
+* [2019 - Engineering a Better Fuzzer with SynergicallyIntegrated Optimizations](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/issre19_betterfuzzer.pdf)
 * [2019 - Superion: Grammar-Aware Greybox Fuzzing](https://arxiv.org/pdf/1812.01197.pdf)
 * [2019 - Compiler Fuzzing: How Much Does It Matter?](https://srg.doc.ic.ac.uk/files/papers/compilerbugs-oopsla-19.pdf)
 * [2019 - ProFuzzer: On-the-fly Input Type Probing for Better Zero-day Vulnerability Discovery](https://www.cs.purdue.edu/homes/ma229/papers/SP19.pdf)
@@ -154,7 +170,7 @@ Unread papers categorized by a common main theme.
 
 ### IoT fuzzing
 
-* 2020 - [EM-Fuzz: Augmented Firmware Fuzzing via Memory Checking](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/EMSOFT20.pdf)
+* [2020 - EM-Fuzz: Augmented Firmware Fuzzing via Memory Checking](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/EMSOFT20.pdf)
 * [2020 - Verification of Embedded Binaries using Coverage-guidedFuzzing with SystemC-based Virtual Prototypes](http://www.informatik.uni-bremen.de/agra/doc/konf/2020GLSVLSI_Verification-of-Embedded-Binaries-using-Coverage-guided-Fuzzing-with-SystemC-Virtual-Prototypes.pdf)
 * [2020 - P2IM: Scalable and Hardware-independent Firmware Testing via Automatic Peripheral Interface Modeling](https://www.usenix.org/system/files/sec20spring_feng_prepub_0.pdf)
 * [2020 - DICE: Automatic Emulation of DMA Input Channels for Dynamic Firmware Analysis](https://arxiv.org/pdf/2007.01502.pdf)
@@ -236,7 +252,6 @@ Unread papers categorized by a common main theme.
 * [2015 - SURROGATES: Enabling Near-Real-Time Dynamic Analyses of Embedded Systems](https://www.usenix.org/system/files/conference/woot15/woot15-paper-koscher.pdf)
 * [2015 - From Collision To Exploitation: Unleashing Use-After-Free Vulnerabilities in Linux Kernel](http://repository.root-me.org/Exploitation%20-%20Syst%C3%A8me/Unix/EN%20-%20From%20collision%20to%20exploitation%3A%20Unleashing%20Use-After-Free%20vulnerabilities%20in%20Linux%20Kernel.pdf)
 * [2015 - PIE: Parser Identification in Embedded Systems](http://www.s3.eurecom.fr/docs/acsac15_cojocar.pdf)
-* [2015 - Firmalice - Automatic Detection of AuthenticationBypass Vulnerabilities in Binary Firmware](https://pdfs.semanticscholar.org/b006/72fc5ff99434bf5347418a2d2762a3bb2639.pdf)
 * [2014 - ret2dir: Rethinking Kernel Isolation](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-kemerlis.pdf)
 * [2014 - Make It Work, Make It Right, Make It Fast: Building a Platform-Neutral Whole-System Dynamic Binary Analysis Platform](https://dl.acm.org/doi/pdf/10.1145/2610384.2610407?download=true)
 * [2012 - Anatomy of a Remote Kernel Exploit](https://www.cs.dartmouth.edu/~sergey/cs108/2012/Dan-Rosenberg-lecture.pdf)
@@ -253,7 +268,6 @@ Unread papers categorized by a common main theme.
 
 ### Static Binary Analysis
 
-* [2020 - What Exactly Determines the Type? Inferring Types with Context](https://sci-hub.tw/https://ieeexplore.ieee.org/document/9159142)
 * [2020 - AN APPROACH TO COMPARING CONTROL FLOW GRAPHS BASED ON BASIC BLOCK MATCHING](http://www.ijcse.com/docs/INDJCSE20-11-03-237.pdf)
 * [2020 - How Far We Have Come: Testing Decompilation Correctness of C Decompilers](https://dl.acm.org/doi/pdf/10.1145/3395363.3397370)
 * [2020 - Dynamic Binary Lifting and Recompilation DISS](https://escholarship.org/content/qt8pz574mn/qt8pz574mn_noSplash_b11493cfba04b6b9c737eb3e42038820.pdf)
@@ -314,7 +328,8 @@ Unread papers categorized by a common main theme.
 * [2017 - Designing New Operating Primitives to Improve Fuzzing Performance](https://acmccs.github.io/papers/p2313-xuA.pdf)
 * [2017 - Instruction Punning: Lightweight Instrumentation for x86-64](https://dl.acm.org/doi/pdf/10.1145/3062341.3062344?download=true)
 * [2016 - VulPecker: An Automated Vulnerability Detection SystemBased on Code Similarity Analysis](http://www.cs.utsa.edu/~shxu/socs/VulPecker.pdf)
-* [2015 - Challenges with Applying Vulnerability Prediction Models](https://www.microsoft.com/en-us/research/wp-content/uploads/2015/04/ChallengesVulnerabilityModelsMicrosoft_HotSOS.pdf)
+* [2016 - CREDAL: Towards Locating a Memory Corruption Vulnerability with Your Core Dump](https://mudongliang.github.io/files/papers/p529-xu.pdf)
+* [2016 - RETracer: Triaging Crashes by Reverse Execution fromPartial Memory Dumps](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/06/retracer-2.pdf)
 * [2015 - PIE: Parser Identification in Embedded Systems](http://www.s3.eurecom.fr/docs/acsac15_cojocar.pdf)
 * [2014 - Optimizing Seed Selection for Fuzzing](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-rebert.pdf)
 * [2009 - Dynamic Test Generation To Find Integer Bugs in x86 Binary Linux Programs](https://argp.github.io/public/50a11f65857c12c76995f843dbfe6dda.pdf)
