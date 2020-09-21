@@ -85,6 +85,10 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2020 - UniFuzz: Optimizing Distributed Fuzzing via Dynamic Centralized Task Scheduling](https://arxiv.org/pdf/2009.06124.pdf)
+* [2020 - Symbolic execution with SymCC: Don't interpret, compile!](https://www.usenix.org/system/files/sec20-poeplau.pdf)
+* [2020 - Fuzzing Error Handling Code using Context-Sensitive Software Fault Injection](https://www.usenix.org/system/files/sec20-jiang.pdf)
+* [2020 - SpecFuzz: Bringing Spectre-type vulnerabilities to the surface](https://www.usenix.org/system/files/sec20-oleksenko.pdf)
 * [2020 - Zeror: Speed Up Fuzzing with Coverage-sensitive Tracing and Scheduling](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/ase20.pdf)
 * [2020 - MUZZ: Thread-aware Grey-box Fuzzing for Effective Bug Hunting in Multithreaded Programs](https://arxiv.org/pdf/2007.15943.pdf)
 * [2020 - Evolutionary Grammar-Based Fuzzing](https://arxiv.org/pdf/2008.01150.pdf)
@@ -171,7 +175,7 @@ Unread papers categorized by a common main theme.
 ### IoT fuzzing
 
 * [2020 - EM-Fuzz: Augmented Firmware Fuzzing via Memory Checking](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/EMSOFT20.pdf)
-* [2020 - Verification of Embedded Binaries using Coverage-guidedFuzzing with SystemC-based Virtual Prototypes](http://www.informatik.uni-bremen.de/agra/doc/konf/2020GLSVLSI_Verification-of-Embedded-Binaries-using-Coverage-guided-Fuzzing-with-SystemC-Virtual-Prototypes.pdf)
+* [2020 - Verification of Embedded Binaries using Coverage-guided Fuzzing with System C-based Virtual Prototypes](http://www.informatik.uni-bremen.de/agra/doc/konf/2020GLSVLSI_Verification-of-Embedded-Binaries-using-Coverage-guided-Fuzzing-with-SystemC-Virtual-Prototypes.pdf)
 * [2020 - P2IM: Scalable and Hardware-independent Firmware Testing via Automatic Peripheral Interface Modeling](https://www.usenix.org/system/files/sec20spring_feng_prepub_0.pdf)
 * [2020 - DICE: Automatic Emulation of DMA Input Channels for Dynamic Firmware Analysis](https://arxiv.org/pdf/2007.01502.pdf)
 * [2020 - Fw‐fuzz: A code coverage‐guided fuzzing framework for network protocols on firmware](https://onlinelibrary.wiley.com/doi/full/10.1002/cpe.5756)
@@ -268,6 +272,7 @@ Unread papers categorized by a common main theme.
 
 ### Static Binary Analysis
 
+* [2020 - HART: Hardware-Assisted Kernel Module Tracing on Arm](https://sci-hub.tw/10.1007/978-3-030-58951-6)
 * [2020 - AN APPROACH TO COMPARING CONTROL FLOW GRAPHS BASED ON BASIC BLOCK MATCHING](http://www.ijcse.com/docs/INDJCSE20-11-03-237.pdf)
 * [2020 - How Far We Have Come: Testing Decompilation Correctness of C Decompilers](https://dl.acm.org/doi/pdf/10.1145/3395363.3397370)
 * [2020 - Dynamic Binary Lifting and Recompilation DISS](https://escholarship.org/content/qt8pz574mn/qt8pz574mn_noSplash_b11493cfba04b6b9c737eb3e42038820.pdf)
@@ -294,6 +299,7 @@ Unread papers categorized by a common main theme.
 
 ### Misc
 
+* [2020 - MVP: Detecting Vulnerabilities using Patch-Enhanced Vulnerability Signatures](https://www.usenix.org/system/files/sec20-xiao.pdf)
 * [2020 - Collecting Vulnerable Source Code from Open-Source Repositories for Dataset Generation](https://www.mdpi.com/2076-3417/10/4/1270/htm)
 * [2020 - LEOPARD: Identifying Vulnerable Code for Vulnerability Assessment through Program Metrics](https://arxiv.org/pdf/1901.11479.pdf)
 * [2020 - Dynamic Program Analysis Tools in GCC and CLANG Compilers](https://sci-hub.tw/https://doi.org/10.1134/S0361768820010089)
