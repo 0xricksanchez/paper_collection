@@ -5,6 +5,8 @@ Feel free to suggest decent papers via a PR.
 
 ## Read & Tagged
 
+* [2020 - P2IM: Scalable and Hardware-independent Firmware Testing via Automatic Peripheral Interface Modeling](https://www.usenix.org/system/files/sec20spring_feng_prepub_0.pdf)
+    * **Tags:** HALucinator, emulation, firmware, QEMU, AFL, requires source, MCU, peripheral abstraction
 * [2020 - What Exactly Determines the Type? Inferring Types with Context](https://sci-hub.tw/https://ieeexplore.ieee.org/document/9159142)
     * **Tags:** context assisted type inference, stripped binaries, variable and type reconstruction, IDA Pro, Word2Vec, CNN,
 * [2020 - Causal Testing: Understanding Defects’ Root Causes](https://arxiv.org/pdf/1809.06991.pdf)
@@ -85,6 +87,10 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2020 - Fuzzing Based on Function Importance by Attributed Call Graph](https://arxiv.org/pdf/2010.03482.pdf)
+* [2020 - UNIFUZZ: A Holistic and Pragmatic Metrics-Driven Platform for Evaluating Fuzzers](https://arxiv.org/pdf/2010.01785.pdf)
+* [2020 - PathAFL: Path-Coverage Assisted Fuzzing](https://dl.acm.org/doi/abs/10.1145/3320269.3384736)
+* [2020 -  Path Sensitive Fuzzing for Native Applications](https://ieeexplore.ieee.org/abstract/document/9208709)
 * [2020 - UniFuzz: Optimizing Distributed Fuzzing via Dynamic Centralized Task Scheduling](https://arxiv.org/pdf/2009.06124.pdf)
 * [2020 - Symbolic execution with SymCC: Don't interpret, compile!](https://www.usenix.org/system/files/sec20-poeplau.pdf)
 * [2020 - Fuzzing Error Handling Code using Context-Sensitive Software Fault Injection](https://www.usenix.org/system/files/sec20-jiang.pdf)
@@ -111,7 +117,6 @@ Unread papers categorized by a common main theme.
 * [2020 - HyDiff: Hybrid Differential Software Analysis](https://yannicnoller.github.io/publications/icse2020_noller_hydiff.pdf)
 * [2019 - Engineering a Better Fuzzer with SynergicallyIntegrated Optimizations](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/issre19_betterfuzzer.pdf)
 * [2019 - Superion: Grammar-Aware Greybox Fuzzing](https://arxiv.org/pdf/1812.01197.pdf)
-* [2019 - Compiler Fuzzing: How Much Does It Matter?](https://srg.doc.ic.ac.uk/files/papers/compilerbugs-oopsla-19.pdf)
 * [2019 - ProFuzzer: On-the-fly Input Type Probing for Better Zero-day Vulnerability Discovery](https://www.cs.purdue.edu/homes/ma229/papers/SP19.pdf)
 * [2019 - Grimoire: Synthesizing Structure while Fuzzing](https://www.usenix.org/system/files/sec19-blazytko.pdf)
 * [2019 - Ptrix: Efficient Hardware-Assisted Fuzzing for COTS Binary](https://arxiv.org/pdf/1905.10499.pdf)
@@ -124,7 +129,7 @@ Unread papers categorized by a common main theme.
 * [2018 - Angora: Efficient Fuzzing by Principled Search](https://web.cs.ucdavis.edu/~hchen/paper/chen2018angora.pdf)
 * [2018 - FairFuzz: A Targeted Mutation Strategy for Increasing Greybox Fuzz Testing Coverage](https://www.carolemieux.com/fairfuzz-ase18.pdf)
 * [2018 - NEUZZ: Efficient Fuzzing with Neural Program Smoothing](https://arxiv.org/pdf/1807.05620.pdf)
-* [2018 - CollAFL: Path Sensitive Fuzzing](http://chao.100871.net/papers/oakland18.pdf)
+* [2018 - CollAFL: path Sensitive Fuzzing](http://chao.100871.net/papers/oakland18.pdf)
 * [2018 - Full-speed Fuzzing: Reducing Fuzzing Overhead through Coverage-guided Tracing](https://arxiv.org/pdf/1812.11875.pdf)
 * [2018 - QSYM: A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-yun.pdf)
 * [2018 - Coverage-based Greybox Fuzzing as Markov Chain](https://mboehme.github.io/paper/TSE18.pdf)
@@ -164,9 +169,10 @@ Unread papers categorized by a common main theme.
 
 ### IoT fuzzing
 
+* [2020 - Bug detection in embedded environments by fuzzing and symbolic execution](http://docs.mipro-proceedings.com/iss/04_ISS_5762.pdf)
+* [2020 - FirmXRay: Detecting Bluetooth Link Layer Vulnerabilities From Bare-Metal Firmware](http://web.cse.ohio-state.edu/~lin.3021/file/CCS20.pdf)
 * [2020 - EM-Fuzz: Augmented Firmware Fuzzing via Memory Checking](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/EMSOFT20.pdf)
 * [2020 - Verification of Embedded Binaries using Coverage-guided Fuzzing with System C-based Virtual Prototypes](http://www.informatik.uni-bremen.de/agra/doc/konf/2020GLSVLSI_Verification-of-Embedded-Binaries-using-Coverage-guided-Fuzzing-with-SystemC-Virtual-Prototypes.pdf)
-* [2020 - P2IM: Scalable and Hardware-independent Firmware Testing via Automatic Peripheral Interface Modeling](https://www.usenix.org/system/files/sec20spring_feng_prepub_0.pdf)
 * [2020 - DICE: Automatic Emulation of DMA Input Channels for Dynamic Firmware Analysis](https://arxiv.org/pdf/2007.01502.pdf)
 * [2020 - Fw‐fuzz: A code coverage‐guided fuzzing framework for network protocols on firmware](https://onlinelibrary.wiley.com/doi/full/10.1002/cpe.5756)
 * [2020 - TAINT-DRIVEN FIRMWARE FUZZING OF EMBEDDED SYSTEMS THESIS](https://melisasavich.io/papers/thesis.pdf)
@@ -204,11 +210,13 @@ Unread papers categorized by a common main theme.
 
 ### Format specific fuzzing
 
+* [2020 - Tree2tree Structural Language Modeling for Compiler Fuzzing](https://link.springer.com/chapter/10.1007/978-3-030-60245-1_38)
 * [2020 - Detecting Critical Bugs in SMT Solvers Using Blackbox Mutational Fuzzing](https://arxiv.org/pdf/2004.05934.pdf)
 * [2020 - JS Engine - Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer](https://arxiv.org/abs/2001.04107.pdf)
 * [2020 - JS Engine - Fuzzing JavaScript Engines with Aspect-preserving Mutation](https://jakkdu.github.io/pubs/2020/park:die.pdf)
 * [2020 - CUDA Compiler - CUDAsmith: A Fuzzer for CUDA Compilers](http://jiangbo.buaa.edu.cn/compsac20-CUDAsmith.pdf)
 * [2020 - Smart Contracts - sFuzz: An Efficient Adaptive Fuzzer for Solidity Smart Contracts](https://arxiv.org/abs/2004.08563)
+* [2019 - Compiler Fuzzing: How Much Does It Matter?](https://srg.doc.ic.ac.uk/files/papers/compilerbugs-oopsla-19.pdf)
 * [2019 - Smart Contracts - Harvey: A Greybox Fuzzer for Smart Contracts](https://arxiv.org/abs/1905.06944.pdf)
 * [2017 - XML - Skyfire: Data-Driven Seed Generation for Fuzzing](https://www.ieee-security.org/TC/SP2017/papers/42.pdf)
 
