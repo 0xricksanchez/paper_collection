@@ -87,6 +87,8 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2020 - CrFuzz: Fuzzing Multi-purpose Programs through InputValidation](https://www.cs.ucr.edu/~csong/fse20-crfuzz.pdf)
+* [2020 - EPfuzzer: Improving Hybrid Fuzzing with Hardest-to-reach Branch Prioritization](http://itiis.org/digital-library/23867)
 * [2020 - Fuzzing Based on Function Importance by Attributed Call Graph](https://arxiv.org/pdf/2010.03482.pdf)
 * [2020 - UNIFUZZ: A Holistic and Pragmatic Metrics-Driven Platform for Evaluating Fuzzers](https://arxiv.org/pdf/2010.01785.pdf)
 * [2020 - PathAFL: Path-Coverage Assisted Fuzzing](https://dl.acm.org/doi/abs/10.1145/3320269.3384736)
@@ -169,6 +171,7 @@ Unread papers categorized by a common main theme.
 
 ### IoT fuzzing
 
+* [2020 - ARM-AFL: Coverage-Guided Fuzzing Framework for ARM-Based IoT Devices](https://link.springer.com/chapter/10.1007/978-3-030-61638-0_14)
 * [2020 - Bug detection in embedded environments by fuzzing and symbolic execution](http://docs.mipro-proceedings.com/iss/04_ISS_5762.pdf)
 * [2020 - FirmXRay: Detecting Bluetooth Link Layer Vulnerabilities From Bare-Metal Firmware](http://web.cse.ohio-state.edu/~lin.3021/file/CCS20.pdf)
 * [2020 - EM-Fuzz: Augmented Firmware Fuzzing via Memory Checking](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/EMSOFT20.pdf)
