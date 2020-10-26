@@ -300,6 +300,7 @@ Unread papers categorized by a common main theme.
 
 ### Misc
 
+* [2020 - Let's build a high performance fuzzer with GPUs](https://blog.trailofbits.com/2020/10/22/lets-build-a-high-performance-fuzzer-with-gpus/)
 * [2020 - MVP: Detecting Vulnerabilities using Patch-Enhanced Vulnerability Signatures](https://www.usenix.org/system/files/sec20-xiao.pdf)
 * [2020 - Collecting Vulnerable Source Code from Open-Source Repositories for Dataset Generation](https://www.mdpi.com/2076-3417/10/4/1270/htm)
 * [2020 - LEOPARD: Identifying Vulnerable Code for Vulnerability Assessment through Program Metrics](https://arxiv.org/pdf/1901.11479.pdf)
