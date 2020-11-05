@@ -70,7 +70,7 @@ Feel free to suggest decent papers via a PR.
 * [2018 - Evaluating Fuzz Testing](https://www.cs.umd.edu/~mwh/papers/fuzzeval.pdf)
   * **Tags:** fuzzing evaluation, good practices, bad practices
 * [2017 - Root Cause Analysis of Software Bugs using Machine Learning Techniques](https://sci-hub.tw/10.1109/CONFLUENCE.2017.7943132)
-    * **Tags:** ML, RC prediction for filed bug reports,  unsupervides + supervised combination,  RC categorisation, F score 
+    * **Tags:** ML, RC prediction for filed bug reports, unsupervised + supervised combination, RC categorisation, F score 
 * [2017 - kAFL: Hardware-Assisted Feedback Fuzzing for OS Kernels](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-schumilo.pdf)
   * **Tags:** intel PT, kernel, AFL, file systems, Windows, NTFS, Linux, ext, macOS, APFS, driver, feedback-driven
 * [2016 - Driller: Argumenting Fuzzing Through Selective Symbolic Execution](https://sites.cs.ucsb.edu/~vigna/publications/2016_NDSS_Driller.pdf)
@@ -87,6 +87,8 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2020 - Fuzzing Channel-Based Concurrency Runtimes using Types and Effects](http://soft.vub.ac.be/Publications/2020/vub-tr-soft-20-14.pdf) 
+* [2020 - DeFuzz: Deep Learning Guided Directed Fuzzing](https://arxiv.org/pdf/2010.12149.pdf)
 * [2020 - CrFuzz: Fuzzing Multi-purpose Programs through InputValidation](https://www.cs.ucr.edu/~csong/fse20-crfuzz.pdf)
 * [2020 - EPfuzzer: Improving Hybrid Fuzzing with Hardest-to-reach Branch Prioritization](http://itiis.org/digital-library/23867)
 * [2020 - Fuzzing Based on Function Importance by Attributed Call Graph](https://arxiv.org/pdf/2010.03482.pdf)
@@ -226,6 +228,8 @@ Unread papers categorized by a common main theme.
 
 ### Exploitation
 
+* [2020 - ABCFI: Fast and Lightweight Fine-Grained Hardware-Assisted Control-Flow Integrity](https://www.sci-hub.ren/10.1109/TCAD.2020.3012640)
+* [2020 - HeapExpo: Pinpointing Promoted Pointers to Prevent Use-After-Free Vulnerabilities](http://moyix.net/~moyix/papers/heapexpo.pdf)
 * [2020 - Localizing Patch Points From One Exploit](https://arxiv.org/pdf/2008.04516.pdf)
 * [2020 - Speculative Dereferencing of Registers: Reviving Foreshadow](https://arxiv.org/pdf/2008.02307.pdf)
 * [2020 - HAEPG: An Automatic Multi-hop Exploitation Generation Framework](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7338205/)
@@ -273,6 +277,7 @@ Unread papers categorized by a common main theme.
 
 ### Static Binary Analysis
 
+* [2020 - iDEA: Static Analysis on the Security of Apple Kernel Drivers](http://homes.sice.indiana.edu/luyixing/bib/CCS20-iDEA.pdf)
 * [2020 - HART: Hardware-Assisted Kernel Module Tracing on Arm](https://sci-hub.tw/10.1007/978-3-030-58951-6)
 * [2020 - AN APPROACH TO COMPARING CONTROL FLOW GRAPHS BASED ON BASIC BLOCK MATCHING](http://www.ijcse.com/docs/INDJCSE20-11-03-237.pdf)
 * [2020 - How Far We Have Come: Testing Decompilation Correctness of C Decompilers](https://dl.acm.org/doi/pdf/10.1145/3395363.3397370)
@@ -300,6 +305,7 @@ Unread papers categorized by a common main theme.
 
 ### Misc
 
+* [2020 - DrPin: A dynamic binary instumentator for multiple processor architectures](http://wscad.sbc.org.br/2020/artigos/trilha-principal/s05p02-209710-1.pdf)
 * [2020 - MVP: Detecting Vulnerabilities using Patch-Enhanced Vulnerability Signatures](https://www.usenix.org/system/files/sec20-xiao.pdf)
 * [2020 - Collecting Vulnerable Source Code from Open-Source Repositories for Dataset Generation](https://www.mdpi.com/2076-3417/10/4/1270/htm)
 * [2020 - LEOPARD: Identifying Vulnerable Code for Vulnerability Assessment through Program Metrics](https://arxiv.org/pdf/1901.11479.pdf)
