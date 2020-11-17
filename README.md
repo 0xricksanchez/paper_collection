@@ -5,6 +5,8 @@ Feel free to suggest decent papers via a PR.
 
 ## Read & Tagged
 
+* [2020 - FirmXRay: Detecting Bluetooth Link Layer Vulnerabilities From Bare-Metal Firmware](http://web.cse.ohio-state.edu/~lin.3021/file/CCS20.pdf)
+    * **Tags:** Ghdira, static analysis, sound disassembly, base address finder, BLE, vulnerability discovery
 * [2020 - P2IM: Scalable and Hardware-independent Firmware Testing via Automatic Peripheral Interface Modeling](https://www.usenix.org/system/files/sec20spring_feng_prepub_0.pdf)
     * **Tags:** HALucinator, emulation, firmware, QEMU, AFL, requires source, MCU, peripheral abstraction
 * [2020 - What Exactly Determines the Type? Inferring Types with Context](https://sci-hub.tw/https://ieeexplore.ieee.org/document/9159142)
@@ -87,6 +89,7 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2020 - AFLTurbo: Speed up Path Discovery for Greybox Fuzzing](https://ieeexplore.ieee.org/abstract/document/9251057)
 * [2020 - Fuzzing Channel-Based Concurrency Runtimes using Types and Effects](http://soft.vub.ac.be/Publications/2020/vub-tr-soft-20-14.pdf) 
 * [2020 - DeFuzz: Deep Learning Guided Directed Fuzzing](https://arxiv.org/pdf/2010.12149.pdf)
 * [2020 - CrFuzz: Fuzzing Multi-purpose Programs through InputValidation](https://www.cs.ucr.edu/~csong/fse20-crfuzz.pdf)
@@ -173,6 +176,8 @@ Unread papers categorized by a common main theme.
 
 ### IoT fuzzing
 
+* [FirmAE: Towards Large-Scale Emulation of IoT Firmware forDynamic Analysis](https://syssec.kaist.ac.kr/pub/2020/kim_acsac2020.pdf)
+* [2020 - FIRMNANO: Toward IoT Firmware Fuzzing Through Augmented Virtual Execution](https://ieeexplore.ieee.org/abstract/document/9237719)
 * [2020 - ARM-AFL: Coverage-Guided Fuzzing Framework for ARM-Based IoT Devices](https://link.springer.com/chapter/10.1007/978-3-030-61638-0_14)
 * [2020 - Bug detection in embedded environments by fuzzing and symbolic execution](http://docs.mipro-proceedings.com/iss/04_ISS_5762.pdf)
 * [2020 - FirmXRay: Detecting Bluetooth Link Layer Vulnerabilities From Bare-Metal Firmware](http://web.cse.ohio-state.edu/~lin.3021/file/CCS20.pdf)
@@ -215,6 +220,7 @@ Unread papers categorized by a common main theme.
 
 ### Format specific fuzzing
 
+* [2020 - NYX: Greybox Hypervisor Fuzzing using Fast Snapshots and Affine Types](https://www.usenix.org/system/files/sec21summer_schumilo.pdf)
 * [2020 - Tree2tree Structural Language Modeling for Compiler Fuzzing](https://link.springer.com/chapter/10.1007/978-3-030-60245-1_38)
 * [2020 - Detecting Critical Bugs in SMT Solvers Using Blackbox Mutational Fuzzing](https://arxiv.org/pdf/2004.05934.pdf)
 * [2020 - JS Engine - Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer](https://arxiv.org/abs/2001.04107.pdf)
