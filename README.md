@@ -89,6 +89,7 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2020 - ConFuzz: Coverage-guided Property Fuzzing for Event-driven Programs](https://kcsrk.info/papers/confuzz_padl21.pdf)
 * [2020 - AFLTurbo: Speed up Path Discovery for Greybox Fuzzing](https://ieeexplore.ieee.org/abstract/document/9251057)
 * [2020 - Fuzzing Channel-Based Concurrency Runtimes using Types and Effects](http://soft.vub.ac.be/Publications/2020/vub-tr-soft-20-14.pdf) 
 * [2020 - DeFuzz: Deep Learning Guided Directed Fuzzing](https://arxiv.org/pdf/2010.12149.pdf)
@@ -176,7 +177,8 @@ Unread papers categorized by a common main theme.
 
 ### IoT fuzzing
 
-* [FirmAE: Towards Large-Scale Emulation of IoT Firmware forDynamic Analysis](https://syssec.kaist.ac.kr/pub/2020/kim_acsac2020.pdf)
+* [2020 - Vulnerability Detection in SIoT Applications: A Fuzzing Method on their Binaries](https://ieeexplore.ieee.org/abstract/document/9259242)
+* [2020 - FirmAE: Towards Large-Scale Emulation of IoT Firmware forDynamic Analysis](https://syssec.kaist.ac.kr/pub/2020/kim_acsac2020.pdf)
 * [2020 - FIRMNANO: Toward IoT Firmware Fuzzing Through Augmented Virtual Execution](https://ieeexplore.ieee.org/abstract/document/9237719)
 * [2020 - ARM-AFL: Coverage-Guided Fuzzing Framework for ARM-Based IoT Devices](https://link.springer.com/chapter/10.1007/978-3-030-61638-0_14)
 * [2020 - Bug detection in embedded environments by fuzzing and symbolic execution](http://docs.mipro-proceedings.com/iss/04_ISS_5762.pdf)
@@ -234,6 +236,7 @@ Unread papers categorized by a common main theme.
 
 ### Exploitation
 
+* [2020 - Greybox Automatic Exploit Generation for Heap Overflows in Language Interpreters - PHD THESIS](https://seanhn.files.wordpress.com/2020/11/heelan_phd_thesis.pdf)
 * [2020 - ABCFI: Fast and Lightweight Fine-Grained Hardware-Assisted Control-Flow Integrity](https://www.sci-hub.ren/10.1109/TCAD.2020.3012640)
 * [2020 - HeapExpo: Pinpointing Promoted Pointers to Prevent Use-After-Free Vulnerabilities](http://moyix.net/~moyix/papers/heapexpo.pdf)
 * [2020 - Localizing Patch Points From One Exploit](https://arxiv.org/pdf/2008.04516.pdf)
@@ -311,6 +314,7 @@ Unread papers categorized by a common main theme.
 
 ### Misc
 
+* [2020 - Sydr: Cutting Edge Dynamic Symbolic Execution](https://arxiv.org/pdf/2011.09269.pdf)
 * [2020 - DrPin: A dynamic binary instumentator for multiple processor architectures](http://wscad.sbc.org.br/2020/artigos/trilha-principal/s05p02-209710-1.pdf)
 * [2020 - MVP: Detecting Vulnerabilities using Patch-Enhanced Vulnerability Signatures](https://www.usenix.org/system/files/sec20-xiao.pdf)
 * [2020 - Collecting Vulnerable Source Code from Open-Source Repositories for Dataset Generation](https://www.mdpi.com/2076-3417/10/4/1270/htm)
@@ -355,6 +359,7 @@ Unread papers categorized by a common main theme.
 
 ### Surveys, SoKs, and Studies
 
+* [2020 - Dynamic vulnerability detection approaches and tools: State of the Art](https://ieeexplore.ieee.org/abstract/document/9268686)
 * [2020 - Fuzzing: Challenges and Reflections](https://www.comp.nus.edu.sg/~abhik/pdf/IEEE-SW-Fuzzing.pdf)
 * [2020 - The Relevance of Classic Fuzz Testing: Have We Solved This One?](https://arxiv.org/pdf/2008.06537.pdf)
 * [2020 - A Practical, Principled Measure of Fuzzer Appeal:A Preliminary Study](https://agroce.github.io/qrs20-1.pdf)
