@@ -286,6 +286,7 @@ Unread papers categorized by a common main theme.
 
 ### Static Binary Analysis
 
+* [2020 - Revisiting Binary Code Similarity Analysis using Interpretable Feature Engineering and Lessons Learned](https://0xdkay.me/pub/2020/kim-arxiv2020.pdf)
 * [2020 - iDEA: Static Analysis on the Security of Apple Kernel Drivers](http://homes.sice.indiana.edu/luyixing/bib/CCS20-iDEA.pdf)
 * [2020 - HART: Hardware-Assisted Kernel Module Tracing on Arm](https://sci-hub.tw/10.1007/978-3-030-58951-6)
 * [2020 - AN APPROACH TO COMPARING CONTROL FLOW GRAPHS BASED ON BASIC BLOCK MATCHING](http://www.ijcse.com/docs/INDJCSE20-11-03-237.pdf)
