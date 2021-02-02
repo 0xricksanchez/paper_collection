@@ -5,6 +5,8 @@ Feel free to suggest decent papers via a PR.
 
 ## Read & Tagged
 
+* [2020 - Corpus Distillation for Effective Fuzzing](https://arxiv.org/pdf/1905.13055.pdf)
+    * **Tags:** corpus minimization, afl-cmin, google fuzzer test suite, FTS, minset, AFL
 * [2020 - Symbolic execution with SymCC: Don't interpret, compile!](https://www.usenix.org/system/files/sec20-poeplau.pdf)
     * **Tags:** KLEE, QSYM, LLVM, C, C++, compiler, symbolic execution, concolic execution, source code level, IR, angr, Z3, DARPA corpus, AFL
 * [2020 - WEIZZ: Automatic Grey-Box Fuzzing for Structured Binary Formats](https://andreafioraldi.github.io/assets/weizz-issta2020.pdf)
@@ -91,6 +93,8 @@ Feel free to suggest decent papers via a PR.
   * **Tags:** DARPA, CGC, concolic execution, hybrid fuzzer, binary based
 * [2015 - Challenges with Applying Vulnerability Prediction Models](https://www.microsoft.com/en-us/research/wp-content/uploads/2015/04/ChallengesVulnerabilityModelsMicrosoft_HotSOS.pdf)
     * **Tags:** VPM vs DPM, prediction models on large scale systems, files with frequent changes leave more vulns, older code exhibits more vulns
+* [2014 - Optimizing Seed Selection for Fuzzing](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-rebert.pdf)
+    * **Tags:** BFF, (weighted) minset, peach, cover set problem, seed transferabilty, time minset, size minset, round robin 
 * [2013 - Automatic Recovery of Root Causes from Bug-Fixing Changes](https://soarsmu.github.io/papers/wcre13-rootcause.pdfhttps://soarsmu.github.io/papers/wcre13-rootcause.pdf)
     * **Tags:** ML + SCA, F score, AST, PPA, source tree analysis
 
@@ -101,6 +105,15 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2021 - PSOFuzzer: A Target-Oriented Software Vulnerability Detection Technology Based on Particle Swarm Optimization](https://www.mdpi.com/2076-3417/11/3/1095/htm)
+* [2021 - MooFuzz: Many-Objective Optimization Seed Schedulefor Fuzzer](https://www.mdpi.com/2227-7390/9/3/205/htm)
+* [2021 - CMFuzz: context-aware adaptive mutation for fuzzers](https://link.springer.com/article/10.1007/s10664-020-09927-3)
+* [2021 - GTFuzz: Guard Token Directed Grey-Box Fuzzing](https://ieeexplore.ieee.org/abstract/document/9320425)
+* [2021 - ProFuzzBench: A Benchmark for Stateful Protocol Fuzzing](https://arxiv.org/pdf/2101.05102.pdf)
+* [2021 - SymQEMU:Compilation-based symbolic execution for binaries](http://www.s3.eurecom.fr/docs/ndss21_symqemu.pdf)
+* [2021 - CONCOLIC EXECUTION TAILORED FOR HYBRID FUZZING THESIS](https://smartech.gatech.edu/bitstream/handle/1853/64153/YUN-DISSERTATION-2020.pdf)
+* [2021 - Breaking Through Binaries: Compiler-quality Instrumentationfor Better Binary-only Fuzzing](http://static1.1.sqspcdn.com/static/f/543048/28391424/1610229123433/FIBRE_USENIX_21.pdf?token=XvHn0I3h9MvSnRBV%2Fo4dQ675sEA%3D)
+* [2021 - AlphaFuzz: Evolutionary Mutation-based Fuzzing as Monte Carlo Tree Search](https://arxiv.org/pdf/2101.00612.pdf)
 * [2020 - Fuzzing with Fast Failure Feedback](https://arxiv.org/pdf/2012.13516.pdf)
 * [2020 - LAFuzz: Neural Network for Efficient Fuzzing](https://ieeexplore.ieee.org/abstract/document/9288180)
 * [2020 - MaxAFL: Maximizing Code Coverage with a Gradient-Based Optimization Technique](https://www.mdpi.com/2079-9292/10/1/11)
@@ -178,7 +191,6 @@ Unread papers categorized by a common main theme.
 * [2017 - DIFUZE: Interface Aware Fuzzing for Kernel Drivers](https://acmccs.github.io/papers/p2123-corinaA.pdf)
 * [2017 - Instruction Punning: Lightweight Instrumentation for x86-64](https://dl.acm.org/doi/pdf/10.1145/3062341.3062344?download=true)
 * [2017 - Designing New Operating Primitives to Improve Fuzzing Performance](http://iisp.gatech.edu/sites/default/files/images/designing_new_operating_primitives_to_improve_fuzzing_performance_vt.pdf)
-* [2014 - Optimizing Seed Selection for Fuzzing](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-rebert.pdf)
 * [2014 - A Large-Scale Analysis of the Security  of Embedded Firmwares](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-costin.pdf)
 * [2013 - Scheduling Black-box Mutational Fuzzing](https://dl.acm.org/doi/pdf/10.1145/2508859.2516736?download=true)
 * [2013 - Dowsing for Overflows: A Guided Fuzzer to Find Buffer Boundary Violations](https://www.usenix.org/system/files/conference/usenixsecurity13/sec13-paper_haller.pdf)
@@ -257,6 +269,7 @@ Unread papers categorized by a common main theme.
 
 ### Exploitation
 
+* [2020 - Shadow-Heap: Preventing Heap-based Memory Corruptions by Metadata Validation](https://lukasatkinson.de/research/Bouche2020ShadowHeapValidation.pdf)
 * [2020 - Practical Fine-Grained Binary Code Randomization](https://dl.acm.org/doi/abs/10.1145/3427228.3427292)
 * [2020 - Tiny-CFA: Minimalistic Control-Flow Attestation UsingVerified Proofs of Execution](http://sprout.ics.uci.edu/pubs/tiny-cfa.pdf)
 * [2020 - Greybox Automatic Exploit Generation for Heap Overflows in Language Interpreters - PHD THESIS](https://seanhn.files.wordpress.com/2020/11/heelan_phd_thesis.pdf)
@@ -389,6 +402,8 @@ Unread papers categorized by a common main theme.
 
 ### Surveys, SoKs, and Studies
 
+* [2020 - A Systemic Review of Kernel Fuzzing](https://dl.acm.org/doi/abs/10.1145/3444370.3444586)
+* [2020 - A Survey of Hybrid Fuzzing based on Symbolic Execution](https://dl.acm.org/doi/abs/10.1145/3444370.3444570)
 * [2020 - A Study on Using Code Coverage Information Extracted from Binary to Guide Fuzzing](https://www.cscjournals.org/manuscript/Journals/IJCSS/Volume14/Issue5/IJCSS-1589.pdf)
 * [2020 - Study of Security Flaws in the Linux Kernel by Fuzzing](https://ieeexplore.ieee.org/abstract/document/9271516)
 * [2020 - Dynamic vulnerability detection approaches and tools: State of the Art](https://ieeexplore.ieee.org/abstract/document/9268686)
