@@ -105,8 +105,17 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2021 - icLibFuzzer: Isolated-context libFuzzer for Improving Fuzzer Comparability](https://bar2021.moyix.net/bar2021-preprint13.pdf)
+* [2021 - SN4KE: Practical Mutation Testing at Binary Level](https://bar2021.moyix.net/bar2021-preprint17.pdf)
+* [2021 - One Engine to Fuzz ’em All: Generic Language Processor Testing with Semantic Validation](https://faculty.ist.psu.edu/wu/papers/polyglot.pdf)
+* [2021 - Growing A Test Corpus with Bonsai Fuzzing](https://rohan.padhye.org/files/bonsai-icse21.pdf)
+* [2021 - Fuzzing Symbolic Expressions](https://arxiv.org/pdf/2102.06580.pdf)
+* [2021 - JMPscare: Introspection for Binary-Only Fuzzing](https://bar2021.moyix.net/bar2021-preprint3.pdf) 
+* [2021 - An Improved Directed Grey-box Fuzzer](https://ieeexplore.ieee.org/abstract/document/9338761)
+* [2021 - A Binary Protocol Fuzzing Method Based on SeqGAN](https://ieeexplore.ieee.org/abstract/document/9339152)
+* [2021 - Refined Grey-Box Fuzzing with Sivo](https://arxiv.org/pdf/2102.02394.pdf)
 * [2021 - PSOFuzzer: A Target-Oriented Software Vulnerability Detection Technology Based on Particle Swarm Optimization](https://www.mdpi.com/2076-3417/11/3/1095/htm)
-* [2021 - MooFuzz: Many-Objective Optimization Seed Schedulefor Fuzzer](https://www.mdpi.com/2227-7390/9/3/205/htm)
+* [2021 - MooFuzz: Many-Objective Optimization Seed Schedule for Fuzzer](https://www.mdpi.com/2227-7390/9/3/205/htm)
 * [2021 - CMFuzz: context-aware adaptive mutation for fuzzers](https://link.springer.com/article/10.1007/s10664-020-09927-3)
 * [2021 - GTFuzz: Guard Token Directed Grey-Box Fuzzing](https://ieeexplore.ieee.org/abstract/document/9320425)
 * [2021 - ProFuzzBench: A Benchmark for Stateful Protocol Fuzzing](https://arxiv.org/pdf/2101.05102.pdf)
@@ -152,7 +161,6 @@ Unread papers categorized by a common main theme.
 * [2020 - Typestate-Guided Fuzzer for Discovering Use-after-Free Vulnerabilities](https://yuleisui.github.io/publications/icse20.pdf)
 * [2020 - FuzzGuard: Filtering out Unreachable Inputs in Directed Grey-box Fuzzing through Deep Learning](https://www.usenix.org/system/files/sec20summer_zong_prepub.pdf)
 * [2020 - HyDiff: Hybrid Differential Software Analysis](https://yannicnoller.github.io/publications/icse2020_noller_hydiff.pdf)
-* [2019 - EnFuzz: Ensemble Fuzzing with Seed Synchronization among Diverse Fuzzers](https://arxiv.org/pdf/1807.00182.pdf)
 * [2019 - Engineering a Better Fuzzer with SynergicallyIntegrated Optimizations](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/issre19_betterfuzzer.pdf)
 * [2019 - Superion: Grammar-Aware Greybox Fuzzing](https://arxiv.org/pdf/1812.01197.pdf)
 * [2019 - ProFuzzer: On-the-fly Input Type Probing for Better Zero-day Vulnerability Discovery](https://www.cs.purdue.edu/homes/ma229/papers/SP19.pdf)
@@ -354,6 +362,7 @@ Unread papers categorized by a common main theme.
 
 ### Misc
 
+* [2021 - FuzzSplore: Visualizing Feedback-Driven Fuzzing Techniques](https://arxiv.org/pdf/2102.02527.pdf)
 * [2020 - Memory Error Detection Based on Dynamic Binary Translation](https://ieeexplore.ieee.org/abstract/document/9295756/keywords#keywords)
 * [2020 - Sydr: Cutting Edge Dynamic Symbolic Execution](https://arxiv.org/pdf/2011.09269.pdf)
 * [2020 - DrPin: A dynamic binary instumentator for multiple processor architectures](http://wscad.sbc.org.br/2020/artigos/trilha-principal/s05p02-209710-1.pdf)
@@ -395,7 +404,6 @@ Unread papers categorized by a common main theme.
 * [2016 - CREDAL: Towards Locating a Memory Corruption Vulnerability with Your Core Dump](https://mudongliang.github.io/files/papers/p529-xu.pdf)
 * [2016 - RETracer: Triaging Crashes by Reverse Execution fromPartial Memory Dumps](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/06/retracer-2.pdf)
 * [2015 - PIE: Parser Identification in Embedded Systems](http://www.s3.eurecom.fr/docs/acsac15_cojocar.pdf)
-* [2014 - Optimizing Seed Selection for Fuzzing](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-rebert.pdf)
 * [2010 - Iterative Delta Debugging](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.296.5948&rep=rep1&type=pdf)
 * [2009 - Dynamic Test Generation To Find Integer Bugs in x86 Binary Linux Programs](https://argp.github.io/public/50a11f65857c12c76995f843dbfe6dda.pdf)
 * [2006 - HDD: Hierarchical Delta Debugging](https://sci-hub.se/https://doi.org/10.1145/1134285.1134307)
