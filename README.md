@@ -421,5 +421,7 @@ Unread papers categorized by a common main theme.
 * [2020 - SoK: All You Ever Wanted to Know About x86/x64 Binary Disassembly But Were Afraid to Ask](https://arxiv.org/ftp/arxiv/papers/2007/2007.14266.pdf)
 * [2020 - A Quantitative Comparison of Coverage-Based Greybox Fuzzers](https://sites.google.com/site/yoshidaatnu/TsuzukiAST2020.pdf)
 * [2020 - A Survey of Security Vulnerability Analysis, Discovery, Detection, and Mitigation on IoT Devices](https://www.mdpi.com/1999-5903/12/2/27)
+* [2020 - A systematic review of fuzzing based on machine learning techniques](https://arxiv.org/pdf/1908.01262.pdf)
 * [2019 - A Survey of Binary Code Similarity](https://arxiv.org/pdf/1909.11424.pdf)
+* [2019 - The Art, Science, and Engineering of Fuzzing: A Survey](https://arxiv.org/pdf/1812.00140.pdf)
 * [2012 - Regression testingminimization, selection and prioritization: a survey](https://www.sci-hub.ren/10.1002/stvr.430)
