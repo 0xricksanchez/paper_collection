@@ -105,6 +105,12 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2021 - MUTAGEN: Faster Mutation-Based Random Testing](http://www.cse.chalmers.se/~mista/assets/pdf/icse21-src.pdf)
+* [2021 - Inducing Subtle Mutations with Program Repair](http://rahul.gopinath.org/resources/icstw2021/schwander2021inducing.pdf)
+* [2021 - Differential Analysis of X86-64 Instruction Decoders](https://easychair.org/publications/preprint/1LHr)
+* [2021 - On Introducing Automatic Test Case Generation in Practice: A Success Story and Lessons Learned](https://arxiv.org/pdf/2103.00465.pdf)
+* [2021 - A Priority Based Path Searching Method for Improving Hybrid Fuzzing](https://www.sciencedirect.com/science/article/pii/S0167404821000663)
+* [2021 - IntelliGen: Automatic Driver Synthesis for Fuzz Testing](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/icse_seip_0221.pdf)
 * [2021 - icLibFuzzer: Isolated-context libFuzzer for Improving Fuzzer Comparability](https://bar2021.moyix.net/bar2021-preprint13.pdf)
 * [2021 - SN4KE: Practical Mutation Testing at Binary Level](https://bar2021.moyix.net/bar2021-preprint17.pdf)
 * [2021 - One Engine to Fuzz ’em All: Generic Language Processor Testing with Semantic Validation](https://faculty.ist.psu.edu/wu/papers/polyglot.pdf)
@@ -217,6 +223,10 @@ Unread papers categorized by a common main theme.
 
 ### IoT fuzzing
 
+* [2021 - Automatic Vulnerability Detection in Embedded Devices and Firmware: Survey and Layered Taxonomies](https://dl.acm.org/doi/abs/10.1145/3432893)
+* [2021 - Fuzzing the Internet of Things: A Review on the Techniques and Challenges for Efficient Vulnerability Discovery in Embedded Systems](https://ieeexplore.ieee.org/abstract/document/9344712)
+* [2020 - Verification of Embedded Software Binaries using Virtual Prototypes](https://link.springer.com/chapter/10.1007/978-3-030-54828-5_6)
+* [2020 - μSBS: Static Binary Sanitization of Bare-metal Embedded Devices forFault Observability](https://www.usenix.org/system/files/raid20-salehi.pdf)
 * [2020 - Device-agnostic Firmware Execution is Possible: A Concolic Execution Approach for Peripheral Emulation](https://dl.acm.org/doi/abs/10.1145/3427228.3427280)
 * [2020 - Vulnerability Detection in SIoT Applications: A Fuzzing Method on their Binaries](https://ieeexplore.ieee.org/abstract/document/9259242)
 * [2020 - FirmAE: Towards Large-Scale Emulation of IoT Firmware forDynamic Analysis](https://syssec.kaist.ac.kr/pub/2020/kim_acsac2020.pdf)
@@ -245,6 +255,8 @@ Unread papers categorized by a common main theme.
 
 ### Kernel fuzzing
 
+* [2021 - Undo Workarounds for Kernel Bugs](https://www.cs.ucr.edu/~zhiyunq/pub/sec21_undo_workarounds.pdf)
+* [2020 - A Hybrid Interface Recovery Method for Android Kernels Fuzzing](https://qrs20.techconf.org/QRS2020_FULL/pdfs/QRS2020-4LGdOos7NAbR8M2s6S6ezE/891300a335/891300a335.pdf)
 * [2020 - FINDING RACE CONDITIONS IN KERNELS:FROM FUZZING TO SYMBOLIC EXECUTION - THESIS](https://gts3.org/assets/papers/2020/xu:thesis.pdf)
 * [2020 - Agamotto: Accelerating Kernel Driver Fuzzing with Lightweight Virtual Machine Checkpoints](https://www.usenix.org/conference/usenixsecurity20/presentation/song) 
 * [2020 - X-AFL: a kernel fuzzer combining passive and active fuzzing](https://dl.acm.org/doi/abs/10.1145/3380786.3391400)
@@ -277,6 +289,7 @@ Unread papers categorized by a common main theme.
 
 ### Exploitation
 
+* [2021 - mallotROPism: a metamorphic engine for malicious software variation development](https://link.springer.com/article/10.1007/s10207-021-00541-y)
 * [2020 - Shadow-Heap: Preventing Heap-based Memory Corruptions by Metadata Validation](https://lukasatkinson.de/research/Bouche2020ShadowHeapValidation.pdf)
 * [2020 - Practical Fine-Grained Binary Code Randomization](https://dl.acm.org/doi/abs/10.1145/3427228.3427292)
 * [2020 - Tiny-CFA: Minimalistic Control-Flow Attestation UsingVerified Proofs of Execution](http://sprout.ics.uci.edu/pubs/tiny-cfa.pdf)
@@ -410,6 +423,9 @@ Unread papers categorized by a common main theme.
 
 ### Surveys, SoKs, and Studies
 
+* [2021 - Vulnerability Detection is Just the Beginning](https://arxiv.org/pdf/2103.05160.pdf)
+* [2021 - Evaluating Synthetic Bugs](https://wkr.io/publication/asiaccs-2021-bugs.pdf)
+* [2020 - A Practical, Principled Measure of Fuzzer Appeal:A Preliminary Study](https://qrs20.techconf.org/QRS2020_FULL/pdfs/QRS2020-4LGdOos7NAbR8M2s6S6ezE/891300a510/891300a510.pdf)
 * [2020 - A Systemic Review of Kernel Fuzzing](https://dl.acm.org/doi/abs/10.1145/3444370.3444586)
 * [2020 - A Survey of Hybrid Fuzzing based on Symbolic Execution](https://dl.acm.org/doi/abs/10.1145/3444370.3444570)
 * [2020 - A Study on Using Code Coverage Information Extracted from Binary to Guide Fuzzing](https://www.cscjournals.org/manuscript/Journals/IJCSS/Volume14/Issue5/IJCSS-1589.pdf)
