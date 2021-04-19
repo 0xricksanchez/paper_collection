@@ -5,6 +5,8 @@ Feel free to suggest decent papers via a PR.
 
 ## Read & Tagged
 
+* [2021 - An Empirical Study of OSS-Fuzz Bugs](https://arxiv.org/pdf/2103.11518.pdf)
+    * **Tags:** flaky bugs, clusterfuzz, sanitizer, bug detection, bug classification, time-to-fix, time-to-detect-
 * [2020 - Corpus Distillation for Effective Fuzzing](https://arxiv.org/pdf/1905.13055.pdf)
     * **Tags:** corpus minimization, afl-cmin, google fuzzer test suite, FTS, minset, AFL
 * [2020 - Symbolic execution with SymCC: Don't interpret, compile!](https://www.usenix.org/system/files/sec20-poeplau.pdf)
@@ -289,6 +291,7 @@ Unread papers categorized by a common main theme.
 
 ### Exploitation
 
+* [2021 - Vulnerability Detection in C/C++ Source Code With Graph Representation Learning](https://ieeexplore.ieee.org/abstract/document/9376145)
 * [2021 - mallotROPism: a metamorphic engine for malicious software variation development](https://link.springer.com/article/10.1007/s10207-021-00541-y)
 * [2020 - Shadow-Heap: Preventing Heap-based Memory Corruptions by Metadata Validation](https://lukasatkinson.de/research/Bouche2020ShadowHeapValidation.pdf)
 * [2020 - Practical Fine-Grained Binary Code Randomization](https://dl.acm.org/doi/abs/10.1145/3427228.3427292)
