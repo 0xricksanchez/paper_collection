@@ -6,7 +6,7 @@ Feel free to suggest decent papers via a PR.
 ## Read & Tagged
 
 * [2021 - An Empirical Study of OSS-Fuzz Bugs](https://arxiv.org/pdf/2103.11518.pdf)
-    * **Tags:** flaky bugs, clusterfuzz, sanitizer, bug detection, bug classification, time-to-fix, time-to-detect-
+    * **Tags:** flaky bugs, clusterfuzz, sanitizer, bug detection, bug classification, time-to-fix, time-to-detect
 * [2020 - Corpus Distillation for Effective Fuzzing](https://arxiv.org/pdf/1905.13055.pdf)
     * **Tags:** corpus minimization, afl-cmin, google fuzzer test suite, FTS, minset, AFL
 * [2020 - Symbolic execution with SymCC: Don't interpret, compile!](https://www.usenix.org/system/files/sec20-poeplau.pdf)
@@ -107,6 +107,12 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2021 - Test-Case Reduction and Deduplication Almost forFree with Transformation-Based Compiler Testing](https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2021/PLDI.pdf)
+* [2021 - RULF: Rust Library Fuzzing via API Dependency Graph Traversal](https://arxiv.org/pdf/2104.12064.pdf)
+* [2021 - STOCHFUZZ: Sound and Cost-effective Fuzzing of Stripped Binaries by Incremental and Stochastic Rewriting](https://www.cs.purdue.edu/homes/zhan3299/res/SP21b.pdf)
+* [2021 - PS-Fuzz: Efficient Graybox Firmware Fuzzing Based on Protocol State](https://search.proquest.com/openview/bd00ff3647f2802721db0e14448f8c2b/1?pq-origsite=gscholar&cbl=4585459)
+* [2021 - MuDelta: Delta-Oriented Mutation Testing at Commit Time](https://orbilu.uni.lu/bitstream/10993/46742/1/RelevantMutantPrediction%20%281%29.pdf)
+* [2021 - CollabFuzz: A Framework for Collaborative Fuzzing](https://download.vusec.net/papers/collabfuzz_eurosec21.pdf)
 * [2021 - MUTAGEN: Faster Mutation-Based Random Testing](http://www.cse.chalmers.se/~mista/assets/pdf/icse21-src.pdf)
 * [2021 - Inducing Subtle Mutations with Program Repair](http://rahul.gopinath.org/resources/icstw2021/schwander2021inducing.pdf)
 * [2021 - Differential Analysis of X86-64 Instruction Decoders](https://easychair.org/publications/preprint/1LHr)
@@ -254,6 +260,11 @@ Unread papers categorized by a common main theme.
 * [2014 - A Large-Scale Analysis of the Security  of Embedded Firmwares](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-costin.pdf)
 * [2013 - RPFuzzer: A Framework for Discovering Router Protocols Vulnerabilities Based on Fuzzing](http://www.itiis.org/journals/tiis/digital-library/manuscript/file/20353/14.TIIS-RP-2012-Dec-0966.R1.pdf)
 
+### Emulation
+
+* [2021 - Jetset: Targeted Firmware Rehosting for Embedded Systems](https://www.usenix.org/system/files/sec21fall-johnson.pdf)
+* [2021 - Automatic Firmware Emulation through Invalidity-guided Knowledge Inference](https://www.usenix.org/system/files/sec21fall-zhou.pdf)
+
 
 ### Kernel fuzzing
 
@@ -291,6 +302,9 @@ Unread papers categorized by a common main theme.
 
 ### Exploitation
 
+* [2021 - OCTOPOCS: Automatic Verification of PropagatedVulnerable Code Using Reformed Proofs of Concept](https://ccs.korea.ac.kr/pds/DSN21.pdf)
+* [2021 - Characterizing Vulnerabilities in a Major Linux Distribution](https://ksiresearch.org/seke/seke20paper/paper033.pdf)
+* [2021 - MAZE: Towards Automated Heap Feng Shui](https://www.usenix.org/system/files/sec21fall-wang-yan.pdf)
 * [2021 - Vulnerability Detection in C/C++ Source Code With Graph Representation Learning](https://ieeexplore.ieee.org/abstract/document/9376145)
 * [2021 - mallotROPism: a metamorphic engine for malicious software variation development](https://link.springer.com/article/10.1007/s10207-021-00541-y)
 * [2020 - Shadow-Heap: Preventing Heap-based Memory Corruptions by Metadata Validation](https://lukasatkinson.de/research/Bouche2020ShadowHeapValidation.pdf)
@@ -346,6 +360,8 @@ Unread papers categorized by a common main theme.
 
 ### Static Binary Analysis
 
+* [2021 - Overview of the advantages and disadvantages of static code analysis tools](https://courses.cs.ut.ee/MTAT.03.270/2021_spring/uploads/Main/report-draft.pdf)
+* [2021 - Multi-Level Cross-Architecture Binary Code Similarity Metric](https://link.springer.com/article/10.1007/s13369-021-05630-7)
 * [2020 - VulDetector: Detecting Vulnerabilities using Weighted Feature Graph Comparison](https://ieeexplore.ieee.org/abstract/document/9309254) 
 * [2020 - DEEPBINDIFF: Learning Program-Wide Code Representations for Binary Diffing](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24311-paper.pdf)
 * [2020 - BinDeep:  A Deep Learning Approach to Binary Code Similarity Detection](https://www.sci-hub.ren/10.1016/j.eswa.2020.114348)
