@@ -56,11 +56,11 @@ Feel free to suggest decent papers via a PR.
 * [2020 - MemLock: Memory Usage Guided Fuzzing](https://wcventure.github.io/pdf/ICSE2020_MemLock.pdf)
   * **Tags:** memory consumption, AFL, memory leak, uncontrolled-recursion, uncontrolled-memory-allocation, static analysis
 * [2019 - Matryoshka: Fuzzing Deeply Nested Branches](https://arxiv.org/pdf/1905.12228.pdf)
-    **Tage:** AFL, QSYM, Angora, path constraints, nested conditionals, (post) dominator trees, gradient descent, REDQUEEN, LAVA-M
+  * **Tags:** AFL, QSYM, Angora, path constraints, nested conditionals, (post) dominator trees, gradient descent, REDQUEEN, LAVA-M
 * [2019 - Building Fast Fuzzers](https://arxiv.org/pdf/1911.07707.pdf)
   * **Tags:** grammar based fuzzing, optimization, bold claims, comparison to badly/non-optimized fuzzers, python, lots of micro-optimizations, nice protocolling of failures, bad ASM optimization
 * [2019 - Not All Bugs Are the Same: Understanding, Characterizing, and Classifying the Root Cause of Bugs](https://arxiv.org/pdf/1907.11031.pdf)
-    * **Tags:** RCA via bug reports, classification model, F score,
+  * **Tags:** RCA via bug reports, classification model, F score,
 * [2019 - AntiFuzz: Impeding Fuzzing Audits of Binary Executables](https://www.usenix.org/system/files/sec19-guler.pdf)
   * **Tags:** anti fuzzing, prevent crashes, delay executions, obscure coverage information, overload symbolic execution
 * [2019 - MOpt: Optimized Mutation Scheduling for Fuzzers](https://www.usenix.org/system/files/sec19-lyu.pdf)
@@ -72,13 +72,13 @@ Feel free to suggest decent papers via a PR.
 * [2019 - REDQUEEN: Fuzzing with Input-to-State Correspondence](https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2018/12/17/NDSS19-Redqueen.pdf)
   * **Tags:** feedback-driven, AFL, magic-bytes, nested contraints, input-to-state correspondence, I2S
 * [2019 - PeriScope: An Effective Probing and Fuzzing Framework for the Hardware-OS Boundary](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_04A-1_Song_paper.pdf)
-   * **Tags:** kernel, android, userland, embedded, hardware, Linux, device driver, WiFi
+  * **Tags:** kernel, android, userland, embedded, hardware, Linux, device driver, WiFi
 * [2019 - FirmFuzz: Automated IoT Firmware Introspection and Analysis](https://nebelwelt.net/publications/files/19IOTSP.pdf)
   * **Tags:** emulation, firmadyne, BOF, XSS, CI, NPD, semi-automatic
 * [2019 - Firm-AFL: High-Throughput Greybox Fuzzing of IoT Firmware via Augmented Process Emulation](https://www.usenix.org/system/files/sec19-zheng_0.pdf)
   * **Tags:** emulation, qemu, afl, full vs user mode, syscall redirect, "augmented process emulation", firmadyne
 * [2018 - A Survey of Automated Root Cause Analysisof Software Vulnerability](https://sci-hub.tw/10.1007/978-3-319-93554-6_74)
-    * **Tags:** Exploit mitigations, fuzzing basics, symbolic execution basics, fault localization, high level
+  * **Tags:** Exploit mitigations, fuzzing basics, symbolic execution basics, fault localization, high level
 * [2018 - PhASAR: An Inter-procedural Static Analysis Framework for C/C++](https://link.springer.com/content/pdf/10.1007%2F978-3-030-17465-1_22.pdf)
   * **Tags:** LLVM, (inter-procedural) data-flow analysis, call-graph, points-to, class hierachy, CFG, IR
 * [2018 - INSTRIM: Lightweight Instrumentation for Coverage-guided Fuzzing](https://www.csie.ntu.edu.tw/~hchsiao/pub/2018_BAR.pdf)
@@ -88,17 +88,17 @@ Feel free to suggest decent papers via a PR.
 * [2018 - Evaluating Fuzz Testing](https://www.cs.umd.edu/~mwh/papers/fuzzeval.pdf)
   * **Tags:** fuzzing evaluation, good practices, bad practices
 * [2017 - Root Cause Analysis of Software Bugs using Machine Learning Techniques](https://sci-hub.tw/10.1109/CONFLUENCE.2017.7943132)
-    * **Tags:** ML, RC prediction for filed bug reports, unsupervised + supervised combination, RC categorisation, F score 
+  * **Tags:** ML, RC prediction for filed bug reports, unsupervised + supervised combination, RC categorisation, F score 
 * [2017 - kAFL: Hardware-Assisted Feedback Fuzzing for OS Kernels](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-schumilo.pdf)
   * **Tags:** intel PT, kernel, AFL, file systems, Windows, NTFS, Linux, ext, macOS, APFS, driver, feedback-driven
 * [2016 - Driller: Argumenting Fuzzing Through Selective Symbolic Execution](https://sites.cs.ucsb.edu/~vigna/publications/2016_NDSS_Driller.pdf)
   * **Tags:** DARPA, CGC, concolic execution, hybrid fuzzer, binary based
 * [2015 - Challenges with Applying Vulnerability Prediction Models](https://www.microsoft.com/en-us/research/wp-content/uploads/2015/04/ChallengesVulnerabilityModelsMicrosoft_HotSOS.pdf)
-    * **Tags:** VPM vs DPM, prediction models on large scale systems, files with frequent changes leave more vulns, older code exhibits more vulns
+  * **Tags:** VPM vs DPM, prediction models on large scale systems, files with frequent changes leave more vulns, older code exhibits more vulns
 * [2014 - Optimizing Seed Selection for Fuzzing](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-rebert.pdf)
-    * **Tags:** BFF, (weighted) minset, peach, cover set problem, seed transferabilty, time minset, size minset, round robin 
+  * **Tags:** BFF, (weighted) minset, peach, cover set problem, seed transferabilty, time minset, size minset, round robin 
 * [2013 - Automatic Recovery of Root Causes from Bug-Fixing Changes](https://soarsmu.github.io/papers/wcre13-rootcause.pdfhttps://soarsmu.github.io/papers/wcre13-rootcause.pdf)
-    * **Tags:** ML + SCA, F score, AST, PPA, source tree analysis
+  * **Tags:** ML + SCA, F score, AST, PPA, source tree analysis
 
 
 ## Unread
@@ -107,6 +107,8 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2021 - Unleashing Fuzzing Through Comprehensive, Efficient, and Faithful Exploitable-Bug Exposing](https://ieeexplore.ieee.org/abstract/document/9430753)
+* [2021 - Constraint-guided Directed Greybox Fuzzing](https://www.usenix.org/system/files/sec21fall-lee-gwangmu.pdf)
 * [2021 - Test-Case Reduction and Deduplication Almost forFree with Transformation-Based Compiler Testing](https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2021/PLDI.pdf)
 * [2021 - RULF: Rust Library Fuzzing via API Dependency Graph Traversal](https://arxiv.org/pdf/2104.12064.pdf)
 * [2021 - STOCHFUZZ: Sound and Cost-effective Fuzzing of Stripped Binaries by Incremental and Stochastic Rewriting](https://www.cs.purdue.edu/homes/zhan3299/res/SP21b.pdf)
@@ -268,6 +270,7 @@ Unread papers categorized by a common main theme.
 
 ### Kernel fuzzing
 
+* [2021 - NTFUZZ: Enabling Type-Aware Kernel Fuzzing on Windows with Static Binary Analysis](https://softsec.kaist.ac.kr/~jschoi/data/oakland2021.pdf)
 * [2021 - Undo Workarounds for Kernel Bugs](https://www.cs.ucr.edu/~zhiyunq/pub/sec21_undo_workarounds.pdf)
 * [2020 - A Hybrid Interface Recovery Method for Android Kernels Fuzzing](https://qrs20.techconf.org/QRS2020_FULL/pdfs/QRS2020-4LGdOos7NAbR8M2s6S6ezE/891300a335/891300a335.pdf)
 * [2020 - FINDING RACE CONDITIONS IN KERNELS:FROM FUZZING TO SYMBOLIC EXECUTION - THESIS](https://gts3.org/assets/papers/2020/xu:thesis.pdf)
@@ -302,11 +305,13 @@ Unread papers categorized by a common main theme.
 
 ### Exploitation
 
-* [2021 - OCTOPOCS: Automatic Verification of PropagatedVulnerable Code Using Reformed Proofs of Concept](https://ccs.korea.ac.kr/pds/DSN21.pdf)
+* [2021 - Identifying Valuable Pointers in Heap Data](https://mickens.seas.harvard.edu/files/mickens/files/memory_cartography.pdf)
+* [2021 - OCTOPOCS: Automatic Verification of Propagated Vulnerable Code Using Reformed Proofs of Concept](https://ccs.korea.ac.kr/pds/DSN21.pdf)
 * [2021 - Characterizing Vulnerabilities in a Major Linux Distribution](https://ksiresearch.org/seke/seke20paper/paper033.pdf)
 * [2021 - MAZE: Towards Automated Heap Feng Shui](https://www.usenix.org/system/files/sec21fall-wang-yan.pdf)
 * [2021 - Vulnerability Detection in C/C++ Source Code With Graph Representation Learning](https://ieeexplore.ieee.org/abstract/document/9376145)
 * [2021 - mallotROPism: a metamorphic engine for malicious software variation development](https://link.springer.com/article/10.1007/s10207-021-00541-y)
+* [2020 - Automatic Techniques to Systematically Discover New Heap Exploitation Primitives](https://www.usenix.org/system/files/sec20-yun.pdf)
 * [2020 - Shadow-Heap: Preventing Heap-based Memory Corruptions by Metadata Validation](https://lukasatkinson.de/research/Bouche2020ShadowHeapValidation.pdf)
 * [2020 - Practical Fine-Grained Binary Code Randomization](https://dl.acm.org/doi/abs/10.1145/3427228.3427292)
 * [2020 - Tiny-CFA: Minimalistic Control-Flow Attestation UsingVerified Proofs of Execution](http://sprout.ics.uci.edu/pubs/tiny-cfa.pdf)
@@ -334,7 +339,9 @@ Unread papers categorized by a common main theme.
 * [2019 - Kernel Exploitation Via Uninitialized Stack](https://infocon.org/cons/DEF%20CON/DEF%20CON%2019/DEF%20CON%2019%20presentations/DEF%20CON%2019%20-%20Cook-Kernel-Exploitation.pdf)
 * [2019 - KEPLER: Facilitating Control-flow Hijacking Primitive Evaluation for Linux Kernel Vulnerabilities](https://www.usenix.org/system/files/sec19-wu-wei.pdf)
 * [2019 - SLAKE: Facilitating Slab Manipulation for Exploiting Vulnerabilities in the Linux Kernel](https://dl.acm.org/doi/abs/10.1145/3319535.3363212)
+* [2018 - HeapHopper:  Bringing Bounded Model Checkingto Heap Implementation Security](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-eckert.pdf)
 * [2018 - K-Miner: Uncovering Memory Corruption in Linux](https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_05A-1_Gens_paper.pdf)
+* [2017 - HAIT: Heap Analyzer with Input Tracing](https://www.scitepress.org/papers/2017/64208/64208.pdf)
 * [2017 - DROP THE ROP: Fine-grained Control-flow Integrity for the Linux Kernel](https://pdfs.semanticscholar.org/c143/95767b618a014472a0b835464aeb4aaf7734.pdf)
 * [2017 - kR^X: Comprehensive Kernel Protection against Just-In-Time Code Reuse](https://dl.acm.org/doi/abs/10.1145/3064176.3064216)
 * [2017 - Unleashing Use-Before-Initialization Vulnerabilities in the Linux Kernel Using Targeted Stack Spraying](https://www.ndss-symposium.org/wp-content/uploads/2017/09/ndss2017_09-2_Lu_paper.pdf)
@@ -360,6 +367,7 @@ Unread papers categorized by a common main theme.
 
 ### Static Binary Analysis
 
+* [2021 - VIVA: Binary Level Vulnerability Identification via Partial Signature](https://ieeexplore.ieee.org/abstract/document/9425910)
 * [2021 - Overview of the advantages and disadvantages of static code analysis tools](https://courses.cs.ut.ee/MTAT.03.270/2021_spring/uploads/Main/report-draft.pdf)
 * [2021 - Multi-Level Cross-Architecture Binary Code Similarity Metric](https://link.springer.com/article/10.1007/s13369-021-05630-7)
 * [2020 - VulDetector: Detecting Vulnerabilities using Weighted Feature Graph Comparison](https://ieeexplore.ieee.org/abstract/document/9309254) 
