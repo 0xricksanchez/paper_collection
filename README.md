@@ -107,6 +107,22 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2021 - TCP-Fuzz: Detecting Memory and Semantic Bugs in TCP Stacks with Fuzzing](https://www.usenix.org/conference/atc21/presentation/zou)
+* [2021 - Fuzzing with optimized grammar-aware mutation strategies](https://ieeexplore.ieee.org/abstract/document/9469897)
+* [2021 - Directed Fuzzing for Use-After-FreeVulnerabilities Detection](http://www.lirmm.fr/afadl2021/papers/afadl2020_paper_4.pdf)
+* [2021 - RapidFuzz: Accelerating Fuzzing via Generative Adversarial Networks](https://www.sciencedirect.com/science/article/abs/pii/S0925231221010122)
+* [2021 - DIFUZZRTL: Differential Fuzz Testing to FindCPU Bugs](https://compsec.snu.ac.kr/papers/hur-difuzzrtl.pdf)
+* [2021 - Z-Fuzzer: device-agnostic fuzzing of Zigbee protocol implementation](https://dl.acm.org/doi/abs/10.1145/3448300.3468296)
+* [2021 - Fuzzing with Multi-dimensional Control of Mutation Strategy](https://link.springer.com/chapter/10.1007/978-3-030-79728-7_27)
+* [2021 - Using a Guided Fuzzer and Preconditions to Achieve Branch Coverage with Valid Inputs](https://link.springer.com/chapter/10.1007/978-3-030-79379-1_5)
+* [2021 - RIFF: Reduced Instruction Footprint for Coverage-Guided Fuzzing](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/atc21.pdf)
+* [2021 - CoCoFuzzing: Testing Neural Code Models with Coverage-Guided Fuzzing](https://arxiv.org/pdf/2106.09242.pdf)
+* [2021 - Seed Selection for Successful Fuzzing](https://nebelwelt.net/files/21ISSTA2.pdf)
+* [2021 - Gramatron: Effective Grammar-Aware Fuzzing](https://nebelwelt.net/files/21ISSTA.pdf)
+* [2021 - Hyntrospect: a fuzzer for Hyper-V devices](https://www.sstic.org/media/SSTIC2021/SSTIC-actes/hyntrospect_a_fuzzer_for_hyper-v_devices/SSTIC2021-Article-hyntrospect_a_fuzzer_for_hyper-v_devices-dubois.pdf)
+* [2021 - FUZZOLIC: mixing fuzzing and concolic execution](https://www.sciencedirect.com/science/article/pii/S0167404821001929)
+* [2021 - QFuzz: Quantitative Fuzzing for Side Channels](https://arxiv.org/pdf/2106.03346.pdf)
+* [2021 - Revizor: Fuzzing for Leaks in Black-box CPUs](https://arxiv.org/pdf/2105.06872.pdf)
 * [2021 - Unleashing Fuzzing Through Comprehensive, Efficient, and Faithful Exploitable-Bug Exposing](https://ieeexplore.ieee.org/abstract/document/9430753)
 * [2021 - Constraint-guided Directed Greybox Fuzzing](https://www.usenix.org/system/files/sec21fall-lee-gwangmu.pdf)
 * [2021 - Test-Case Reduction and Deduplication Almost forFree with Transformation-Based Compiler Testing](https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2021/PLDI.pdf)
