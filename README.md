@@ -5,6 +5,7 @@ Feel free to suggest decent papers via a PR.
 
 ## Read & Tagged
 
+
 * [2021 - An Empirical Study of OSS-Fuzz Bugs](https://arxiv.org/pdf/2103.11518.pdf)
     * **Tags:** flaky bugs, clusterfuzz, sanitizer, bug detection, bug classification, time-to-fix, time-to-detect
 * [2020 - Corpus Distillation for Effective Fuzzing](https://arxiv.org/pdf/1905.13055.pdf)
@@ -107,6 +108,9 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2021 - ESRFuzzer: an enhanced fuzzing framework for physical SOHO router devices to discover multi-Type vulnerabilities](https://cybersecurity.springeropen.com/articles/10.1186/s42400-021-00091-9)
+* [2021 - FIRM-COV: High-Coverage Greybox Fuzzing for IoT Firmware via Optimized Process Emulation](https://ieeexplore.ieee.org/abstract/document/9489311)
+* [2021 - KCFuzz: Directed Fuzzing Based on Keypoint Coverage](https://link.springer.com/chapter/10.1007/978-3-030-78609-0_27)
 * [2021 - TCP-Fuzz: Detecting Memory and Semantic Bugs in TCP Stacks with Fuzzing](https://www.usenix.org/conference/atc21/presentation/zou)
 * [2021 - Fuzzing with optimized grammar-aware mutation strategies](https://ieeexplore.ieee.org/abstract/document/9469897)
 * [2021 - Directed Fuzzing for Use-After-FreeVulnerabilities Detection](http://www.lirmm.fr/afadl2021/papers/afadl2020_paper_4.pdf)
@@ -280,6 +284,8 @@ Unread papers categorized by a common main theme.
 
 ### Emulation
 
+* [2021 - Automatic Firmware Emulation through Invalidity-guided Knowledge Inference(Extended Version)](https://arxiv.org/pdf/2107.07759.pdf)
+* [2021 - Firmware Re-hosting Through Static Binary-level Porting](https://arxiv.org/pdf/2107.09856.pdf)
 * [2021 - Jetset: Targeted Firmware Rehosting for Embedded Systems](https://www.usenix.org/system/files/sec21fall-johnson.pdf)
 * [2021 - Automatic Firmware Emulation through Invalidity-guided Knowledge Inference](https://www.usenix.org/system/files/sec21fall-zhou.pdf)
 
@@ -321,6 +327,7 @@ Unread papers categorized by a common main theme.
 
 ### Exploitation
 
+* [2021 - V0Finder: Discovering the Correct Origin of Publicly Reported Software Vulnerabilities](https://ccs.korea.ac.kr/pds/SECURITY21.pdf)
 * [2021 - Identifying Valuable Pointers in Heap Data](https://mickens.seas.harvard.edu/files/mickens/files/memory_cartography.pdf)
 * [2021 - OCTOPOCS: Automatic Verification of Propagated Vulnerable Code Using Reformed Proofs of Concept](https://ccs.korea.ac.kr/pds/DSN21.pdf)
 * [2021 - Characterizing Vulnerabilities in a Major Linux Distribution](https://ksiresearch.org/seke/seke20paper/paper033.pdf)
@@ -418,6 +425,9 @@ Unread papers categorized by a common main theme.
 
 ### Misc
 
+* [2021 - UAFSan: an object-identifier-based dynamic approach for detecting use-after-free vulnerabilities](https://dl.acm.org/doi/abs/10.1145/3460319.3464835)
+* [2021 - SyML: Guiding Symbolic Execution Toward Vulnerable States Through Pattern Learning](https://conand.me/publications/ruaro-syml-2021.pdf)
+* [2021 - LLSC: A Parallel Symbolic Execution Compiler for LLVM IR](https://continuation.passing.style/static/papers/fsedemo21.pdf)
 * [2021 - FuzzSplore: Visualizing Feedback-Driven Fuzzing Techniques](https://arxiv.org/pdf/2102.02527.pdf)
 * [2020 - Memory Error Detection Based on Dynamic Binary Translation](https://ieeexplore.ieee.org/abstract/document/9295756/keywords#keywords)
 * [2020 - Sydr: Cutting Edge Dynamic Symbolic Execution](https://arxiv.org/pdf/2011.09269.pdf)
@@ -466,6 +476,7 @@ Unread papers categorized by a common main theme.
 
 ### Surveys, SoKs, and Studies
 
+* [2021 - A Systematic Review of Network Protocol Fuzzing Techniques](https://ieeexplore.ieee.org/abstract/document/9482063)
 * [2021 - Vulnerability Detection is Just the Beginning](https://arxiv.org/pdf/2103.05160.pdf)
 * [2021 - Evaluating Synthetic Bugs](https://wkr.io/publication/asiaccs-2021-bugs.pdf)
 * [2020 - A Practical, Principled Measure of Fuzzer Appeal:A Preliminary Study](https://qrs20.techconf.org/QRS2020_FULL/pdfs/QRS2020-4LGdOos7NAbR8M2s6S6ezE/891300a510/891300a510.pdf)
