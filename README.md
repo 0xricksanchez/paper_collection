@@ -108,6 +108,11 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2021 - Scalable Fuzzing of Program Binaries with E9AFL](https://www.comp.nus.edu.sg/~abhik/pdf/ASE21.pdf)
+* [2021 - BigMap: Future-proofing Fuzzers with Efficient Large Maps](https://ieeexplore.ieee.org/abstract/document/9505052)
+* [2021 - Token-Level Fuzzing](https://seclab.cs.ucsb.edu/files/publications/Salls2021Token_Level.pdf)
+* [2021 - Hashing Fuzzing: Introducing Input Diversity to Improve Crash Detection](https://eprints.mdx.ac.uk/33682/1/main_TSE.pdf)
+* [2021 - LeanSym: Efficient Hybrid Fuzzing Through Conservative Constraint Debloating](https://download.vusec.net/papers/leansym_raid21.pdf)
 * [2021 - ESRFuzzer: an enhanced fuzzing framework for physical SOHO router devices to discover multi-Type vulnerabilities](https://cybersecurity.springeropen.com/articles/10.1186/s42400-021-00091-9)
 * [2021 - FIRM-COV: High-Coverage Greybox Fuzzing for IoT Firmware via Optimized Process Emulation](https://ieeexplore.ieee.org/abstract/document/9489311)
 * [2021 - KCFuzz: Directed Fuzzing Based on Keypoint Coverage](https://link.springer.com/chapter/10.1007/978-3-030-78609-0_27)
@@ -292,6 +297,7 @@ Unread papers categorized by a common main theme.
 
 ### Kernel fuzzing
 
+* [2021 - SyzVegas: Beating Kernel Fuzzing Odds with Reinforcement Learning](https://www.usenix.org/conference/usenixsecurity21/presentation/wang-daimeng)
 * [2021 - NTFUZZ: Enabling Type-Aware Kernel Fuzzing on Windows with Static Binary Analysis](https://softsec.kaist.ac.kr/~jschoi/data/oakland2021.pdf)
 * [2021 - Undo Workarounds for Kernel Bugs](https://www.cs.ucr.edu/~zhiyunq/pub/sec21_undo_workarounds.pdf)
 * [2020 - A Hybrid Interface Recovery Method for Android Kernels Fuzzing](https://qrs20.techconf.org/QRS2020_FULL/pdfs/QRS2020-4LGdOos7NAbR8M2s6S6ezE/891300a335/891300a335.pdf)
