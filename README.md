@@ -108,6 +108,13 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2022 - An Improvement of AFL Based On The Function Call Depth](An Improvement of AFL Based On The Function Call Depth)
+* [2022 - FuzzingDriver: the Missing Dictionary to Increase Code Coverage in Fuzzers](https://arxiv.org/pdf/2201.04853.pdf)
+* [2022 - BeDivFuzz: Integrating Behavioral Diversity into Generator-based Fuzzing](https://arxiv.org/pdf/2202.13114.pdf)
+* [2022 - One Fuzzing Strategy to Rule Them All](https://shadowmydx.github.io/papers/icse22-main-1314.pdf)
+* [2022 - Grammars for Free: Toward Grammar Inference for Ad Hoc Parsers](https://arxiv.org/pdf/2202.01021.pdf)
+* [2022 - Fuzzing Class Specifications](https://arxiv.org/pdf/2201.10874.pdf)
+* [2022- Mutation Analysis: Answering the Fuzzing Challenge](Mutation Analysis: Answering the Fuzzing Challenge)
 * [2022 - Ferry: State-Aware Symbolic Execution for Exploring State-Dependent Program Paths](https://yangzhemin.github.io/papers/ferry-security22.pdf)
 * [2022 - BEACON : Directed Grey-Box Fuzzing with Provable Path Pruning](https://qingkaishi.github.io/public_pdfs/SP22.pdf)
 * [2022 - MORPHUZZ: Bending (Input) Space to Fuzz Virtual Devices](https://www.usenix.org/system/files/sec22summer_bulekov.pdf)
@@ -279,6 +286,7 @@ Unread papers categorized by a common main theme.
 
 ### IoT fuzzing
 
+* [2022 - 𝜇AFL: Non-intrusive Feedback-driven Fuzzing for Microcontroller Firmware](𝜇AFL: Non-intrusive Feedback-driven Fuzzing for Microcontroller Firmware)
 * [2022 - FirVer: Concolic Testing for Systematic Validation of Firmware Binaries](http://sandip.ece.ufl.edu/publications/aspdac22.pdf)
 * [2022 - Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing](https://sites.cs.ucsb.edu/~vigna/publications/2022_USENIXSecurity_Fuzzware.pdf)
 * [2021 - CPscan: Detecting Bugs Caused by Code Pruning in IoT Kernels](https://dl.acm.org/doi/abs/10.1145/3460120.3484738)
@@ -323,6 +331,8 @@ Unread papers categorized by a common main theme.
 
 ### Firmware Emulation
 
+* [2022 - FIRMWIRE: Transparent Dynamic Analysis for Cellular Baseband Firmware](https://hernan.de/research/papers/firmwire-ndss22-hernandez.pdf)
+* [2022 - An Automated Approach to Re-Hosting Embedded Firmware Through Removing Hardware Dependencies](https://hammer.purdue.edu/articles/thesis/An_Automated_Approach_to_Re-Hosting_Embedded_Firmware_Through_Removing_Hardware_Dependencies/17131628)
 * [2021 - FIRMGUIDE: Boosting the Capability of Rehosting Embedded Linux Kernels through Model-Guided Kernel Execution](https://yajin.org/papers/ase21_firmguide.pdf)
 * [2021 - Automatic Firmware Emulation through Invalidity-guided Knowledge Inference(Extended Version)](https://arxiv.org/pdf/2107.07759.pdf)
 * [2021 - Firmware Re-hosting Through Static Binary-level Porting](https://arxiv.org/pdf/2107.09856.pdf)
@@ -331,6 +341,10 @@ Unread papers categorized by a common main theme.
 
 ### Network fuzzing
 
+* [2022 - SnapFuzz: An Efficient Fuzzing Framework for Network Applications](https://arxiv.org/pdf/2201.04048.pdf)
+* [2022 - REST API Fuzzing by Coverage Level Guided Blackbox Testing](https://arxiv.org/pdf/2112.15485.pdf)
+* [2022 - SNPSFuzzer: A Fast Greybox Fuzzer for Stateful Network Protocols using Snapshots](https://arxiv.org/pdf/2202.03643.pdf)
+* [2022 - WAFL: Binary-Only WebAssembly Fuzzing with Fast Snapshots](https://dl.acm.org/doi/abs/10.1145/3503921.3503924)
 * [2021 - Nyx-Net: Network Fuzzing with Incremental Snapshots](https://arxiv.org/pdf/2111.03013.pdf)
 * [2021 - StateAFL: Greybox Fuzzing for Stateful Network Servers](https://arxiv.org/pdf/2110.06253.pdf)
 
@@ -363,6 +377,7 @@ Unread papers categorized by a common main theme.
 
 ### Format specific fuzzing
 
+* [2022 - TheHuzz: Instruction Fuzzing of Processors Using Golden-Reference Models for Finding Software-Exploitable Vulnerabilities](https://arxiv.org/pdf/2201.09941.pdf)
 * [2021 - V-Shuttle: Scalable and Semantics-Aware Hypervisor Virtual Device Fuzzing](https://nesa.zju.edu.cn/download/pgn_pdf_V-SHUTTLE.pdf)
 * [2021 - FormatFuzzer: Effective Fuzzing of Binary File Formats](https://arxiv.org/pdf/2109.11277.pdf)
 * [2020 - NYX: Greybox Hypervisor Fuzzing using Fast Snapshots and Affine Types](https://www.usenix.org/system/files/sec21summer_schumilo.pdf)
@@ -379,6 +394,9 @@ Unread papers categorized by a common main theme.
 
 ### Exploitation
 
+* [2022- MaMaDroid 2.0 - The Holes of control flow graphs](https://arxiv.org/pdf/2202.13922.pdf)
+* [2022 -ShadowHeap: Memory Safety through Efficient Heap Metadata Validation](https://isyou.info/jowua/papers/jowua-v12n4-1.pdf)
+* [2022 - MACH2: System for Root Cause Analysis of Kernel Vulnerabilities [THESIS]](https://smartech.gatech.edu/bitstream/handle/1853/66274/DESAI-UNDERGRADUATERESEARCHOPTIONTHESIS-2021.pdf?sequence=1)
 * [2021 - Automated Bug Hunting With Data-Driven Symbolic Root Cause Analysis](https://dl.acm.org/doi/abs/10.1145/3460120.3485363)
 * [2021 - MAJORCA: Multi-Architecture JOP and ROP Chain Assembler](https://arxiv.org/pdf/2111.05781.pdf)
 * [2021 - A Novel Method for the Automatic Generation of JOP Chain Exploits](https://link.springer.com/chapter/10.1007/978-3-030-84614-5_7)
@@ -538,6 +556,7 @@ Unread papers categorized by a common main theme.
 
 ### Surveys, SoKs, and Studies
 
+* [2022 - Fuzzing: A Survey for Roadmap](https://dl.acm.org/doi/abs/10.1145/3512345)
 * [2022 - How Long Do Vulnerabilities Live in the Code? A Large-Scale Empirical Measurement Study on FOSS Vulnerability Lifetimes](https://www.usenix.org/system/files/sec22summer_alexopoulos.pdf)
 * [2021 - Protocol Reverse-Engineering Methods and Tools: A Survey](https://www.sciencedirect.com/science/article/abs/pii/S0140366421004382)
 * [2021 - Exploratory Review of Hybrid Fuzzing for Automated Vulnerability Detection](https://ieeexplore.ieee.org/abstract/document/9541397)
