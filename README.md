@@ -115,13 +115,13 @@ Unread papers categorized by a common main theme.
 * [2022 - Effective Seed Scheduling for Fuzzing with Graph Centrality Analysis](https://arxiv.org/pdf/2203.12064.pdf)
 * [2022 - Comparing Fuzzers on a Level Playing Field with FuzzBench](https://discovery.ucl.ac.uk/id/eprint/10144606/1/Comparing%20Fuzzers%20on%20a%20Level%20Playing%20Field%20with%20FuzzBench.pdf)
 * [2022 - Vulnerability-oriented directed fuzzing for binary programs](https://www.nature.com/articles/s41598-022-07355-5)
-* [2022 - An Improvement of AFL Based On The Function Call Depth](An Improvement of AFL Based On The Function Call Depth)
+* [2022 - An Improvement of AFL Based On The Function Call Depth](https://ieeexplore.ieee.org/document/9674138)
 * [2022 - FuzzingDriver: the Missing Dictionary to Increase Code Coverage in Fuzzers](https://arxiv.org/pdf/2201.04853.pdf)
 * [2022 - BeDivFuzz: Integrating Behavioral Diversity into Generator-based Fuzzing](https://arxiv.org/pdf/2202.13114.pdf)
 * [2022 - One Fuzzing Strategy to Rule Them All](https://shadowmydx.github.io/papers/icse22-main-1314.pdf)
 * [2022 - Grammars for Free: Toward Grammar Inference for Ad Hoc Parsers](https://arxiv.org/pdf/2202.01021.pdf)
 * [2022 - Fuzzing Class Specifications](https://arxiv.org/pdf/2201.10874.pdf)
-* [2022- Mutation Analysis: Answering the Fuzzing Challenge](Mutation Analysis: Answering the Fuzzing Challenge)
+* [2022- Mutation Analysis: Answering the Fuzzing Challenge](https://arxiv.org/pdf/2201.11303.pdf)
 * [2022 - Ferry: State-Aware Symbolic Execution for Exploring State-Dependent Program Paths](https://yangzhemin.github.io/papers/ferry-security22.pdf)
 * [2022 - BEACON : Directed Grey-Box Fuzzing with Provable Path Pruning](https://qingkaishi.github.io/public_pdfs/SP22.pdf)
 * [2022 - MORPHUZZ: Bending (Input) Space to Fuzz Virtual Devices](https://www.usenix.org/system/files/sec22summer_bulekov.pdf)
@@ -293,7 +293,7 @@ Unread papers categorized by a common main theme.
 
 ### IoT fuzzing
 
-* [2022 - 𝜇AFL: Non-intrusive Feedback-driven Fuzzing for Microcontroller Firmware](𝜇AFL: Non-intrusive Feedback-driven Fuzzing for Microcontroller Firmware)
+* [2022 - 𝜇AFL: Non-intrusive Feedback-driven Fuzzing for Microcontroller Firmware](https://arxiv.org/pdf/2202.03013.pdf)
 * [2022 - FirVer: Concolic Testing for Systematic Validation of Firmware Binaries](http://sandip.ece.ufl.edu/publications/aspdac22.pdf)
 * [2022 - Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing](https://sites.cs.ucsb.edu/~vigna/publications/2022_USENIXSecurity_Fuzzware.pdf)
 * [2021 - CPscan: Detecting Bugs Caused by Code Pruning in IoT Kernels](https://dl.acm.org/doi/abs/10.1145/3460120.3484738)
