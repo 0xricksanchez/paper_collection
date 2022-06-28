@@ -5,7 +5,8 @@ Feel free to suggest decent papers via a PR.
 
 ## Read & Tagged
 
-
+* [2022 - Removing Uninteresting Bytes in Software Fuzzing](https://ieeexplore.ieee.org/abstract/document/9787966)
+    * **Tags:** seed optimization, seed minimization, diar, coverage-guided
 * [2021 - An Empirical Study of OSS-Fuzz Bugs](https://arxiv.org/pdf/2103.11518.pdf)
     * **Tags:** flaky bugs, clusterfuzz, sanitizer, bug detection, bug classification, time-to-fix, time-to-detect
 * [2020 - Corpus Distillation for Effective Fuzzing](https://arxiv.org/pdf/1905.13055.pdf)
@@ -108,6 +109,14 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2022 - Combining BMC and Fuzzing Techniques for Finding Software Vulnerabilities in Concurrent Programs](https://arxiv.org/pdf/2206.06043.pdf)
+* [2022 - DocTer: Documentation-Guided Fuzzing for Testing Deep Learning API Functions](https://www.cs.purdue.edu/homes/lintan/publications/docter-issta22.pdf)
+* [2022 - Obtaining Fuzzing Results with Different Timeouts](https://ieeexplore.ieee.org/abstract/document/9787974)
+* [2022 - FASSFuzzer—An Automated Vulnerability Detection System for Android System Services](https://web.archive.org/web/20220501200656id_/http://www.csroc.org.tw/journal/JOC33-2/JOC3302-17.pdf)
+* [2022 - WindRanger: A Directed Greybox Fuzzer driven by Deviation Basic Blocks](https://114.212.80.14/paper/ICSE22_windranger.pdf)
+* [2022 - Drifuzz: Harvesting Bugs in Device Drivers from Golden Seeds](https://messlab.moyix.net/papers/drifuzz_sec22.pdf)
+* [2022 - GraphFuzz: Library API Fuzzing with Lifetime-aware Dataflow Graphs](https://hgarrereyn.github.io/GraphFuzz/research/GraphFuzz_ICSE_2022.pdf)
+* [2022 - AcoFuzz: Adaptive Energy Allocation for Greybox Fuzzing](https://ieeexplore.ieee.org/abstract/document/9787956)
 * [2022 - TargetFuzz: Using DARTs to Guide Directed Greybox Fuzzers](https://www.honda-ri.de/pubs/pdf/4940.pdf)
 * [2022 - Fast Fuzzing for Memory Errors](https://arxiv.org/pdf/2204.02773.pdf)
 * [2022 - Stateful Greybox Fuzzing](https://arxiv.org/pdf/2204.02545.pdf)
@@ -121,7 +130,7 @@ Unread papers categorized by a common main theme.
 * [2022 - One Fuzzing Strategy to Rule Them All](https://shadowmydx.github.io/papers/icse22-main-1314.pdf)
 * [2022 - Grammars for Free: Toward Grammar Inference for Ad Hoc Parsers](https://arxiv.org/pdf/2202.01021.pdf)
 * [2022 - Fuzzing Class Specifications](https://arxiv.org/pdf/2201.10874.pdf)
-* [2022- Mutation Analysis: Answering the Fuzzing Challenge](https://arxiv.org/pdf/2201.11303.pdf)
+* [2022 - Mutation Analysis: Answering the Fuzzing Challenge](https://arxiv.org/pdf/2201.11303.pdf)
 * [2022 - Ferry: State-Aware Symbolic Execution for Exploring State-Dependent Program Paths](https://yangzhemin.github.io/papers/ferry-security22.pdf)
 * [2022 - BEACON : Directed Grey-Box Fuzzing with Provable Path Pruning](https://qingkaishi.github.io/public_pdfs/SP22.pdf)
 * [2022 - MORPHUZZ: Bending (Input) Space to Fuzz Virtual Devices](https://www.usenix.org/system/files/sec22summer_bulekov.pdf)
@@ -293,6 +302,12 @@ Unread papers categorized by a common main theme.
 
 ### IoT fuzzing
 
+* [2022 - Trampoline Over the Air: Breaking in IoT Devices Through MQTT Brokers](https://ieeexplore.ieee.org/abstract/document/9797386)
+* [2022 - PDFuzzerGen: Policy-Driven Black-Box Fuzzer Generation for Smart Devices](https://www.hindawi.com/journals/scn/2022/9788219/)
+* [2022 - RW-Fuzzer: A Fuzzing Method for Vulnerability Mining on Router Web Interface](https://www.hindawi.com/journals/wcmc/2022/5311295/)
+* [2022 - IoTInfer: Automated Blackbox Fuzz Testing of IoT Network Protocols Guided by Finite State Machine Inference](https://ieeexplore.ieee.org/abstract/document/9794676)
+* [2022 - Debugger-driven Embedded Fuzzing](https://ieeexplore.ieee.org/abstract/document/9787842)
+* [2022 - Game of Hide-and-Seek: Exposing Hidden Interfaces in Embedded Web Applications of IoT Devices](https://dl.acm.org/doi/abs/10.1145/3485447.3512213)
 * [2022 - 𝜇AFL: Non-intrusive Feedback-driven Fuzzing for Microcontroller Firmware](https://arxiv.org/pdf/2202.03013.pdf)
 * [2022 - FirVer: Concolic Testing for Systematic Validation of Firmware Binaries](http://sandip.ece.ufl.edu/publications/aspdac22.pdf)
 * [2022 - Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing](https://sites.cs.ucsb.edu/~vigna/publications/2022_USENIXSecurity_Fuzzware.pdf)
@@ -338,6 +353,7 @@ Unread papers categorized by a common main theme.
 
 ### Firmware Emulation
 
+* [2022 - BEERR: Bench of Embedded system Experiments for Reproducible Research](https://www.s3.eurecom.fr/docs/silm22_olivier.pdf)
 * [2022 - FIRMWIRE: Transparent Dynamic Analysis for Cellular Baseband Firmware](https://hernan.de/research/papers/firmwire-ndss22-hernandez.pdf)
 * [2022 - An Automated Approach to Re-Hosting Embedded Firmware Through Removing Hardware Dependencies](https://hammer.purdue.edu/articles/thesis/An_Automated_Approach_to_Re-Hosting_Embedded_Firmware_Through_Removing_Hardware_Dependencies/17131628)
 * [2021 - FIRMGUIDE: Boosting the Capability of Rehosting Embedded Linux Kernels through Model-Guided Kernel Execution](https://yajin.org/papers/ase21_firmguide.pdf)
@@ -348,6 +364,8 @@ Unread papers categorized by a common main theme.
 
 ### Network fuzzing
 
+* [2022 - Model-Based Grey-Box Fuzzing of Network Protocols](https://www.hindawi.com/journals/scn/2022/6880677/)
+* [2022 - Registered Report: NSFuzz: Towards Efficient and State-Aware Network Service Fuzzing](https://www.ndss-symposium.org/wp-content/uploads/fuzzing2022_23006_paper.pdf)
 * [2022 - SnapFuzz: An Efficient Fuzzing Framework for Network Applications](https://arxiv.org/pdf/2201.04048.pdf)
 * [2022 - REST API Fuzzing by Coverage Level Guided Blackbox Testing](https://arxiv.org/pdf/2112.15485.pdf)
 * [2022 - SNPSFuzzer: A Fast Greybox Fuzzer for Stateful Network Protocols using Snapshots](https://arxiv.org/pdf/2202.03643.pdf)
@@ -357,7 +375,7 @@ Unread papers categorized by a common main theme.
 
 ### Kernel fuzzing
 
-
+* [2022 - KSG: Augmenting Kernel Fuzzing with System Call Specification Generation](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/atc22.pdf)
 * [2022 - Demystifying the Dependency Challenge in Kernel Fuzzing](https://github.com/ZHYfeng/Dependency/blob/master/Paper.pdf)
 * [2022 - Midas: Systematic Kernel TOCTTOU Protection](https://www.usenix.org/system/files/sec22summer_bhattacharyya.pdf)
 * [2021 - Evaluating Code Coverage for Kernel Fuzzers via Function Call Graph](https://ieeexplore.ieee.org/abstract/document/9618942)
