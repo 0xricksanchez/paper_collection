@@ -109,6 +109,12 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2022 - LibAFL: A Framework to Build Modular and Reusable Fuzzers](http://193.55.114.4/docs/ccs22_fioraldi.pdf)
+* [2022 - FishFuzz: Throwing Larger Nets to Catch Deeper Bugs](https://arxiv.org/pdf/2207.13393.pdf)
+* [2022 - SYMSAN: Time and Space Efficient Concolic Execution via Dynamic Data-flow Analysis](https://www.cs.ucr.edu/~csong/sec22-symsan.pdf)
+* [2022 - AMSFuzz: An adaptive mutation schedule for fuzzing](https://www.sciencedirect.com/science/article/abs/pii/S0957417422013203)
+* [2022 - FixReverter: A Realistic Bug Injection Methodology for Benchmarking Fuzz Testing](https://www.usenix.org/system/files/sec22-zhang-zenong.pdf)
+* [2022 - Multiple Targets Directed Greybox Fuzzing](https://arxiv.org/pdf/2206.14977.pdf)
 * [2022 - Combining BMC and Fuzzing Techniques for Finding Software Vulnerabilities in Concurrent Programs](https://arxiv.org/pdf/2206.06043.pdf)
 * [2022 - DocTer: Documentation-Guided Fuzzing for Testing Deep Learning API Functions](https://www.cs.purdue.edu/homes/lintan/publications/docter-issta22.pdf)
 * [2022 - Obtaining Fuzzing Results with Different Timeouts](https://ieeexplore.ieee.org/abstract/document/9787974)
@@ -302,6 +308,7 @@ Unread papers categorized by a common main theme.
 
 ### IoT fuzzing
 
+* [2022 - Efficient greybox fuzzing of applications in Linux-based IoT devices via enhanced user-mode emulation](https://dl.acm.org/doi/pdf/10.1145/3533767.3534414)
 * [2022 - Trampoline Over the Air: Breaking in IoT Devices Through MQTT Brokers](https://ieeexplore.ieee.org/abstract/document/9797386)
 * [2022 - PDFuzzerGen: Policy-Driven Black-Box Fuzzer Generation for Smart Devices](https://www.hindawi.com/journals/scn/2022/9788219/)
 * [2022 - RW-Fuzzer: A Fuzzing Method for Vulnerability Mining on Router Web Interface](https://www.hindawi.com/journals/wcmc/2022/5311295/)
@@ -364,6 +371,7 @@ Unread papers categorized by a common main theme.
 
 ### Network fuzzing
 
+* [2022 - WThreadAFL:Deterministic Greybox Fuzzing for Multi-threadNetwork Servers](https://conferences.sigcomm.org/events/apnet2022/posters/WThreadAFL.pdf)
 * [2022 - Model-Based Grey-Box Fuzzing of Network Protocols](https://www.hindawi.com/journals/scn/2022/6880677/)
 * [2022 - Registered Report: NSFuzz: Towards Efficient and State-Aware Network Service Fuzzing](https://www.ndss-symposium.org/wp-content/uploads/fuzzing2022_23006_paper.pdf)
 * [2022 - SnapFuzz: An Efficient Fuzzing Framework for Network Applications](https://arxiv.org/pdf/2201.04048.pdf)
@@ -375,6 +383,7 @@ Unread papers categorized by a common main theme.
 
 ### Kernel fuzzing
 
+* [2022 - PrIntFuzz: fuzzing Linux drivers via automated virtual device simulation](https://dl.acm.org/doi/pdf/10.1145/3533767.3534226)
 * [2022 - KSG: Augmenting Kernel Fuzzing with System Call Specification Generation](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/atc22.pdf)
 * [2022 - Demystifying the Dependency Challenge in Kernel Fuzzing](https://github.com/ZHYfeng/Dependency/blob/master/Paper.pdf)
 * [2022 - Midas: Systematic Kernel TOCTTOU Protection](https://www.usenix.org/system/files/sec22summer_bhattacharyya.pdf)
@@ -424,6 +433,7 @@ Unread papers categorized by a common main theme.
 
 ### Exploitation
 
+* [2022 - RiscyROP: Automated Return-Oriented Programming Attacks on RISC-V and ARM64](https://www.syssec.wiwi.uni-due.de/fileadmin/fileupload/I-SYSSEC/research/RiscyROP.pdf)
 * [2022 - Automatic Permission Check Analysis for Linux Kernel](https://www.computer.org/csdl/journal/tq/5555/01/09750908/1ClSWBlV5ao)
 * [2022 - OS-Aware Vulnerability Prioritization via Differential Severity Analysis](https://www.xiaojingliao.com/uploads/9/7/0/2/97024238/sec22fall-final431.pdf)
 * [2022 - Arbiter: Bridging the Static and Dynamic Divide in Vulnerability Discovery on Binary Programs](http://193.55.114.4/docs/usenixsec22_arbiter.pdf)
@@ -593,6 +603,10 @@ Unread papers categorized by a common main theme.
 
 ### Surveys, SoKs, and Studies
 
+* [2022 - Fuzzing of Embedded Systems: A Survey](https://dl.acm.org/doi/pdf/10.1145/3538644)
+* [2022 - Embedded Fuzzing: a Review of Challenges, Tools, and Solutions](https://www.iris.unict.it/bitstream/20.500.11769/533199/1/paper%20%284%29.pdf)
+* [2022 - An empirical study of vulnerability discovery methods over the past ten years](https://www.sciencedirect.com/science/article/pii/S0167404822002115)
+* [2022 - Fuzzing vulnerability discovery techniques: Survey, challenges and future directions](https://www.sciencedirect.com/science/article/pii/S0167404822002073)
 * [2022 - Fuzzing: A Survey for Roadmap](https://dl.acm.org/doi/abs/10.1145/3512345)
 * [2022 - How Long Do Vulnerabilities Live in the Code? A Large-Scale Empirical Measurement Study on FOSS Vulnerability Lifetimes](https://www.usenix.org/system/files/sec22summer_alexopoulos.pdf)
 * [2021 - Protocol Reverse-Engineering Methods and Tools: A Survey](https://www.sciencedirect.com/science/article/abs/pii/S0140366421004382)
