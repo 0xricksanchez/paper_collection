@@ -109,6 +109,11 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2022 - Snappy: Efficient Fuzzing with Adaptive and Mutable Snapshots](https://download.vusec.net/papers/snappy_acsac22.pdf)
+* [2022 - FuzzerAid: Grouping Fuzzed Crashes Based On Fault Signatures](https://arxiv.org/pdf/2209.01244.pdf)
+* [2022 - Automatically Seed Corpus and Fuzzing Executables Generation Using Test Framework](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9867993)
+* [2022 - CAMFuzz: Explainable Fuzzing with Local Interpretation](https://cybersecurity.springeropen.com/articles/10.1186/s42400-022-00116-x)
+* [2022 - Efficient Greybox Fuzzing to Detect Memory Errors](https://www.comp.nus.edu.sg/~gregory/papers/rezzan.pdf)
 * [2022 - LibAFL: A Framework to Build Modular and Reusable Fuzzers](http://193.55.114.4/docs/ccs22_fioraldi.pdf)
 * [2022 - FishFuzz: Throwing Larger Nets to Catch Deeper Bugs](https://arxiv.org/pdf/2207.13393.pdf)
 * [2022 - SYMSAN: Time and Space Efficient Concolic Execution via Dynamic Data-flow Analysis](https://www.cs.ucr.edu/~csong/sec22-symsan.pdf)
@@ -308,6 +313,9 @@ Unread papers categorized by a common main theme.
 
 ### IoT fuzzing
 
+* [2022 - FuzzDocs: An Automated Security Evaluation Framework for IoT](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9895405)
+* [2022 - AflIot: Fuzzing on linux-based IoT device with binary-level instrumentation](https://www.sciencedirect.com/science/article/pii/S0167404822002838)
+* [2022 - Tardis: Coverage-Guided Embedded Operating System Fuzzing](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/Emsoft22_Tardis.pdf)
 * [2022 - Efficient greybox fuzzing of applications in Linux-based IoT devices via enhanced user-mode emulation](https://dl.acm.org/doi/pdf/10.1145/3533767.3534414)
 * [2022 - Trampoline Over the Air: Breaking in IoT Devices Through MQTT Brokers](https://ieeexplore.ieee.org/abstract/document/9797386)
 * [2022 - PDFuzzerGen: Policy-Driven Black-Box Fuzzer Generation for Smart Devices](https://www.hindawi.com/journals/scn/2022/9788219/)
@@ -360,6 +368,8 @@ Unread papers categorized by a common main theme.
 
 ### Firmware Emulation
 
+* [2022 - What You See is Not What You Get: Revealing Hidden Memory Mapping for Peripheral Modeling](https://web.cse.ohio-state.edu/~lin.3021/file/RAID22.pdf)
+* [2022 - What Your Firmware Tells You Is Not How You Should Emulate It: A Specification-Guided Approach for Firmware Emulation (Extended Version)](https://arxiv.org/pdf/2208.07833.pdf)
 * [2022 - BEERR: Bench of Embedded system Experiments for Reproducible Research](https://www.s3.eurecom.fr/docs/silm22_olivier.pdf)
 * [2022 - FIRMWIRE: Transparent Dynamic Analysis for Cellular Baseband Firmware](https://hernan.de/research/papers/firmwire-ndss22-hernandez.pdf)
 * [2022 - An Automated Approach to Re-Hosting Embedded Firmware Through Removing Hardware Dependencies](https://hammer.purdue.edu/articles/thesis/An_Automated_Approach_to_Re-Hosting_Embedded_Firmware_Through_Removing_Hardware_Dependencies/17131628)
@@ -603,6 +613,7 @@ Unread papers categorized by a common main theme.
 
 ### Surveys, SoKs, and Studies
 
+* [2022 - Detecting Vulnerability on IoT Device Firmware: A Survey](https://www.ieee-jas.net/en/article/id/e04bfa93-5629-4069-859b-35ecf4dc503b)
 * [2022 - Fuzzing of Embedded Systems: A Survey](https://dl.acm.org/doi/pdf/10.1145/3538644)
 * [2022 - Embedded Fuzzing: a Review of Challenges, Tools, and Solutions](https://www.iris.unict.it/bitstream/20.500.11769/533199/1/paper%20%284%29.pdf)
 * [2022 - An empirical study of vulnerability discovery methods over the past ten years](https://www.sciencedirect.com/science/article/pii/S0167404822002115)
