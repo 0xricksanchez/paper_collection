@@ -9,6 +9,8 @@ Feel free to suggest decent papers via a PR.
   * **Tags:** seed optimization, seed minimization, diar, coverage-guided
 * [2021 - An Empirical Study of OSS-Fuzz Bugs](https://arxiv.org/pdf/2103.11518.pdf)
   * **Tags:** flaky bugs, clusterfuzz, sanitizer, bug detection, bug classification, time-to-fix, time-to-detect
+* [2021 - Rise of the Machines On the Security of Cellular IoT Devices](https://www.esat.kuleuven.be/cosic/publications/thesis-400.pdf)
+  * **Tags:** LTE, AFL, network fuzzing
 * [2020 - Corpus Distillation for Effective Fuzzing](https://arxiv.org/pdf/1905.13055.pdf)
   * **Tags:** corpus minimization, afl-cmin, google fuzzer test suite, FTS, minset, AFL
 * [2020 - Symbolic execution with SymCC: Don't interpret, compile!](https://www.usenix.org/system/files/sec20-poeplau.pdf)
