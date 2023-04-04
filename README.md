@@ -112,6 +112,13 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+- [2023 - Learning Seed-Adaptive Mutation Strategies for Greybox Fuzzing](http://prl.korea.ac.kr/~pronto/home/papers/icse23-seamfuzz.pdf)
+- [2023 - Directed Greybox Fuzzing with Stepwise Constraint Focusing](https://arxiv.org/pdf/2303.14895.pdf)
+- [2023 - Generation-based fuzzing? Don’t build a new generator, reuse!](https://www.sciencedirect.com/science/article/pii/S0167404823000883)
+- [2023 - RCABench: Open Benchmarking Platform for Root Cause Analysis](https://arxiv.org/pdf/2303.05029.pdf)
+- [2023 - Arvin: Greybox Fuzzing Using Approximate Dynamic CFG Analysis](https://hexhive.epfl.ch/publications/files/23AsiaCCS.pdf)
+- [2023 - DAISY: Effective Fuzz Driver Synthesis with Object Usage Sequence Analysis](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/ICSE-SEIP23.pdf)
+- [2023 - autofz: Automated Fuzzer Composition at Runtime](https://gts3.org/assets/papers/2023/fu:autofz.pdf)
 - [2023 - Towards Hybrid Fuzzing with Multi-level Coverage Tree and Reinforcement Learning in Greybox Fuzzing](https://dixiyao.github.io/assets/papers/1776.pdf)
 - [2023 - Fuzzing, Symbolic Execution, and Expert Guidance for Better Testing](https://ieeexplore.ieee.org/abstract/document/10021305)
 - [2023 - Fuzzing vs SBST: Intersections & Differences](https://dl.acm.org/doi/abs/10.1145/3573074.3573102)
@@ -409,6 +416,7 @@ Unread papers categorized by a common main theme.
 
 ### Network fuzzing
 
+- [2023 - NSFuzz: Towards Eficient and State-Aware Network Service Fuzzing](https://dl.acm.org/doi/pdf/10.1145/3580598)
 - [2022 - FitM: Binary-Only Coverage-Guided Fuzzing for Stateful Network Protocols](https://www.ndss-symposium.org/wp-content/uploads/bar2022_23008_paper.pdf)
 - [2022 - WThreadAFL:Deterministic Greybox Fuzzing for Multi-threadNetwork Servers](https://conferences.sigcomm.org/events/apnet2022/posters/WThreadAFL.pdf)
 - [2022 - Model-Based Grey-Box Fuzzing of Network Protocols](https://www.hindawi.com/journals/scn/2022/6880677/)
@@ -425,6 +433,8 @@ Unread papers categorized by a common main theme.
 
 ### Kernel fuzzing
 
+- [2023 - Towards Unveiling Exploitation Potential With Multiple Error Behaviors for Kernel Bugs](https://ieeexplore.ieee.org/abstract/document/10048506)
+- [2023 - No Grammar, No Problem: Towards Fuzzing the Linux Kernel without System-Call Descriptions](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f688_paper.pdf)
 - [2022 - PrIntFuzz: fuzzing Linux drivers via automated virtual device simulation](https://dl.acm.org/doi/pdf/10.1145/3533767.3534226)
 - [2022 - KSG: Augmenting Kernel Fuzzing with System Call Specification Generation](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/atc22.pdf)
 - [2022 - Demystifying the Dependency Challenge in Kernel Fuzzing](https://github.com/ZHYfeng/Dependency/blob/master/Paper.pdf)
@@ -454,6 +464,7 @@ Unread papers categorized by a common main theme.
 
 ### Format specific fuzzing
 
+- [2023 - FUZZILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f290_paper.pdf)
 - [2022 - SFuzz: Slice-based Fuzzing for Real-Time Operating Systems](https://dl.acm.org/doi/abs/10.1145/3548606.3559367)
 - [2022 - LFUZZ: Exploiting Locality for File-system Fuzzing](https://www.cs.fsu.edu/files/reports/TR220922.pdf)
 - [2022 - MUNDOFUZZ: Hypervisor Fuzzing with Statistical Coverage Testing and Grammar Inference](https://lifeasageek.github.io/papers/cheolwoo-mundofuzz.pdf)
@@ -475,6 +486,7 @@ Unread papers categorized by a common main theme.
 
 ### Exploitation
 
+- [2023 - The Most Dangerous Codec in the World: Finding and Exploiting Vulnerabilities in H.264 Decoders](https://wrv.github.io/h26forge.pdf)
 - [2023 - Detecting Exploit Primitives Automatically for Heap Vulnerabilities on Binary Programs](https://arxiv.org/pdf/2212.13990.pdf)
 - [2022 - RiscyROP: Automated Return-Oriented Programming Attacks on RISC-V and ARM64](https://www.syssec.wiwi.uni-due.de/fileadmin/fileupload/I-SYSSEC/research/RiscyROP.pdf)
 - [2022 - Automatic Permission Check Analysis for Linux Kernel](https://www.computer.org/csdl/journal/tq/5555/01/09750908/1ClSWBlV5ao)
@@ -585,6 +597,8 @@ Unread papers categorized by a common main theme.
 
 ### Misc
 
+- [2023 - ARMore: Pushing Love Back Into Binaries](https://nebelwelt.net/files/23SEC3.pdf)
+- [2023 - gMutant: A gCov based Mutation Testing Analyser](https://dl.acm.org/doi/abs/10.1145/3578527.3578546)
 - [2022 - GRIN: Make Rewriting More Precise](https://dl.acm.org/doi/fullHtml/10.1145/3523181.3523207)
 - [2022 - CFINSIGHT: A Comprehensive Metric for CFI Policies](https://www.ndss-symposium.org/wp-content/uploads/2022-165-paper.pdf)
 - [2022 - Odin: On-Demand Instrumentation with On-the-Fly Recompilation](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/odin-final.pdf)
