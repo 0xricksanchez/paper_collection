@@ -599,6 +599,7 @@ Unread papers categorized by a common main theme.
 
 - [2023 - ARMore: Pushing Love Back Into Binaries](https://nebelwelt.net/files/23SEC3.pdf)
 - [2023 - gMutant: A gCov based Mutation Testing Analyser](https://dl.acm.org/doi/abs/10.1145/3578527.3578546)
+- [2022 - Auto Off-Target: Enabling Thorough and Scalable Testing for Complex Software Systems](https://dl.acm.org/doi/pdf/10.1145/3551349.3556915)
 - [2022 - GRIN: Make Rewriting More Precise](https://dl.acm.org/doi/fullHtml/10.1145/3523181.3523207)
 - [2022 - CFINSIGHT: A Comprehensive Metric for CFI Policies](https://www.ndss-symposium.org/wp-content/uploads/2022-165-paper.pdf)
 - [2022 - Odin: On-Demand Instrumentation with On-the-Fly Recompilation](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/odin-final.pdf)
