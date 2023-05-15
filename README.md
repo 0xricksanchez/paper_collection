@@ -112,6 +112,9 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+- [2023 - Large Language Models are Edge-Case Fuzzers: Testing Deep Learning Libraries via FuzzGPT](https://arxiv.org/pdf/2304.02014.pdf)
+- [2023 - SBFT Tool Competition 2023 - Fuzzing Track](https://arxiv.org/pdf/2304.10070.pdf)
+- [2023 - CarpetFuzz: Automatic Program Option Constraint Extraction from Documentation for Fuzzing](https://www.usenix.org/system/files/sec23fall-prepub-467-wang-dawei.pdf)
 - [2023 - Learning Seed-Adaptive Mutation Strategies for Greybox Fuzzing](http://prl.korea.ac.kr/~pronto/home/papers/icse23-seamfuzz.pdf)
 - [2023 - Directed Greybox Fuzzing with Stepwise Constraint Focusing](https://arxiv.org/pdf/2303.14895.pdf)
 - [2023 - Generation-based fuzzing? Don’t build a new generator, reuse!](https://www.sciencedirect.com/science/article/pii/S0167404823000883)
@@ -416,6 +419,7 @@ Unread papers categorized by a common main theme.
 
 ### Network fuzzing
 
+- [2023 - INTENDER: Fuzzing Intent-Based Networking with Intent-State Transition Guidance](https://www.usenix.org/system/files/sec23fall-prepub-285_kim-jiwon.pdf)
 - [2023 - NSFuzz: Towards Eficient and State-Aware Network Service Fuzzing](https://dl.acm.org/doi/pdf/10.1145/3580598)
 - [2022 - FitM: Binary-Only Coverage-Guided Fuzzing for Stateful Network Protocols](https://www.ndss-symposium.org/wp-content/uploads/bar2022_23008_paper.pdf)
 - [2022 - WThreadAFL:Deterministic Greybox Fuzzing for Multi-threadNetwork Servers](https://conferences.sigcomm.org/events/apnet2022/posters/WThreadAFL.pdf)
@@ -433,6 +437,9 @@ Unread papers categorized by a common main theme.
 
 ### Kernel fuzzing
 
+- [2023 - KextFuzz: Fuzzing macOS Kernel EXTensions on Apple Silicon via Exploiting Mitigations](https://www.usenix.org/system/files/sec23fall-prepub-425-yin-tingting.pdf)
+- [2023 - BoKASAN: Binary-only Kernel Address Sanitizer for Effective Kernel Fuzzing](https://www.usenix.org/system/files/sec23fall-prepub-325-cho-mingi.pdf)
+- [2023 - DDRace: Finding Concurrency UAF Vulnerabilities in Linux Drivers with Directed Fuzzing](https://www.usenix.org/system/files/sec23fall-prepub-193-yuan-ming.pdf)
 - [2023 - Towards Unveiling Exploitation Potential With Multiple Error Behaviors for Kernel Bugs](https://ieeexplore.ieee.org/abstract/document/10048506)
 - [2023 - No Grammar, No Problem: Towards Fuzzing the Linux Kernel without System-Call Descriptions](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f688_paper.pdf)
 - [2022 - PrIntFuzz: fuzzing Linux drivers via automated virtual device simulation](https://dl.acm.org/doi/pdf/10.1145/3533767.3534226)
@@ -464,6 +471,11 @@ Unread papers categorized by a common main theme.
 
 ### Format specific fuzzing
 
+- [2023 - MorFuzz: Fuzzing Processor via Runtime Instruction Morphing enhanced Synchronizable Co-simulation](https://www.usenix.org/system/files/sec23fall-prepub-7-xu-jinyan.pdf)
+- [2023 - EFCF: High Performance Smart Contract Fuzzing for Exploit Generation](https://arxiv.org/pdf/2304.06341.pdf)
+- [2023 - ODDFUZZ: Discovering Java Deserialization Vulnerabilities via Structure-Aware Directed Greybox Fuzzing](https://arxiv.org/pdf/2304.04233.pdf)
+- [2023 - VIDEZZO: Dependency-aware Virtual Device Fuzzing](https://nebelwelt.net/files/23Oakland4.pdf)
+- [2023 - HyPFuzz: Formal-Assisted Processor Fuzzing](https://arxiv.org/pdf/2304.02485.pdf)
 - [2023 - FUZZILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f290_paper.pdf)
 - [2022 - SFuzz: Slice-based Fuzzing for Real-Time Operating Systems](https://dl.acm.org/doi/abs/10.1145/3548606.3559367)
 - [2022 - LFUZZ: Exploiting Locality for File-system Fuzzing](https://www.cs.fsu.edu/files/reports/TR220922.pdf)
@@ -486,6 +498,7 @@ Unread papers categorized by a common main theme.
 
 ### Exploitation
 
+- [2023 - Automated Exploitable Heap Layout Generation for Heap Overflows Through Manipulation Distance-Guided Fuzzing](https://www.usenix.org/system/files/sec23fall-prepub-581-zhang-bin.pdf)
 - [2023 - The Most Dangerous Codec in the World: Finding and Exploiting Vulnerabilities in H.264 Decoders](https://wrv.github.io/h26forge.pdf)
 - [2023 - Detecting Exploit Primitives Automatically for Heap Vulnerabilities on Binary Programs](https://arxiv.org/pdf/2212.13990.pdf)
 - [2022 - RiscyROP: Automated Return-Oriented Programming Attacks on RISC-V and ARM64](https://www.syssec.wiwi.uni-due.de/fileadmin/fileupload/I-SYSSEC/research/RiscyROP.pdf)
@@ -495,7 +508,7 @@ Unread papers categorized by a common main theme.
 - [2022 - KASPER: Scanning for Generalized Transient Execution Gadgets in the Linux Kernel](https://download.vusec.net/papers/kasper_ndss22.pdf)
 - [2022 - MaMaDroid 2.0 - The Holes of control flow graphs](https://arxiv.org/pdf/2202.13922.pdf)
 - [2022 -ShadowHeap: Memory Safety through Efficient Heap Metadata Validation](https://isyou.info/jowua/papers/jowua-v12n4-1.pdf)
-- [2022 - MACH2: System for Root Cause Analysis of Kernel Vulnerabilities [THESIS]](https://smartech.gatech.edu/bitstream/handle/1853/66274/DESAI-UNDERGRADUATERESEARCHOPTIONTHESIS-2021.pdf?sequence=1)
+- [2022 - MACH2: System for Root Cause Analysis of Kernel Vulnerabilities [THESIS]](<https://smartech.gatech.edu/bitstream/handle/1853/66274/DESAI-UNDERGRADUATERESEARCHOPTIONTHESIS-2021.pdf?sequence=1>)
 - [2021 - Automated Bug Hunting With Data-Driven Symbolic Root Cause Analysis](https://dl.acm.org/doi/abs/10.1145/3460120.3485363)
 - [2021 - MAJORCA: Multi-Architecture JOP and ROP Chain Assembler](https://arxiv.org/pdf/2111.05781.pdf)
 - [2021 - A Novel Method for the Automatic Generation of JOP Chain Exploits](https://link.springer.com/chapter/10.1007/978-3-030-84614-5_7)
@@ -597,6 +610,7 @@ Unread papers categorized by a common main theme.
 
 ### Misc
 
+- [2023 - MTSan: A Feasible and Practical Memory Sanitizer for Fuzzing COTS Binaries](https://www.usenix.org/system/files/sec23fall-prepub-279-chen-xingman.pdf)
 - [2023 - ARMore: Pushing Love Back Into Binaries](https://nebelwelt.net/files/23SEC3.pdf)
 - [2023 - gMutant: A gCov based Mutation Testing Analyser](https://dl.acm.org/doi/abs/10.1145/3578527.3578546)
 - [2022 - Auto Off-Target: Enabling Thorough and Scalable Testing for Complex Software Systems](https://dl.acm.org/doi/pdf/10.1145/3551349.3556915)
@@ -659,6 +673,8 @@ Unread papers categorized by a common main theme.
 
 ### Surveys, SoKs, and Studies
 
+- [2023 - Fuzzing the Latest NTFS in Linux with Papora: An Empirical Study](https://arxiv.org/pdf/2304.07166.pdf)
+- [2023 - Fuzzing REST APIs for Bugs: An Empirical Analysis](https://link.springer.com/chapter/10.1007/978-981-19-7513-4_28)
 - [2023 - Automated Binary Analysis: A Survey](https://link.springer.com/chapter/10.1007/978-3-031-22677-9_21)
 - [2023 - Fuzzers for stateful systems: Survey and Research Directions](https://arxiv.org/pdf/2301.02490.pdf)
 - [2022 - Detecting Vulnerability on IoT Device Firmware: A Survey](https://www.ieee-jas.net/en/article/id/e04bfa93-5629-4069-859b-35ecf4dc503b)
