@@ -112,6 +112,19 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+- [2023 - SymRustC: A Hybrid Fuzzer for Rust](https://dl.acm.org/doi/abs/10.1145/3597926.3604927)
+- [2023 - Finch: Fuzzing with Quantitative and Adaptive Hot-Bytes Identification](https://arxiv.org/pdf/2307.02289.pdf)
+- [2023 - HyperGo: Probability-based Directed Hybrid Fuzzing](https://arxiv.org/pdf/2307.07815.pdf)
+- [2023 - CrabSandwich: Fuzzing Rust with Rust](https://dl.acm.org/doi/abs/10.1145/3605157.3605176)
+- [2023 - InFuzz: An Interactive Tool for Enhancing Efficiency in Fuzzing through Visual Bottleneck Analysis](https://dl.acm.org/doi/abs/10.1145/3605157.3605847)
+- [2023 - Rare Path Guided Fuzzing∗](https://dl.acm.org/doi/pdf/10.1145/3597926.3598136)
+- [2023 - Guiding Greybox Fuzzing with Mutation Testing](https://dl.acm.org/doi/pdf/10.1145/3597926.3598107)
+- [2023 - FGo: A Directed Grey-box Fuzzer with Probabilistic Exponential cut-the-loss Strategies](https://arxiv.org/pdf/2307.05961.pdf)
+- [2023 - FISHFUZZ: Catch Deeper Bugs by Throwing Larger Nets](https://nebelwelt.net/publications/files/23SEC5.pdf)
+- [2023 - PosFuzz: augmenting greybox fuzzing with effective position distribution](https://link.springer.com/article/10.1186/s42400-023-00143-2)
+- [2023 - Bottleneck Analysis via Grammar-based Performance Fuzzing*](https://ieeexplore.ieee.org/abstract/document/10132229)
+- [2023 - What Happens When We Fuzz? Investigating OSS-Fuzz Bug History](https://arxiv.org/pdf/2305.11433.pdf)
+- [2023 - Toss a Fault to Your Witcher: Applying Grey-box Coverage-Guided Mutational Fuzzing to Detect SQL and Command Injection Vulnerabilities](https://adamdoupe.com/publications/witcher-oakland2023.pdf)
 - [2023 - Large Language Models are Edge-Case Fuzzers: Testing Deep Learning Libraries via FuzzGPT](https://arxiv.org/pdf/2304.02014.pdf)
 - [2023 - SBFT Tool Competition 2023 - Fuzzing Track](https://arxiv.org/pdf/2304.10070.pdf)
 - [2023 - CarpetFuzz: Automatic Program Option Constraint Extraction from Documentation for Fuzzing](https://www.usenix.org/system/files/sec23fall-prepub-467-wang-dawei.pdf)
@@ -347,8 +360,18 @@ Unread papers categorized by a common main theme.
 - [2005 - DART: Directed Automated Random Testing](https://web.eecs.umich.edu/~weimerw/2014-6610/reading/p213-godefroid.pdf)
 - [1994 - Dominators, Super Blocks, and Program Coverage](https://www.sci-hub.ren/10.1145/174675.175935)
 
+### AI/LLM
+
+- [2023 - Understanding Large Language Model Based Fuzz Driver Generation](https://arxiv.org/pdf/2307.12469.pdf)
+- [2023 - Large Language Models for Fuzzing Parsers](https://dl.acm.org/doi/abs/10.1145/3605157.3605173)
+- [2023 - Large Language Models Are Zero-Shot Fuzzers: Fuzzing Deep-Learning Libraries via Large Language Models](https://dl.acm.org/doi/abs/10.1145/3597926.3598067)
+- [2023 - Augmenting Greybox Fuzzing with Generative AI](https://arxiv.org/pdf/2306.06782.pdf)
+- [2023 - Understanding Programs by Exploiting (Fuzzing) Test Cases](https://arxiv.org/pdf/2305.13592.pdf)
+
 ### IoT fuzzing
 
+- [2023 - Fuzzability Testing Framework for Incomplete Firmware Binary](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10189855)
+- [2023 - Fuzzing Embedded Systems Using Debug Interfaces](https://publications.cispa.saarland/3950/1/issta23-gdbfuzz.pdf)
 - [2023 - Icicle: A Re-Designed Emulator for Grey-Box Firmware Fuzzing](https://arxiv.org/pdf/2301.13346.pdf)
 - [2022 - FirmSolo: Enabling dynamic analysis of binary Linux-based IoT kernel modules](https://www.usenix.org/system/files/sec23summer_190-angelakopoulos-prepub.pdf)
 - [2022 - FuzzDocs: An Automated Security Evaluation Framework for IoT](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9895405)
@@ -419,6 +442,7 @@ Unread papers categorized by a common main theme.
 
 ### Network fuzzing
 
+- [2023 NSFuzz: Towards Eficient and State-Aware Network Service Fuzzing - RCR Report](https://dl.acm.org/doi/pdf/10.1145/3580599)
 - [2023 - INTENDER: Fuzzing Intent-Based Networking with Intent-State Transition Guidance](https://www.usenix.org/system/files/sec23fall-prepub-285_kim-jiwon.pdf)
 - [2023 - NSFuzz: Towards Eficient and State-Aware Network Service Fuzzing](https://dl.acm.org/doi/pdf/10.1145/3580598)
 - [2022 - FitM: Binary-Only Coverage-Guided Fuzzing for Stateful Network Protocols](https://www.ndss-symposium.org/wp-content/uploads/bar2022_23008_paper.pdf)
@@ -437,6 +461,9 @@ Unread papers categorized by a common main theme.
 
 ### Kernel fuzzing
 
+- [2023 - WinkFuzz: Model-based Script Synthesis for Fuzzing](https://dl.acm.org/doi/abs/10.1145/3591365.3592946)
+- [2023 - SyzDescribe: Principled, Automated, Static Generation of Syscall Descriptions for Kernel Drivers](https://www.cs.ucr.edu/~zhiyunq/pub/oakland23_syzdescribe.pdf)
+- [2023 - ACTOR: Action-Guided Kernel Fuzzing](https://nebelwelt.net/files/23SEC6.pdf)
 - [2023 - KextFuzz: Fuzzing macOS Kernel EXTensions on Apple Silicon via Exploiting Mitigations](https://www.usenix.org/system/files/sec23fall-prepub-425-yin-tingting.pdf)
 - [2023 - BoKASAN: Binary-only Kernel Address Sanitizer for Effective Kernel Fuzzing](https://www.usenix.org/system/files/sec23fall-prepub-325-cho-mingi.pdf)
 - [2023 - DDRace: Finding Concurrency UAF Vulnerabilities in Linux Drivers with Directed Fuzzing](https://www.usenix.org/system/files/sec23fall-prepub-193-yuan-ming.pdf)
@@ -471,6 +498,9 @@ Unread papers categorized by a common main theme.
 
 ### Format specific fuzzing
 
+- [2023 - Android Fuzzing: Balancing User-Inputs and Intents](https://ieeexplore.ieee.org/abstract/document/10132258)
+- [2023 - ItyFuzz: Snapshot-Based Fuzzer for Smart Contract](https://arxiv.org/pdf/2306.17135.pdf)
+- [2023 - BRF: eBPF Runtime Fuzzer](https://arxiv.org/pdf/2305.08782.pdf)
 - [2023 - MorFuzz: Fuzzing Processor via Runtime Instruction Morphing enhanced Synchronizable Co-simulation](https://www.usenix.org/system/files/sec23fall-prepub-7-xu-jinyan.pdf)
 - [2023 - EFCF: High Performance Smart Contract Fuzzing for Exploit Generation](https://arxiv.org/pdf/2304.06341.pdf)
 - [2023 - ODDFUZZ: Discovering Java Deserialization Vulnerabilities via Structure-Aware Directed Greybox Fuzzing](https://arxiv.org/pdf/2304.04233.pdf)
@@ -673,6 +703,8 @@ Unread papers categorized by a common main theme.
 
 ### Surveys, SoKs, and Studies
 
+- [2023 - ASanity: On Bug Shadowing by Early ASan Exits](https://wootconference.org/papers/woot23-paper34.pdf)
+- [2023 - A Case Study on Fuzzing Satellite Firmware](https://www.ndss-symposium.org/wp-content/uploads/2023/06/spacesec2023-230707-paper.pdf)
 - [2023 - Fuzzing the Latest NTFS in Linux with Papora: An Empirical Study](https://arxiv.org/pdf/2304.07166.pdf)
 - [2023 - Fuzzing REST APIs for Bugs: An Empirical Analysis](https://link.springer.com/chapter/10.1007/978-981-19-7513-4_28)
 - [2023 - Automated Binary Analysis: A Survey](https://link.springer.com/chapter/10.1007/978-3-031-22677-9_21)
