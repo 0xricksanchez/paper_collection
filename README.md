@@ -130,6 +130,16 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+* [2023 - SYNTONY: Potential-Aware Fuzzing with Particle Swarm Optimization](https://www.sciencedirect.com/science/article/abs/pii/S0164121223002753)
+* [2023 - Triereme: Speeding up hybrid fuzzing through efficient query scheduling](https://goto.ucsd.edu/~gleissen/papers/triereme.pdf)
+* [2023 - Hybrid Testing: Combining Static Analysis and Directed Fuzzing](https://dspace.mit.edu/handle/1721.1/151679)
+* [2023 - Titan : Efficient Multi-target Directed Greybox Fuzzing](https://5hadowblad3.github.io/files/Oakland24-Titan.pdf)
+* [2023 - SpecFuzzer: A Tool for Inferring Class Specifications via Grammar-based Fuzzing](https://facumolina.github.io/files/specfuzzer-tooldemo-ase2023.pdf)
+* [2023 - Hopper: Interpretative Fuzzing for Libraries](https://arxiv.org/pdf/2309.03496.pdf)
+* [2023 - Enhancing Coverage-Guided Fuzzing via Phantom Program](https://shadowmydx.github.io/papers/fse2023a.pdf)
+* [2023 - Hyperfuzzing: black-box security hypertesting with a grey-box fuzzer](https://arxiv.org/pdf/2308.09081.pdf)
+* [2023 - SHAPFUZZ: Efficient Fuzzing via Shapley-Guided Byte Selection](https://arxiv.org/pdf/2308.09239.pdf)
+* [2023 - PSOFuzz - Fuzzing Processors with Particle Swarm Optimization](https://arxiv.org/pdf/2307.14480.pdf)
 * [2023 - SymRustC: A Hybrid Fuzzer for Rust](https://dl.acm.org/doi/abs/10.1145/3597926.3604927)
 * [2023 - Finch: Fuzzing with Quantitative and Adaptive Hot-Bytes Identification](https://arxiv.org/pdf/2307.02289.pdf)
 * [2023 - HyperGo: Probability-based Directed Hybrid Fuzzing](https://arxiv.org/pdf/2307.07815.pdf)
@@ -378,8 +388,19 @@ Unread papers categorized by a common main theme.
 * [2005 - DART: Directed Automated Random Testing](https://web.eecs.umich.edu/~weimerw/2014-6610/reading/p213-godefroid.pdf)
 * [1994 - Dominators, Super Blocks, and Program Coverage](https://www.sci-hub.ren/10.1145/174675.175935)
 
+### Harnessing
+
+* [2023 - AFGen: Whole-Function Fuzzing for Applications and Libraries](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a011/1RjE9PjiDss)
+* [2023 - NaNofuzz: A Usable Tool for Automatic Test Generation](https://cmumatt.github.io/assets/NaNofuzz_2023.pdf)
+
 ### AI/LLM
 
+* [2023 - LLM-Based Code Generation Method for Golang Compiler Testing](https://guqiuhan.github.io/publication/conference-paper/conference-paper.pdf)
+* [2023 - Large Language Model guided Protocol Fuzzing](https://mpi-softsec.github.io/papers/NDSS24-chatafl.pdf)
+* [2023 - AI-assisted Vulnerability Analysis And Classification Framework for UDS on CAN-bus Fuzzer](https://www.researchgate.net/profile/Golam-Kayas/publication/374415112_AI-assisted_Vulnerability_Analysis_And_Classification_Framework_for_UDS_on_CAN-bus_Fuzzer/links/651c6261b0df2f20a20ae412/AI-assisted-Vulnerability-Analysis-And-Classification-Framework-for-UDS-on-CAN-bus-Fuzzer.pdf)
+* [2023 - GPTFUZZER: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts](https://arxiv.org/pdf/2309.10253.pdf)
+* [2023 - FUZZLLM: A NOVEL AND UNIVERSAL FUZZING FRAMEWORK FOR PROACTIVELY DISCOVERING JAILBREAK VULNERABILITIES IN LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2309.05274.pdf)
+* [2023 - Universal Fuzzing via Large Language Models](https://arxiv.org/pdf/2308.04748.pdf)
 * [2023 - Understanding Large Language Model Based Fuzz Driver Generation](https://arxiv.org/pdf/2307.12469.pdf)
 * [2023 - Large Language Models for Fuzzing Parsers](https://dl.acm.org/doi/abs/10.1145/3605157.3605173)
 * [2023 - Large Language Models Are Zero-Shot Fuzzers: Fuzzing Deep-Learning Libraries via Large Language Models](https://dl.acm.org/doi/abs/10.1145/3597926.3598067)
@@ -546,6 +567,7 @@ Unread papers categorized by a common main theme.
 
 ### Exploitation
 
+* [2023 - Enhanced Memory Corruption Detection in C/C++ Programs](https://dl.acm.org/doi/abs/10.1145/3605731.3605903)
 * [2023 - Automated Exploitable Heap Layout Generation for Heap Overflows Through Manipulation Distance-Guided Fuzzing](https://www.usenix.org/system/files/sec23fall-prepub-581-zhang-bin.pdf)
 * [2023 - The Most Dangerous Codec in the World: Finding and Exploiting Vulnerabilities in H.264 Decoders](https://wrv.github.io/h26forge.pdf)
 * [2023 - Detecting Exploit Primitives Automatically for Heap Vulnerabilities on Binary Programs](https://arxiv.org/pdf/2212.13990.pdf)
@@ -721,6 +743,10 @@ Unread papers categorized by a common main theme.
 
 ### Surveys, SoKs, and Studies
 
+* [2023 - An Empirical Study on AST-level mutation-based fuzzing techniques for JavaScript Engines](https://dl.acm.org/doi/abs/10.1145/3609437.3609440)
+* [2023 - Software Bug Detection: Challenges and Synergies](https://drops.dagstuhl.de/opus/volltexte/2023/19230/pdf/dagrep_v013_i003_p092_23131.pdf)
+* [2023 - Demystify the Fuzzing Methods: A Comprehensive Survey](https://dl.acm.org/doi/abs/10.1145/3623375)
+* [2023 - The Human Side of Fuzzing: Challenges Faced by Developers During Fuzzing Activities](https://posl.ait.kyushu-u.ac.jp/~kamei/publications/Nourry_TOSEM2023.pdf)
 * [2023 - ASanity: On Bug Shadowing by Early ASan Exits](https://wootconference.org/papers/woot23-paper34.pdf)
 * [2023 - A Case Study on Fuzzing Satellite Firmware](https://www.ndss-symposium.org/wp-content/uploads/2023/06/spacesec2023-230707-paper.pdf)
 * [2023 - Fuzzing the Latest NTFS in Linux with Papora: An Empirical Study](https://arxiv.org/pdf/2304.07166.pdf)
