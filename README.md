@@ -479,7 +479,7 @@ Unread papers categorized by a common main theme.
 - [2020 - Verification of Embedded Binaries using Coverage-guided Fuzzing with System C-based Virtual Prototypes](http://www.informatik.uni-bremen.de/agra/doc/konf/2020GLSVLSI_Verification-of-Embedded-Binaries-using-Coverage-guided-Fuzzing-with-SystemC-Virtual-Prototypes.pdf)
 - [2020 - DICE: Automatic Emulation of DMA Input Channels for Dynamic Firmware Analysis](https://arxiv.org/pdf/2007.01502.pdf)
 - [2020 - Fw‐fuzz: A code coverage‐guided fuzzing framework for network protocols on firmware](https://onlinelibrary.wiley.com/doi/full/10.1002/cpe.5756)
-- [2020 - Taint-Driven Firmware Fuzzing of Embedded Systems](https://melisasavich.io/pubs/thesis.pdf)
+- [2020 - Taint-Driven Firmware Fuzzing of Embedded Systems](https://melisasavich.com/pubs/taint-driven-firmware-fuzzing-embedded-systems-thesis.pdf)
 - [2020 - A Dynamic Instrumentation Technology for IoT Devices](https://link.springer.com/chapter/10.1007/978-3-030-50399-4_29)
 - [2020 - Vulcan: a state-aware fuzzing tool for wear OS ecosystem](https://dl.acm.org/doi/abs/10.1145/3386901.3397492)
 - [2020 - A Novel Concolic Execution Approach on Embedded Device](https://dl.acm.org/doi/abs/10.1145/3377644.3377654)
