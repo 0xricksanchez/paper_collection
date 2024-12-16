@@ -130,6 +130,25 @@ Unread papers categorized by a common main theme.
 
 ### General fuzzing implementations
 
+- [2025 - Invivo Fuzzing by Amplifying Actual Executions](https://mpi-softsec.github.io/papers/ICSE25-invivo.pdf)
+- [2025 - QMSan: Efficiently Detecting Uninitialized Memory Errors During Fuzzing](http://nebelwelt.net/files/25NDSS3.pdf)
+- [2024 - Logos: Log Guided Fuzzing for Protocol Implementations](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/paper_from_24/Logos_issta24.pdf)
+- [2024 - DDGF: Dynamic Directed Greybox Fuzzing with Path Profiling](https://dl.acm.org/doi/abs/10.1145/3650212.3680324)
+- [2024 - Sleuth: A Switchable Dual-Mode Fuzzer to Investigate Bug Impacts Following a Single PoC](https://dl.acm.org/doi/pdf/10.1145/3650212.3680316)
+- [2024 - Tumbling Down the Rabbit Hole: How do Assisting Exploration Strategies Facilitate Grey-box Fuzzing?](https://arxiv.org/pdf/2409.14541)
+- [2024 - Modularizing Directed Greybox Fuzzing for Binaries over Multiple CPU Architectures](https://link.springer.com/chapter/10.1007/978-3-031-64171-8_5)
+- [2024 - LOOL: Low-Overhead, Optimization-Log-Guided Compiler Fuzzing](https://dl.acm.org/doi/pdf/10.1145/3678722.3685533)
+- [2024 - Visualization Task Taxonomy to Understand the Fuzzing Internals](https://dl.acm.org/doi/pdf/10.1145/3678722.3685530)
+- [2024 - Directed or Undirected: Investigating Fuzzing Strategies in a CI/CD Setup](https://dl.acm.org/doi/abs/10.1145/3678722.3685532)
+- [2024 - ZigZagFuzz: Interleaved Fuzzing of Program Options and Files](https://swtv.kaist.ac.kr/publications/2024_TOSEM_ZigZagFuzz_final_camera_ready.pdf)
+- [2024 - Tango: Extracting Higher-Order Feedback through State Inference](http://nebelwelt.net/files/24RAID.pdf)
+- [2024 - Directed Fuzzing Based on Bottleneck Detection](https://dl.acm.org/doi/abs/10.1145/3670105.3670111)
+- [2024 - Look Ma, No Input Samples! Mining Input Grammars from Code with Symbolic Parsing](https://dl.acm.org/doi/abs/10.1145/3663529.3663790)
+- [2024 - HuntFUZZ: Enhancing Error Handling Testing through Clustering Based Fuzzing](https://arxiv.org/pdf/2407.04297)
+- [2024 - AIMFuzz: Automated Function-Level In-Memory Fuzzing on Binaries](https://dl.acm.org/doi/abs/10.1145/3634737.3644996)
+- [2024 - Data Coverage for Guided Fuzzing](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/paper_from_24/Data_Security24.pdf)
+- [2024 - Fuzzing at Scale: The Untold Story of the Scheduler](https://arxiv.org/pdf/2406.18058)
+- [2024 - FOX: Coverage-guided Fuzzing as Online Stochastic Control](https://arxiv.org/abs/2406.04517)
 - [2024 - Fuzzing-based grammar learning from a minimal set of seed inputs](https://www.sciencedirect.com/science/article/abs/pii/S259011842300062X)
 - [2024 - LinFuzz: Program-Sensitive Seed Scheduling Greybox Fuzzing Based on LinUCB Algorithm](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10538260)
 - [2024 - Graphuzz: Data-driven Seed Scheduling for Coverage-guided Greybox Fuzzing](https://dl.acm.org/doi/pdf/10.1145/3664603)
@@ -396,7 +415,7 @@ Unread papers categorized by a common main theme.
 - [2008 - Fuzzing Wi-Fi Drivers to Locate Security Vulnerabilities](https://www.di.fc.ul.pt/~nuno/PAPERS/EDCC08.pdf)
 - [2008 - KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs](https://hci.stanford.edu/cstr/reports/2008-03.pdf)
 - [2008 - Automated Whitebox Fuzz Testing](https://patricegodefroid.github.io/public_psfiles/ndss2008.pdf)
-- [2005 - DART: Directed Automated Random Testing](https://web.eecs.umich.edu/~weimerw/2014-6610/reading/p213-godefroid.pdf)
+- [2005 - DART: Directed Automated Random Testing](https://web.eecs.umich.edu/~weimerw/2014-6610/reading/p213-godefroid.pdf)(https://www.computer.org/csdl/proceedings-article/icse/2025/056900a508/215aWTZ8XRe)
 - [1994 - Dominators, Super Blocks, and Program Coverage](https://www.sci-hub.ren/10.1145/174675.175935)
 
 ### Harnessing
@@ -406,6 +425,22 @@ Unread papers categorized by a common main theme.
 
 ### AI/LLM
 
+- [2024 - Fixing Security Vulnerabilities with AI in OSS-Fuzz](https://arxiv.org/pdf/2411.03346)
+- [2024 - ChatHTTPFuzz: Large Language Model-Assisted IoT HTTP Fuzzing](https://arxiv.org/pdf/2411.11929)
+- [2024 - Harnessing Large Language Models for Seed Generation in Greybox Fuzzing](https://arxiv.org/pdf/2411.18143)
+- [2024 - Magneto: A Step-Wise Approach to Exploit Vulnerabilities in Dependent Libraries via LLM-Empowered Directed Fuzzing](https://dl.acm.org/doi/abs/10.1145/3691620.3695531)
+- [2024 - Fuzzing BusyBox: Leveraging LLM and Crash Reuse for Embedded Bug Unearthing](https://www.usenix.org/system/files/usenixsecurity24-asmita.pdf)
+- [2024 - My Fuzzers Won’t Build: An Empirical Study of Fuzzing Build Failures](https://dl.acm.org/doi/abs/10.1145/3688842)
+- [2024 - ECG: Augmenting Embedded Operating System Fuzzing via LLM-based Corpus Generation](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/paper_from_24/ECG_EMSOFT24.pdf)
+- [2024 - FUZZCODER: Byte-level Fuzzing Test via Large Language Mode](https://arxiv.org/pdf/2409.01944)
+- [2024 - ProphetFuzz: Fully Automated Prediction and Fuzzing of High-Risk Option Combinations with Only Documentation via Large Language Model](https://arxiv.org/pdf/2409.00922)
+- [2024 - Is “AI” Useful for Fuzzing? (Keynote)](https://dl.acm.org/doi/abs/10.1145/3678722.3695731)
+- [2024 - Initial Seeds Generation Using LLM for IoT Device Fuzzing](https://ieeexplore.ieee.org/abstract/document/10710191)
+- [2024 - Your Fix Is My Exploit: Enabling Comprehensive DL Library API Fuzzing with Large Language Models](https://www.computer.org/csdl/proceedings-article/icse/2025/056900a508/215aWTZ8XRe)
+- [2024 - WhiteFox: White-Box Compiler Fuzzing Empowered by Large Language Models](https://yangchenyuan.github.io/files/OOPSLA24-WhiteFox.pdf)
+- [2024 - The Mutators Reloaded: Fuzzing Compilers with Large Language Model Generated Mutation Operators](https://connglli.github.io/pdfs/metamut_asplos24.pdf)
+- [2024 - A Coverage-Guided Fuzzing Method for Automatic Software Vulnerability Detection Using Reinforcement Learning-Enabled Multi-Level Input Mutation](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10580893)
+- [2024 - LLAMAFUZZ: Large Language Model Enhanced Greybox Fuzzing](https://arxiv.org/abs/2406.07714)
 - [2024 - Survey on Large Language Model (LLM) Security and Privacy: The Good, the Bad, and the Ugly](https://arxiv.org/pdf/2312.02003)
 - [2024 - Generative AI and Large Language Models for Cyber Security: All Insights You Need](https://arxiv.org/pdf/2405.12750)
 - [2024 - Large Language Model guided Protocol Fuzzing](https://www.ndss-symposium.org/wp-content/uploads/2024-556-paper.pdf)
@@ -432,6 +467,12 @@ Unread papers categorized by a common main theme.
 
 ### IoT fuzzing
 
+- [2024 - Parallel Fuzzing of IoT Messaging Protocols through Collaborative Packet Generation](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/paper_from_24/MPFuzz_EMSOFT24.pdf)
+- [2024 - TWFuzz: Fuzzing Embedded Systems with Three Wires](https://dl.acm.org/doi/abs/10.1145/3652032.3657568)
+- [2024 - IoTFuzzSentry: Hunting Bugs In The IoT Wilderness In Operational Phase Using Payload Fuzzing](https://dl.acm.org/doi/abs/10.1145/3626232.3658642)
+- [2024 - TAIFuzz: taint analysis instrumentation-based firmware fuzzing system](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13181/131814D/TAIFuzz-taint-analysis-instrumentation-based-firmware-fuzzing-system/10.1117/12.3031105.full)
+- [2024 - RIoTFuzzer: Companion App Assisted Remote Fuzzing for Detecting Vulnerabilities in IoT Devices](https://cse.seu.edu.cn/_upload/article/files/4e/cb/457914eb4249b778299c9d33acdd/2b22fda2-e00c-441a-b7a6-e61c0d12de57.pdf)
+- [2024 - FIRMRCA: Towards Post-Fuzzing Analysis on ARM Embedded Firmware with Efficient Event-based Fault Localization](https://arxiv.org/pdf/2410.18483)
 - [2024 - MSLFuzzer: black-box fuzzing of SOHO router devices via message segment list inference](https://cybersecurity.springeropen.com/articles/10.1186/s42400-023-00186-5)
 - [2024 - MULTIFUZZ: A Multi-Stream Fuzzer For Testing Monolithic Firmware](https://www.usenix.org/system/files/sec24summer-prepub-805-chesser.pdf)
 - [2023 - KVFL: Key-Value-Based Persistent Fuzzing for IoT Web Servers](https://academic.oup.com/comjnl/advance-article-abstract/doi/10.1093/comjnl/bxad110/7456153?login=false)
@@ -495,6 +536,7 @@ Unread papers categorized by a common main theme.
 
 ### Firmware Emulation
 
+- [2024 - SyncEmu: Enabling Dynamic Analysis of Stateful Trusted Applications](https://ieeexplore.ieee.org/abstract/document/10628764)
 - [2022 - What You See is Not What You Get: Revealing Hidden Memory Mapping for Peripheral Modeling](https://web.cse.ohio-state.edu/~lin.3021/file/RAID22.pdf)
 - [2022 - What Your Firmware Tells You Is Not How You Should Emulate It: A Specification-Guided Approach for Firmware Emulation (Extended Version)](https://arxiv.org/pdf/2208.07833.pdf)
 - [2022 - BEERR: Bench of Embedded system Experiments for Reproducible Research](https://www.s3.eurecom.fr/docs/silm22_olivier.pdf)
@@ -508,6 +550,11 @@ Unread papers categorized by a common main theme.
 
 ### Network fuzzing
 
+- [2024 - Stateful protocol fuzzing with statemap-based reverse state selection](https://arxiv.org/pdf/2408.06844)
+- [2024 - No Peer, no Cry: Network Application Fuzzing via Fault Injection](https://mschloegel.me/paper/bars2024fuzztructionnet.pdf)
+- [2024 - Stateful protocol fuzzing with statemap-based reverse state selection](https://arxiv.org/pdf/2408.06844)
+
+- [2024 - Gudifu: Guided Differential Fuzzing for HTTP Request Parsing Discrepancies](https://www.onarlioglu.com/publications/raid2024gudifu.pdf)
 - [2024 - Netfuzzlib: Adding First-Class Fuzzing Support to Network Protocol Implementations](https://papers.mathyvanhoef.com/esorics2024.pdf)
 - [2023 - NSFuzz: Towards Eficient and State-Aware Network Service Fuzzing - RCR Report](https://dl.acm.org/doi/pdf/10.1145/3580599)
 - [2023 - INTENDER: Fuzzing Intent-Based Networking with Intent-State Transition Guidance](https://www.usenix.org/system/files/sec23fall-prepub-285_kim-jiwon.pdf)
@@ -528,6 +575,12 @@ Unread papers categorized by a common main theme.
 
 ### Kernel fuzzing
 
+- [2024 - OZZ: Identifying Kernel Out-of-Order Concurrency Bugs with In-Vivo Memory Access Reordering](https://gts3.org/assets/papers/2024/jeong:ozz.pdf)
+- [2024 - SyzLego: Enhancing Kernel Directed Greybox Fuzzing via Dependency Inference and Scheduling](https://link.springer.com/chapter/10.1007/978-3-031-75757-0_9)
+- [2024 - A Little Goes a Long Way: Tuning Configuration Selection for Continuous Kernel Fuzzing](https://paulgazzillo.com/papers/icse25.pdf)
+- [2024 - CountDown: Refcount-guided Fuzzing for Exposing Temporal Memory Errors in Linux Kernel](https://huhong789.github.io/papers/bai:countdown.pdf)
+
+- [2024 - Approaches to determining the attack surface for fuzzing the Linux kernel](https://www.e3s-conferences.org/articles/e3sconf/pdf/2024/61/e3sconf_uesf2024_03005.pdf)
 - [2024 - SyzGen++: Dependency Inference for Augmenting Kernel Driver Fuzzing](https://www.cs.ucr.edu/~zhiyunq/pub/oakland24_syzgenplusplus.pdf)
 - [2024 - SyzRetrospector: A Large-Scale Retrospective Study of Syzbot](https://arxiv.org/pdf/2401.11642)
 - [2024 - SyzRisk: A Change-Pattern-Based Continuous Kernel Regression Fuzzer](http://nebelwelt.net/files/24AsiaCCS.pdf)
@@ -572,6 +625,15 @@ Unread papers categorized by a common main theme.
 
 ### Format specific fuzzing
 
+- [2025 - DUMPLING: Fine-grained Differential JavaScript Engine Fuzzing](http://nebelwelt.net/files/25NDSS2.pdf)
+- [2024 - SQLPass: A Semantic Effective Fuzzing Method for DBMS](https://ieeexplore.ieee.org/abstract/document/10633453)
+- [2024 - Atlas: Automating Cross-Language Fuzzing on Android Closed-Source Libraries](https://dl.acm.org/doi/abs/10.1145/3650212.3652133)
+- [2024 - Tacoma: Enhanced Browser Fuzzing with Fine-Grained Semantic Alignment](https://dl.acm.org/doi/abs/10.1145/3650212.3680351)
+- [2024 - Applying Fuzz Driver Generation to Native C/C++ Libraries of OEM Android Framework: Obstacles and Solutions](https://yuanxzhang.github.io/paper/fuzzgen++-ase24industry.pdf)
+- [2024 - CrossFire: Fuzzing macOS Cross-XPU Memory on Apple Silicon](https://dl.acm.org/doi/abs/10.1145/3658644.3690376)
+- [2024 - BArcherFuzzer: An Android System Services Fuzzier via Transaction Dependencies of BpBinder](https://cdn.techscience.cn/files/iasc/2024/TSP_IASC-39-3/TSP_IASC_47509/TSP_IASC_47509.pdf)
+- [2024 - BRF: Fuzzing the eBPF Runtime](https://dl.acm.org/doi/pdf/10.1145/3643778)
+- [2024 - Monarch: A Fuzzing Framework for Distributed File Systems](https://hexhive.epfl.ch/publications/files/24ATC.pdf)
 - [2023 - Android Fuzzing: Balancing User-Inputs and Intents](https://ieeexplore.ieee.org/abstract/document/10132258)
 - [2023 - ItyFuzz: Snapshot-Based Fuzzer for Smart Contract](https://arxiv.org/pdf/2306.17135.pdf)
 - [2023 - BRF: eBPF Runtime Fuzzer](https://arxiv.org/pdf/2305.08782.pdf)
@@ -602,6 +664,8 @@ Unread papers categorized by a common main theme.
 
 ### Exploitation
 
+- [2024 - Revealing the exploitability of heap overflow through PoC analysis](https://link.springer.com/article/10.1186/s42400-024-00244-6)
+- [2024 - Take a Step Further: Understanding Page Spray in Linux Kernel Exploitation](https://arxiv.org/pdf/2406.02624)
 - [2024 - K-LEAK: Towards Automating the Generation of Multi-Step Infoleak Exploits against the Linux Kernel](https://www.cs.ucr.edu/~zhiyunq/pub/ndss24_kleak.pdf)
 - [2023 - Enhanced Memory Corruption Detection in C/C++ Programs](https://dl.acm.org/doi/abs/10.1145/3605731.3605903)
 - [2023 - Automated Exploitable Heap Layout Generation for Heap Overflows Through Manipulation Distance-Guided Fuzzing](https://www.usenix.org/system/files/sec23fall-prepub-581-zhang-bin.pdf)
@@ -680,6 +744,8 @@ Unread papers categorized by a common main theme.
 
 ### Static Binary Analysis
 
+- [2024 - Effectiveness of ChatGPT for Static Analysis: How Far Are We?Effectiveness of ChatGPT for Static Analysis: How Far Are We?](https://dl.acm.org/doi/abs/10.1145/3664646.3664777)
+- [2024 - Bin2Summary: Beyond Function Name Prediction in Stripped Binaries with Functionality-Specific Code Embeddings](https://dl.acm.org/doi/pdf/10.1145/3643729)
 - [2021 - ICALLEE: Recovering Call Graphs for Binaries](https://arxiv.org/pdf/2111.01415.pdf)
 - [2021 - EnBinDiff: Identifying Data-only Patches for Binaries](https://www.computer.org/csdl/journal/tq/5555/01/09645381/1zc6LAcyvHG)
 - [2021 - VIVA: Binary Level Vulnerability Identification via Partial Signature](https://ieeexplore.ieee.org/abstract/document/9425910)
@@ -716,6 +782,9 @@ Unread papers categorized by a common main theme.
 
 ### Misc
 
+- [2024 - Tyche: Making Sense of Property-Based Testing Effectiveness](https://harrisongoldste.in/papers/uist24-tyche.pdf)
+- [2024 - ARVO: Atlas of Reproducible Vulnerabilities for Open Source Software](https://arxiv.org/pdf/2408.02153)
+- [2024 - LeanBin: Harnessing Lifting and Recompilation to Debloat Binaries](https://arxiv.org/pdf/2406.16162)
 - [2024 - Operation Mango: Scalable Discovery of Taint-Style Vulnerabilities in Binary Firmware Services](https://wilgibbs.com/papers/mango_usenix24.pdf)
 - [2024 - A Binary-level Thread Sanitizer or Why Sanitizing on the Binary Level is Hard](https://www.usenix.org/system/files/sec24fall-prepub-921-schilling.pdf)
 - [2023 - MTSan: A Feasible and Practical Memory Sanitizer for Fuzzing COTS Binaries](https://www.usenix.org/system/files/sec23fall-prepub-279-chen-xingman.pdf)
@@ -781,6 +850,11 @@ Unread papers categorized by a common main theme.
 
 ### Surveys, SoKs, and Studies
 
+- [2024 - An Empirical Examination of Fuzzer Mutator Performance](https://www.jonbell.net/preprint/issta24-mutator.pdf)
+- [2024 - An Empirical Study on the Distance Metric in Guiding Directed Grey-box Fuzzing](https://arxiv.org/pdf/2409.12701)
+- [2024 - Exploring the Adoption of Fuzz Testing in Open-Source Software: A Case Study of the Go Community](https://posl.ait.kyushu-u.ac.jp/~kamei/publications/Nourry_ICSME2024.pdf)
+- [2024 - Is Stateful Fuzzing Really Challenging?](https://arxiv.org/pdf/2406.07071)
+- [2024 - Fuzzing Frameworks for Server-side Web Applications: A Survey](https://arxiv.org/abs/2406.03208)
 - [2024 - SoK: Where to Fuzz? Assessing Target Selection Methods in Directed Fuzzing](https://mlsec.org/docs/2024c-asiaccs.pdf)
 - [2024 - A Survey of Protocol Fuzzing](https://arxiv.org/pdf/2401.01568)
 - [2024 - Large Language Models Based Fuzzing Techniques: A Survey](https://arxiv.org/pdf/2402.00350)
