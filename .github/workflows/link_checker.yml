@@ -1,0 +1,90 @@
+name: Link Checker
+
+on:
+  schedule:
+    - cron: "0 0 * * 0" # Run weekly on Sunday at midnight
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Check for existing PR
+        id: check-pr
+        run: |
+          pr_exists=$(gh pr list --json number,headRefName --jq '.[] | select(.headRefName=="update-link-status") | .number')
+          echo "pr_exists=${pr_exists:-false}" >> $GITHUB_OUTPUT
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        if: steps.check-pr.outputs.pr_exists == 'false'
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        if: steps.check-pr.outputs.pr_exists == 'false'
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Check links and collect results
+        if: steps.check-pr.outputs.pr_exists == 'false'
+        id: check
+        run: |
+          python checker.py 2> link_check_results.txt
+          CHANGES_MADE=$?
+
+          if [ $CHANGES_MADE -eq 0 ]; then
+            echo "REPORT<<EOF" >> $GITHUB_ENV
+            echo "## Link Checker Report - $(date +'%Y-%m-%d')" >> $GITHUB_ENV
+            echo "" >> $GITHUB_ENV
+            echo "### Issues Found" >> $GITHUB_ENV
+            echo "\`\`\`" >> $GITHUB_ENV
+            cat link_check_results.txt >> $GITHUB_ENV
+            echo "\`\`\`" >> $GITHUB_ENV
+            echo "" >> $GITHUB_ENV
+            echo "### Legend" >> $GITHUB_ENV
+            echo "- ✓ : Link is accessible and secure" >> $GITHUB_ENV
+            echo "- ⚠ : Link is accessible but has SSL/security issues" >> $GITHUB_ENV
+            echo "- ✗ : Link is not accessible" >> $GITHUB_ENV
+            echo "" >> $GITHUB_ENV
+            echo "### Summary by Issue Type" >> $GITHUB_ENV
+            echo "\`\`\`" >> $GITHUB_ENV
+            echo "Insecure SSL: $(grep -c 'Insecure SSL' link_check_results.txt)" >> $GITHUB_ENV
+            echo "Connection Timeout: $(grep -c 'Timeout' link_check_results.txt)" >> $GITHUB_ENV
+            echo "Connection Refused: $(grep -c 'Connection refused' link_check_results.txt)" >> $GITHUB_ENV
+            echo "DNS Resolution Failed: $(grep -c 'DNS resolution failed' link_check_results.txt)" >> $GITHUB_ENV
+            echo "Connection Errors: $(grep -c 'Connection error' link_check_results.txt)" >> $GITHUB_ENV
+            echo "\`\`\`" >> $GITHUB_ENV
+            echo "EOF" >> $GITHUB_ENV
+            echo "changes_detected=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes_detected=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request
+        if: |
+          steps.check-pr.outputs.pr_exists == 'false' && 
+          steps.check.outputs.changes_detected == 'true'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "docs: update link status indicators"
+          title: "docs: update link status indicators"
+          body: ${{ env.REPORT }}
+          branch: update-link-status
+          base: master
+          delete-branch: true
+          labels: |
+            automated-pr
+            documentation
