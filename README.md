@@ -724,14 +724,14 @@ Unread papers categorized by a common main theme.
 - [2016 - Scalable Graph-based Bug Search for Firmware Images](https://www.cs.ucr.edu/~heng/pubs/genius-ccs16.pdf) ✓
 - [2015 - Cross-Architecture Bug Search in Binary Executables](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7163056) ✓
 - [2015 - SURROGATES: Enabling Near-Real-Time Dynamic Analyses of Embedded Systems](https://www.usenix.org/system/files/conference/woot15/woot15-paper-koscher.pdf) ✓
-- [2015 - From Collision To Exploitation: Unleashing Use-After-Free Vulnerabilities in Linux Kernel](http://repository.root-me.org/Exploitation%20-%20Syst%C3%A8me/Unix/EN%20-%20From%20collision%20to%20exploitation%3A%20Unleashing%20Use-After-Free%20vulnerabilities%20in%20Linux%20Kernel.pdf) ✗
+- [2015 - From Collision To Exploitation: Unleashing Use-After-Free Vulnerabilities in Linux Kernel](http://repository.root-me.org/Exploitation%20-%20Syst%C3%A8me/Unix/EN%20-%20From%20collision%20to%20exploitation%3A%20Unleashing%20Use-After-Free%20vulnerabilities%20in%20Linux%20Kernel.pdf) ✓
 - [2015 - PIE: Parser Identification in Embedded Systems](http://www.s3.eurecom.fr/docs/acsac15_cojocar.pdf) ✓
 - [2014 - ret2dir: Rethinking Kernel Isolation](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-kemerlis.pdf) ✓
 - [2014 - Make It Work, Make It Right, Make It Fast: Building a Platform-Neutral Whole-System Dynamic Binary Analysis Platform](https://dl.acm.org/doi/pdf/10.1145/2610384.2610407?download=true) ✓
 - [2012 - Anatomy of a Remote Kernel Exploit](https://www.cs.dartmouth.edu/~sergey/cs108/2012/Dan-Rosenberg-lecture.pdf) ⚠
 - [2011 - Linux kernel vulnerabilities: state-of-the-art defenses and open problems](https://dl.acm.org/doi/abs/10.1145/2103799.2103805) ✓
 - [2011 - Protecting the Core: Kernel Exploitation Mitigations](http://census.gr/media/bheu-2011-wp.pdf) ✓
-- [2015 - From Collision To Exploitation: Unleashing Use-After-Free Vulnerabilities in Linux Kernel](http://repository.root-me.org/Exploitation%20-%20Syst%C3%A8me/Unix/EN%20-%20From%20collision%20to%20exploitation%3A%20Unleashing%20Use-After-Free%20vulnerabilities%20in%20Linux%20Kernel.pdf) ✗
+- [2015 - From Collision To Exploitation: Unleashing Use-After-Free Vulnerabilities in Linux Kernel](http://repository.root-me.org/Exploitation%20-%20Syst%C3%A8me/Unix/EN%20-%20From%20collision%20to%20exploitation%3A%20Unleashing%20Use-After-Free%20vulnerabilities%20in%20Linux%20Kernel.pdf) ✓
 - [2014 - ret2dir: Rethinking Kernel Isolation](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-kemerlis.pdf) ✓
 - [2012 - Anatomy of a Remote Kernel Exploit](https://www.cs.dartmouth.edu/~sergey/cs108/2012/Dan-Rosenberg-lecture.pdf) ⚠
 - [2012 - A Heap of Trouble: Breaking the Linux Kernel SLOB Allocator](https://vsecurity.com//download/publications/slob-exploitation.pdf) ✗
