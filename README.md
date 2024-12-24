@@ -392,7 +392,7 @@ Unread papers categorized by a common main theme.
 - [2018 - FairFuzz: A Targeted Mutation Strategy for Increasing Greybox Fuzz Testing Coverage](https://www.carolemieux.com/fairfuzz-ase18.pdf) ✓
 - [2018 - Enhancing Memory Error Detection forLarge-Scale Applications and Fuzz Testing](https://lifeasageek.github.io/papers/han:meds.pdf) ✓
 - [2018 - T-Fuzz: fuzzing by program transformation](https://nebelwelt.net/publications/files/18Oakland.pdf) ✓
-- [2017 - Evaluating and improving fault localization](https://www.sci-hub.ren/10.1109/ICSE.2017.62) ✗
+- [2017 - Evaluating and improving fault localization](https://www.sci-hub.se/10.1109/ICSE.2017.62) ✓
 - [2017 - IMF: Inferred Model-based Fuzzer](https://acmccs.github.io/papers/p2345-hanA.pdf) ✓
 - [2017 - Synthesizing Program Input Grammars](https://obastani.github.io/docs/pldi17.pdf) ✓
 - [2017 - Stateful Fuzzing of Wireless Device Drivers in an Emulated Environment](https://pdfs.semanticscholar.org/26b9/97d7a83ce950db6d311ee65c268e756e0794.pdf) ✓
@@ -415,7 +415,7 @@ Unread papers categorized by a common main theme.
 - [2008 - KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs](https://hci.stanford.edu/cstr/reports/2008-03.pdf) ✓
 - [2008 - Automated Whitebox Fuzz Testing](https://patricegodefroid.github.io/public_psfiles/ndss2008.pdf) ✓
 - [2005 - DART: Directed Automated Random Testing](https://web.eecs.umich.edu/~weimerw/2014-6610/reading/p213-godefroid.pdf) ✓
-- [1994 - Dominators, Super Blocks, and Program Coverage](https://www.sci-hub.ren/10.1145/174675.175935) ✗
+- [1994 - Dominators, Super Blocks, and Program Coverage](https://www.sci-hub.se/10.1145/174675.175935) ✓
 
 ### Harnessing
 
@@ -691,7 +691,7 @@ Unread papers categorized by a common main theme.
 - [2020 - Practical Fine-Grained Binary Code Randomization](https://dl.acm.org/doi/abs/10.1145/3427228.3427292) ✓
 - [2020 - Tiny-CFA: Minimalistic Control-Flow Attestation UsingVerified Proofs of Execution](http://sprout.ics.uci.edu/pubs/tiny-cfa.pdf) ✗
 - [2020 - Greybox Automatic Exploit Generation for Heap Overflows in Language Interpreters - PHD THESIS](https://seanhn.files.wordpress.com/2020/11/heelan_phd_thesis.pdf) ✓
-- [2020 - ABCFI: Fast and Lightweight Fine-Grained Hardware-Assisted Control-Flow Integrity](https://www.sci-hub.ren/10.1109/TCAD.2020.3012640) ✗
+- [2020 - ABCFI: Fast and Lightweight Fine-Grained Hardware-Assisted Control-Flow Integrity](https://www.sci-hub.se/10.1109/TCAD.2020.3012640) ✓
 - [2020 - HeapExpo: Pinpointing Promoted Pointers to Prevent Use-After-Free Vulnerabilities](http://moyix.net/~moyix/papers/heapexpo.pdf) ✗
 - [2020 - Localizing Patch Points From One Exploit](https://arxiv.org/pdf/2008.04516.pdf) ✓
 - [2020 - Speculative Dereferencing of Registers: Reviving Foreshadow](https://arxiv.org/pdf/2008.02307.pdf) ✓
@@ -749,7 +749,7 @@ Unread papers categorized by a common main theme.
 - [2021 - Multi-Level Cross-Architecture Binary Code Similarity Metric](https://link.springer.com/article/10.1007/s13369-021-05630-7) ✓
 - [2020 - VulDetector: Detecting Vulnerabilities using Weighted Feature Graph Comparison](https://ieeexplore.ieee.org/abstract/document/9309254) ✓
 - [2020 - DEEPBINDIFF: Learning Program-Wide Code Representations for Binary Diffing](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24311-paper.pdf) ✓
-- [2020 - BinDeep: A Deep Learning Approach to Binary Code Similarity Detection](https://www.sci-hub.ren/10.1016/j.eswa.2020.114348) ✗
+- [2020 - BinDeep: A Deep Learning Approach to Binary Code Similarity Detection](https://www.sci-hub.se/10.1016/j.eswa.2020.114348) ✓
 - [2020 - Revisiting Binary Code Similarity Analysis using Interpretable Feature Engineering and Lessons Learned](https://0xdkay.me/pub/2020/kim-arxiv2020.pdf) ✓
 - [2020 - iDEA: Static Analysis on the Security of Apple Kernel Drivers](http://homes.sice.indiana.edu/luyixing/bib/CCS20-iDEA.pdf) ✓
 - [2020 - HART: Hardware-Assisted Kernel Module Tracing on Arm](https://sci-hub.se/10.1007/978-3-030-58951-6) ✓
@@ -893,4 +893,4 @@ Unread papers categorized by a common main theme.
 - [2020 - A systematic review of fuzzing based on machine learning techniques](https://arxiv.org/pdf/1908.01262.pdf) ✓
 - [2019 - A Survey of Binary Code Similarity](https://arxiv.org/pdf/1909.11424.pdf) ✓
 - [2019 - The Art, Science, and Engineering of Fuzzing: A Survey](https://arxiv.org/pdf/1812.00140.pdf) ✓
-- [2012 - Regression testing minimization, selection and prioritization: a survey](https://www.sci-hub.ren/10.1002/stvr.430) ✗
+- [2012 - Regression testing minimization, selection and prioritization: a survey](https://www.sci-hub.se/10.1002/stvr.430) ✓
