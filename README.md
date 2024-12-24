@@ -552,7 +552,6 @@ Unread papers categorized by a common main theme.
 - [2024 - Stateful protocol fuzzing with statemap-based reverse state selection](https://arxiv.org/pdf/2408.06844) ✓
 - [2024 - No Peer, no Cry: Network Application Fuzzing via Fault Injection](https://mschloegel.me/paper/bars2024fuzztructionnet.pdf) ✓
 - [2024 - Stateful protocol fuzzing with statemap-based reverse state selection](https://arxiv.org/pdf/2408.06844) ✓
-
 - [2024 - Gudifu: Guided Differential Fuzzing for HTTP Request Parsing Discrepancies](https://www.onarlioglu.com/publications/raid2024gudifu.pdf) ✓
 - [2024 - Netfuzzlib: Adding First-Class Fuzzing Support to Network Protocol Implementations](https://papers.mathyvanhoef.com/esorics2024.pdf) ✓
 - [2023 - NSFuzz: Towards Eficient and State-Aware Network Service Fuzzing - RCR Report](https://dl.acm.org/doi/pdf/10.1145/3580599) ✓
@@ -578,7 +577,6 @@ Unread papers categorized by a common main theme.
 - [2024 - SyzLego: Enhancing Kernel Directed Greybox Fuzzing via Dependency Inference and Scheduling](https://link.springer.com/chapter/10.1007/978-3-031-75757-0_9) ✓
 - [2024 - A Little Goes a Long Way: Tuning Configuration Selection for Continuous Kernel Fuzzing](https://paulgazzillo.com/papers/icse25.pdf) ✓
 - [2024 - CountDown: Refcount-guided Fuzzing for Exposing Temporal Memory Errors in Linux Kernel](https://huhong789.github.io/papers/bai:countdown.pdf) ✓
-
 - [2024 - Approaches to determining the attack surface for fuzzing the Linux kernel](https://www.e3s-conferences.org/articles/e3sconf/pdf/2024/61/e3sconf_uesf2024_03005.pdf) ✓
 - [2024 - SyzGen++: Dependency Inference for Augmenting Kernel Driver Fuzzing](https://www.cs.ucr.edu/~zhiyunq/pub/oakland24_syzgenplusplus.pdf) ✓
 - [2024 - SyzRetrospector: A Large-Scale Retrospective Study of Syzbot](https://arxiv.org/pdf/2401.11642) ✓

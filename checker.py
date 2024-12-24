@@ -2,8 +2,11 @@ import concurrent.futures
 import re
 import sys
 from pathlib import Path
+import time
 from urllib.parse import urljoin, urlparse
 
+from collections import defaultdict
+import random
 import requests
 import urllib3
 from bs4 import BeautifulSoup
@@ -15,6 +18,26 @@ INSECURE_SYMBOL = "⚠"
 
 # Silence insecure request warnings
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+
+class RateLimiter:
+    """Simple rate limiter to track and limit requests per domain."""
+
+    def __init__(self, min_delay=2):
+        self.last_request = defaultdict(float)
+        self.min_delay = min_delay
+
+    def wait_if_needed(self, domain):
+        """Wait if we need to respect rate limiting for this domain."""
+        last_time = self.last_request[domain]
+        now = time.time()
+
+        if last_time > 0:
+            elapsed = now - last_time
+            if elapsed < self.min_delay:
+                time.sleep(self.min_delay - elapsed + random.uniform(0.1, 0.5))
+
+        self.last_request[domain] = time.time()
 
 
 def is_valid_url(url):
@@ -67,15 +90,17 @@ def extract_links_with_lines(markdown_file):
     return links
 
 
-def check_link(url):
-    """
-    Check if link is accessible with improved error handling.
+def check_link(url, rate_limiter):
+    """Check if link is accessible with rate limiting.
     Returns tuple: (is_accessible, is_secure, error_message)
     """
     if not is_valid_url(url):
         return False, True, f"Invalid URL format: {url}"
 
     cleaned_url = clean_url(url)
+
+    domain = urlparse(cleaned_url).netloc
+    rate_limiter.wait_if_needed(domain)
 
     try:
         # Custom headers to mimic a browser
@@ -159,7 +184,7 @@ def process_markdown_file(file_path):
     if not links:
         return False
 
-    # Group links by domain to avoid hammering the same server
+    # Group links by domain
     domain_grouped_links = {}
     for link in links:
         domain = get_domain(link["url"])
@@ -167,13 +192,23 @@ def process_markdown_file(file_path):
             domain_grouped_links[domain] = []
         domain_grouped_links[domain].append(link)
 
-    # Check links with delays between domains
+    # Process domains sequentially with rate limiting
+    rate_limiter = RateLimiter(
+        min_delay=3
+    )  # At least 3 seconds between requests to same domain
     url_status = {}
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+
+    # Reduce concurrent workers to be more conservative
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         for domain, domain_links in domain_grouped_links.items():
+            # Process each domain's links with rate limiting
             futures = {
-                executor.submit(check_link, link["url"]): link for link in domain_links
+                executor.submit(check_link, link["url"], rate_limiter): link
+                for link in domain_links
             }
+
+            # Add small delay between different domains
+            time.sleep(1)
 
             for future in concurrent.futures.as_completed(futures):
                 link = futures[future]
@@ -181,9 +216,9 @@ def process_markdown_file(file_path):
                     is_accessible, is_secure, error = future.result()
                     url_status[link["url"]] = (is_accessible, is_secure)
                     if error:
-                        print(f"[WARN] {link['url']}: {error}", file=sys.stderr)
+                        print(f"Warning for {link['url']}: {error}", file=sys.stderr)
                 except Exception as e:
-                    print(f"[ERR] {link['url']}: {str(e)}", file=sys.stderr)
+                    print(f"Error checking {link['url']}: {str(e)}", file=sys.stderr)
                     url_status[link["url"]] = (False, True)
 
     with open(file_path, "r", encoding="utf-8") as f:
