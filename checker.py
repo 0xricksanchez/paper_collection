@@ -108,70 +108,76 @@ def check_link(url, rate_limiter):
             "Connection": "keep-alive",
         }
 
-        # First try HEAD request to check existence
         try:
-            head_response = requests.head(
-                cleaned_url,
-                headers=headers,
-                timeout=15,
-                allow_redirects=True,
-                verify=True,
-            )
-
-            # If it's a PDF or large file, just use HEAD request result
-            content_type = head_response.headers.get("Content-Type", "").lower()
-            if any(t in content_type for t in ["pdf", "octet-stream", "binary"]):
-                return head_response.status_code == 200, True, None
-
-            # For HTML content, proceed with GET request to check content
             response = requests.get(
                 cleaned_url,
                 headers=headers,
                 timeout=15,
                 allow_redirects=True,
                 verify=True,
+                stream=True,  # Use streaming to avoid downloading large files
             )
-            return True, True, None
+
+            content_type = response.headers.get("Content-Type", "").lower()
+
+            if ".pdf" in cleaned_url.lower() and "application/pdf" not in content_type:
+                return False, True, "URL suggests PDF but received non-PDF content"
+
+            if "text/html" in content_type or "application/xhtml" in content_type:
+                content_sample = next(response.iter_content(16384)).decode(
+                    errors="ignore"
+                )
+                soup = BeautifulSoup(content_sample, "html.parser")
+
+                # Check title and body content for 404 indicators
+                error_indicators = [
+                    "404",
+                    "not found",
+                    "error",
+                    "page does not exist",
+                    "page not found",
+                    "does not exist",
+                    "no longer available",
+                ]
+
+                if soup.title and any(
+                    ind in soup.title.string.lower() for ind in error_indicators
+                ):
+                    return False, True, "404 page detected (title)"
+
+                body_text = soup.get_text().lower()
+                if any(ind in body_text for ind in error_indicators):
+                    return False, True, "404 page detected (content)"
+
+                if len(content_sample) < 1000 and (
+                    "404" in body_text or "not found" in body_text
+                ):
+                    return (
+                        False,
+                        True,
+                        "Likely 404 page (short content with error message)",
+                    )
+
+            elif any(t in content_type for t in ["pdf", "octet-stream", "binary"]):
+                content_length = response.headers.get("Content-Length")
+                if (
+                    content_length and int(content_length) < 100
+                ):  # Suspiciously small for a PDF
+                    return False, True, "File too small to be valid"
+
+            return response.status_code == 200, True, None
 
         except requests.exceptions.SSLError:
-            # Try without SSL verification
-            head_response = requests.head(
-                cleaned_url,
-                headers=headers,
-                timeout=15,
-                allow_redirects=True,
-                verify=False,
-            )
-
-            content_type = head_response.headers.get("Content-Type", "").lower()
-            if any(t in content_type for t in ["pdf", "octet-stream", "binary"]):
-                return head_response.status_code == 200, False, "Insecure SSL"
-
+            # Retry without SSL verification
             response = requests.get(
                 cleaned_url,
                 headers=headers,
                 timeout=15,
                 allow_redirects=True,
                 verify=False,
+                stream=True,
             )
             return True, False, "Insecure SSL"
-
-        # Only parse HTML content
-        if "text/html" in response.headers.get("Content-Type", "").lower():
-            try:
-                soup = BeautifulSoup(
-                    response.text, "html.parser", from_encoding=response.encoding
-                )
-                if soup.title and any(
-                    err in soup.title.string.lower()
-                    for err in ["404", "not found", "error", "page does not exist"]
-                ):
-                    return False, True, "404 or error page detected"
-            except Exception:
-                # If HTML parsing fails, just check status code
-                pass
-
-        return response.status_code == 200, True, None
 
     except requests.exceptions.Timeout:
         return False, True, "Timeout"
@@ -312,3 +318,7 @@ def main():
             print(f"Updated links in: {md_file}")
 
     sys.exit(0 if changes_made else 1)
+
+
+if __name__ == "__main__":
+    main()
