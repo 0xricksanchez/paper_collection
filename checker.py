@@ -1,12 +1,12 @@
 import concurrent.futures
+import random
 import re
 import sys
-from pathlib import Path
 import time
+from collections import defaultdict
+from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
-from collections import defaultdict
-import random
 import requests
 import urllib3
 from bs4 import BeautifulSoup
@@ -91,19 +91,15 @@ def extract_links_with_lines(markdown_file):
 
 
 def check_link(url, rate_limiter):
-    """Check if link is accessible with rate limiting.
-    Returns tuple: (is_accessible, is_secure, error_message)
-    """
+    """Check if link is accessible with rate limiting."""
     if not is_valid_url(url):
         return False, True, f"Invalid URL format: {url}"
 
     cleaned_url = clean_url(url)
-
     domain = urlparse(cleaned_url).netloc
     rate_limiter.wait_if_needed(domain)
 
     try:
-        # Custom headers to mimic a browser
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/91.0.4472.124 Safari/537.36",
             "Accept": "text/html,application/xhtml+xml,application/pdf,application/xml;q=0.9,*/*;q=0.8",
@@ -112,8 +108,22 @@ def check_link(url, rate_limiter):
             "Connection": "keep-alive",
         }
 
-        # First try with verification
+        # First try HEAD request to check existence
         try:
+            head_response = requests.head(
+                cleaned_url,
+                headers=headers,
+                timeout=15,
+                allow_redirects=True,
+                verify=True,
+            )
+
+            # If it's a PDF or large file, just use HEAD request result
+            content_type = head_response.headers.get("Content-Type", "").lower()
+            if any(t in content_type for t in ["pdf", "octet-stream", "binary"]):
+                return head_response.status_code == 200, True, None
+
+            # For HTML content, proceed with GET request to check content
             response = requests.get(
                 cleaned_url,
                 headers=headers,
@@ -122,7 +132,21 @@ def check_link(url, rate_limiter):
                 verify=True,
             )
             return True, True, None
+
         except requests.exceptions.SSLError:
+            # Try without SSL verification
+            head_response = requests.head(
+                cleaned_url,
+                headers=headers,
+                timeout=15,
+                allow_redirects=True,
+                verify=False,
+            )
+
+            content_type = head_response.headers.get("Content-Type", "").lower()
+            if any(t in content_type for t in ["pdf", "octet-stream", "binary"]):
+                return head_response.status_code == 200, False, "Insecure SSL"
+
             response = requests.get(
                 cleaned_url,
                 headers=headers,
@@ -132,13 +156,8 @@ def check_link(url, rate_limiter):
             )
             return True, False, "Insecure SSL"
 
-        # Special handling for PDFs and binary content
-        content_type = response.headers.get("Content-Type", "").lower()
-        if any(t in content_type for t in ["pdf", "octet-stream", "binary"]):
-            return response.status_code == 200, True, None
-
         # Only parse HTML content
-        if "text/html" in content_type:
+        if "text/html" in response.headers.get("Content-Type", "").lower():
             try:
                 soup = BeautifulSoup(
                     response.text, "html.parser", from_encoding=response.encoding
@@ -148,7 +167,7 @@ def check_link(url, rate_limiter):
                     for err in ["404", "not found", "error", "page does not exist"]
                 ):
                     return False, True, "404 or error page detected"
-            except Exception as e:
+            except Exception:
                 # If HTML parsing fails, just check status code
                 pass
 
@@ -163,6 +182,8 @@ def check_link(url, rate_limiter):
             return False, True, "Remote server disconnected"
         if "NameResolutionError" in str(e):
             return False, True, "DNS resolution failed"
+        if "IncompleteRead" in str(e):
+            return False, True, "Connection broken while reading response"
         return False, True, "Connection error"
     except requests.exceptions.RequestException as e:
         return False, True, str(e)
@@ -263,7 +284,24 @@ def process_markdown_file(file_path):
 
 
 def main():
-    """Main function to process all markdown files."""
+    """Main function to process all markdown files or a single URL."""
+    if len(sys.argv) > 1:
+        url = sys.argv[1]
+        rate_limiter = RateLimiter(min_delay=3)
+        is_accessible, is_secure, error = check_link(url, rate_limiter)
+
+        if error:
+            print(f"Warning for {url}: {error}", file=sys.stderr)
+
+        if is_accessible and is_secure:
+            print(f"{url}: {SUCCESS_SYMBOL}")
+        elif is_accessible and not is_secure:
+            print(f"{url}: {INSECURE_SYMBOL}")
+        else:
+            print(f"{url}: {FAIL_SYMBOL}")
+
+        sys.exit(0 if is_accessible else 1)
+
     repo_root = Path.cwd()
     markdown_files = find_markdown_files(repo_root)
 
@@ -273,9 +311,4 @@ def main():
             changes_made = True
             print(f"Updated links in: {md_file}")
 
-    # Exit with status code 1 if no changes were made
     sys.exit(0 if changes_made else 1)
-
-
-if __name__ == "__main__":
-    main()
