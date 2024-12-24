@@ -689,7 +689,7 @@ Unread papers categorized by a common main theme.
 - [2020 - Automatic Techniques to Systematically Discover New Heap Exploitation Primitives](https://www.usenix.org/system/files/sec20-yun.pdf) ✓
 - [2020 - Shadow-Heap: Preventing Heap-based Memory Corruptions by Metadata Validation](https://lukasatkinson.de/research/Bouche2020ShadowHeapValidation.pdf) ✓
 - [2020 - Practical Fine-Grained Binary Code Randomization](https://dl.acm.org/doi/abs/10.1145/3427228.3427292) ✓
-- [2020 - Tiny-CFA: Minimalistic Control-Flow Attestation UsingVerified Proofs of Execution](http://sprout.ics.uci.edu/pubs/tiny-cfa.pdf) ✗
+- [2020 - Tiny-CFA: Minimalistic Control-Flow Attestation UsingVerified Proofs of Execution](https://sprout.ics.uci.edu/pubs/tiny-cfa.pdf) ⚠
 - [2020 - Greybox Automatic Exploit Generation for Heap Overflows in Language Interpreters - PHD THESIS](https://seanhn.files.wordpress.com/2020/11/heelan_phd_thesis.pdf) ✓
 - [2020 - ABCFI: Fast and Lightweight Fine-Grained Hardware-Assisted Control-Flow Integrity](https://www.sci-hub.se/10.1109/TCAD.2020.3012640) ✓
 - [2020 - HeapExpo: Pinpointing Promoted Pointers to Prevent Use-After-Free Vulnerabilities](http://moyix.net/~moyix/papers/heapexpo.pdf) ✗
