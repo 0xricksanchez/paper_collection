@@ -2,7 +2,7 @@ name: Link Checker
 
 on:
   schedule:
-    - cron: "0 0 * * 0" # Run weekly on Sunday at midnight
+    - cron: "0 0 1 * *" # Run monthly
   workflow_dispatch: # Allow manual trigger
 
 jobs:
