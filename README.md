@@ -284,7 +284,7 @@ Unread papers categorized by a common main theme.
 - [2021 - TCP-Fuzz: Detecting Memory and Semantic Bugs in TCP Stacks with Fuzzing](https://www.usenix.org/conference/atc21/presentation/zou) ✓
 - [2021 - Fuzzing with optimized grammar-aware mutation strategies](https://ieeexplore.ieee.org/abstract/document/9469897) ✓
 - [2021 - Directed Fuzzing for Use-After-FreeVulnerabilities Detection](http://www.lirmm.fr/afadl2021/papers/afadl2020_paper_4.pdf) ✓
-- [2021 - DIFUZZRTL: Differential Fuzz Testing to FindCPU Bugs](https://compsec.snu.ac.kr/papers/hur-difuzzrtl.pdf) ✗
+- [2021 - DIFUZZRTL: Differential Fuzz Testing to FindCPU Bugs](https://compsec.snu.ac.kr/papers/hur-difuzzrtl.pdf) ✓
 - [2021 - Z-Fuzzer: device-agnostic fuzzing of Zigbee protocol implementation](https://dl.acm.org/doi/abs/10.1145/3448300.3468296) ✓
 - [2021 - Fuzzing with Multi-dimensional Control of Mutation Strategy](https://link.springer.com/chapter/10.1007/978-3-030-79728-7_27) ✓
 - [2021 - Using a Guided Fuzzer and Preconditions to Achieve Branch Coverage with Valid Inputs](https://link.springer.com/chapter/10.1007/978-3-030-79379-1_5) ✓
