@@ -193,7 +193,7 @@ Unread papers categorized by a common main theme.
 - [2023 - Arvin: Greybox Fuzzing Using Approximate Dynamic CFG Analysis](https://hexhive.epfl.ch/publications/files/23AsiaCCS.pdf) ✓
 - [2023 - DAISY: Effective Fuzz Driver Synthesis with Object Usage Sequence Analysis](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/ICSE-SEIP23.pdf) ✓
 - [2023 - autofz: Automated Fuzzer Composition at Runtime](https://gts3.org/assets/papers/2023/fu:autofz.pdf) ✓
-- [2023 - Towards Hybrid Fuzzing with Multi-level Coverage Tree and Reinforcement Learning in Greybox Fuzzing](https://dixiyao.github.io/assets/papers/1776.pdf) ✓
+- [2023 - Towards Hybrid Fuzzing with Multi-level Coverage Tree and Reinforcement Learning in Greybox Fuzzing](https://dixiyao.github.io/assests/papers/1776.pdf) ✓
 - [2023 - Fuzzing, Symbolic Execution, and Expert Guidance for Better Testing](https://ieeexplore.ieee.org/abstract/document/10021305) ✓
 - [2023 - Fuzzing vs SBST: Intersections & Differences](https://dl.acm.org/doi/abs/10.1145/3573074.3573102) ✓
 - [2023 - Evaluating the Fork-Awareness of Coverage-Guided Fuzzers](https://arxiv.org/pdf/2301.05060.pdf) ✓
