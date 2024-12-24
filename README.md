@@ -414,7 +414,7 @@ Unread papers categorized by a common main theme.
 - [2008 - Vulnerability Analysis for X86 Executables Using Genetic Algorithm and Fuzzing](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4682289) ✓
 - [2008 - KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs](https://hci.stanford.edu/cstr/reports/2008-03.pdf) ✓
 - [2008 - Automated Whitebox Fuzz Testing](https://patricegodefroid.github.io/public_psfiles/ndss2008.pdf) ✓
-- [2005 - DART: Directed Automated Random Testing](https://web.eecs.umich.edu/~weimerw/2014-6610/reading/p213-godefroid.pdf)(https://www.computer.org/csdl/proceedings-article/icse/2025/056900a508/215aWTZ8XRe) ✓
+- [2005 - DART: Directed Automated Random Testing](https://web.eecs.umich.edu/~weimerw/2014-6610/reading/p213-godefroid.pdf) ✓
 - [1994 - Dominators, Super Blocks, and Program Coverage](https://www.sci-hub.ren/10.1145/174675.175935) ✗
 
 ### Harnessing
