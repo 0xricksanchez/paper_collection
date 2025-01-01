@@ -276,8 +276,8 @@ def process_markdown_file(file_path):
             else:
                 symbols.append(FAIL_SYMBOL)
 
-        new_line = f"{clean_line} {' '.join(symbols)}\n"
-        if new_line != line:
+        new_line = f"{clean_line} {' '.join(symbols)}\n".replace("  ", " ")
+        if new_line.strip() != line.strip():
             changes_made = True
 
         new_lines.append(new_line)
