@@ -1,0 +1,70 @@
+Warning for https://arxiv.org/pdf/2010.03482.pdf: URL suggests PDF but received non-PDF content
+Warning for https://arxiv.org/abs/2001.04107.pdf: URL suggests PDF but received non-PDF content
+Warning for https://arxiv.org/abs/1905.06944.pdf: URL suggests PDF but received non-PDF content
+Warning for https://ieeexplore.ieee.org/abstract/document/9295756/keywords#keywords: 404 page detected (title)
+Warning for http://web.cse.ohio-state.edu/~lin.3021/file/CCS20.pdf: URL suggests PDF but received non-PDF content
+Warning for https://web.cse.ohio-state.edu/~lin.3021/file/NDSS18b.pdf: URL suggests PDF but received non-PDF content
+Warning for https://web.cse.ohio-state.edu/~lin.3021/file/RAID22.pdf: URL suggests PDF but received non-PDF content
+Warning for http://web.cse.ohio-state.edu/~lin.3021/file/CCS20.pdf: URL suggests PDF but received non-PDF content
+Warning for https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2020/04/01/aurora.pdf: Insecure SSL
+Warning for https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2018/12/17/NDSS19-Redqueen.pdf: Insecure SSL
+Warning for https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2020/02/27/IJON-Oakland20.pdf: Insecure SSL
+Warning for https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2018/12/17/NDSS19-Nautilus.pdf: Insecure SSL
+Warning for https://link.springer.com/chapter/10.1007/978-3-030-63086-7_20: 404 page detected (title)
+Warning for https://www.cs.umd.edu/~mwh/papers/fuzzeval.pdf: URL suggests PDF but received non-PDF content
+Warning for https://soarsmu.github.io/papers/wcre13-rootcause.pdfhttps://soarsmu.github.io/papers/wcre13-rootcause.pdf: URL suggests PDF but received non-PDF content
+Warning for http://prl.korea.ac.kr/~pronto/home/papers/icse23-seamfuzz.pdf: URL suggests PDF but received non-PDF content
+Warning for https://hammer.purdue.edu/articles/thesis/An_Automated_Approach_to_Re-Hosting_Embedded_Firmware_Through_Removing_Hardware_Dependencies/17131628: 404 page detected (content)
+Warning for http://193.55.114.4/docs/ccs22_fioraldi.pdf: Timeout
+Warning for http://193.55.114.4/docs/usenixsec22_arbiter.pdf: Timeout
+Warning for https://www.cs.purdue.edu/homes/ma229/papers/SP19.pdf: URL suggests PDF but received non-PDF content
+Warning for https://114.212.80.14/paper/ICSE22_windranger.pdf: Timeout
+Warning for https://ajax4sec.github.io/papers/ASE_2021.pdf: URL suggests PDF but received non-PDF content
+Warning for https://ajax4sec.github.io/papers/ndss20-fall-paper422.pdf: URL suggests PDF but received non-PDF content
+Warning for https://github.com/google/fuzzing/blob/master/docs/silifuzz.pdf: URL suggests PDF but received non-PDF content
+Warning for https://github.com/ZHYfeng/Dependency/blob/master/Paper.pdf: URL suggests PDF but received non-PDF content
+Warning for https://people.cs.vt.edu/snagy2/papers/21CCS.pdf: URL suggests PDF but received non-PDF content
+Warning for https://storage.googleapis.com/pub-tools-public-publication-data/pdf/64574e1a7cfc9456c273ce03574dacfcd6ad9d54.pdf: URL suggests PDF but received non-PDF content
+Warning for https://eprints.mdx.ac.uk/33682/1/main_TSE.pdf: Connection refused
+Warning for https://compsec.snu.ac.kr/papers/hur-difuzzrtl.pdf: Connection error
+Warning for http://www.cse.chalmers.se/~mista/assets/pdf/icse21-src.pdf: URL suggests PDF but received non-PDF content
+Warning for https://easychair.org/publications/preprint/1LHr: 404 page detected (content)
+Warning for https://smartech.gatech.edu/bitstream/handle/1853/64153/YUN-DISSERTATION-2020.pdf: Insecure SSL
+Warning for http://static1.1.sqspcdn.com/static/f/543048/28391424/1610229123433/FIBRE_USENIX_21.pdf?token=XvHn0I3h9MvSnRBV%2Fo4dQ675sEA%3D: URL suggests PDF but received non-PDF content
+Warning for https://pdfs.semanticscholar.org/26b9/97d7a83ce950db6d311ee65c268e756e0794.pdf: URL suggests PDF but received non-PDF content
+Warning for https://pdfs.semanticscholar.org/26b9/97d7a83ce950db6d311ee65c268e756e0794.pdf: URL suggests PDF but received non-PDF content
+Warning for https://pdfs.semanticscholar.org/b006/72fc5ff99434bf5347418a2d2762a3bb2639.pdf: URL suggests PDF but received non-PDF content
+Warning for https://pdfs.semanticscholar.org/d5bd/a9161deac69e4fed8da63971f773c60f3caf.pdf: URL suggests PDF but received non-PDF content
+Warning for https://pdfs.semanticscholar.org/c143/95767b618a014472a0b835464aeb4aaf7734.pdf: URL suggests PDF but received non-PDF content
+Warning for https://www.researchgate.net/profile/Golam-Kayas/publication/374415112_AI-assisted_Vulnerability_Analysis_And_Classification_Framework_for_UDS_on_CAN-bus_Fuzzer/links/651c6261b0df2f20a20ae412/AI-assisted-Vulnerability-Analysis-And-Classification-Framework-for-UDS-on-CAN-bus-Fuzzer.pdf: URL suggests PDF but received non-PDF content
+Warning for https://yannicnoller.github.io/publications/icse2020_noller_hydiff.pdf: URL suggests PDF but received non-PDF content
+Warning for https://www.domagoj-babic.com/uploads/Pubs/Fudge/esecfse19fudge.pdf: URL suggests PDF but received non-PDF content
+Warning for http://chao.100871.net/papers/oakland18.pdf: Timeout
+Warning for https://lifeasageek.github.io/papers/han:meds.pdf: URL suggests PDF but received non-PDF content
+Warning for https://obastani.github.io/docs/pldi17.pdf: URL suggests PDF but received non-PDF content
+Warning for https://obastani.github.io/docs/pldi17.pdf: URL suggests PDF but received non-PDF content
+Warning for https://www.cs.vu.nl/~giuffrida/papers/vuzzer-ndss-2017.pdf: URL suggests PDF but received non-PDF content
+Warning for http://iisp.gatech.edu/sites/default/files/images/designing_new_operating_primitives_to_improve_fuzzing_performance_vt.pdf: URL suggests PDF but received non-PDF content
+Warning for http://www.itiis.org/journals/tiis/digital-library/manuscript/file/20353/14.TIIS-RP-2012-Dec-0966.R1.pdf: URL suggests PDF but received non-PDF content
+Warning for http://www.itiis.org/journals/tiis/digital-library/manuscript/file/20353/14.TIIS-RP-2012-Dec-0966.R1.pdf: URL suggests PDF but received non-PDF content
+Warning for https://ece.uwaterloo.ca/~vganesh/Publications_files/vg-ICSE2009-BuzzFuzz.pdf: URL suggests PDF but received non-PDF content
+Warning for https://guqiuhan.github.io/publication/conference-paper/conference-paper.pdf: URL suggests PDF but received non-PDF content
+Warning for http://sandip.ece.ufl.edu/publications/aspdac22.pdf: URL suggests PDF but received non-PDF content
+Warning for http://wenku.sougen.cn/static/publications/CT1281.pdf: Timeout
+Warning for http://docs.mipro-proceedings.com/iss/04_ISS_5762.pdf: URL suggests PDF but received non-PDF content
+Warning for https://softsec.kaist.ac.kr/~jschoi/data/oakland2021.pdf: URL suggests PDF but received non-PDF content
+Warning for https://www.cc.gatech.edu/~mxu80/pubs/xu:krace.pdf: URL suggests PDF but received non-PDF content
+Warning for https://www.di.fc.ul.pt/~nuno/PAPERS/EDCC08.pdf: Insecure SSL
+Warning for https://jakkdu.github.io/pubs/2020/park:die.pdf: URL suggests PDF but received non-PDF content
+Warning for https://sprout.ics.uci.edu/pubs/tiny-cfa.pdf: Insecure SSL
+Warning for http://moyix.net/~moyix/papers/heapexpo.pdf: Timeout
+Warning for https://scholars.unh.edu/cgi/viewcontent.cgi?article=2376&context=thesis: 404 page detected (content)
+Warning for https://www.cs.dartmouth.edu/~sergey/cs108/2012/Dan-Rosenberg-lecture.pdf: Insecure SSL
+Warning for https://www.cs.dartmouth.edu/~sergey/cs108/2012/Dan-Rosenberg-lecture.pdf: Insecure SSL
+Warning for https://vsecurity.com//download/publications/slob-exploitation.pdf: DNS resolution failed
+Warning for https://courses.cs.ut.ee/MTAT.03.270/2021_spring/uploads/Main/report-draft.pdf: URL suggests PDF but received non-PDF content
+Warning for http://www.ijpe-online.com/EN/10.23940/ijpe.19.10.p14.26832691: No host specified.
+Warning for http://wscad.sbc.org.br/2020/artigos/trilha-principal/s05p02-209710-1.pdf: URL suggests PDF but received non-PDF content
+Warning for https://squizz617.github.io/pubs/vuddy-sp17.pdf: URL suggests PDF but received non-PDF content
+Warning for http://www.cs.utsa.edu/~shxu/socs/VulPecker.pdf: URL suggests PDF but received non-PDF content
+Warning for https://sites.google.com/site/yoshidaatnu/TsuzukiAST2020.pdf: URL suggests PDF but received non-PDF content
