@@ -844,7 +844,7 @@ Unread papers categorized by a common main theme.
 - [2006 - HDD: Hierarchical Delta Debugging](https://sci-hub.se/https://doi.org/10.1145/1134285.1134307) ✓
 
 ### Surveys, SoKs, and Studies
-
+- [2024 - SoK: Prudent Evaluation Practices for Fuzzing](https://oaklandsok.github.io/papers/schloegel2024.pdf)
 - [2024 - An Empirical Examination of Fuzzer Mutator Performance](https://www.jonbell.net/preprint/issta24-mutator.pdf) ✓
 - [2024 - An Empirical Study on the Distance Metric in Guiding Directed Grey-box Fuzzing](https://arxiv.org/pdf/2409.12701) ✓
 - [2024 - Exploring the Adoption of Fuzz Testing in Open-Source Software: A Case Study of the Go Community](https://posl.ait.kyushu-u.ac.jp/~kamei/publications/Nourry_ICSME2024.pdf) ✓
