@@ -424,6 +424,8 @@ Unread papers categorized by a common main theme.
 
 ### AI/LLM
 
+- [2024 - Pentest GPt: Evaluating and Harnessing Large Language Models for Automated Penetration Testing](https://www.usenix.org/system/files/usenixsecurity24-deng.pdf)
+- [2024 - AutoSafeCoder: A Multi-Agent Framework for Securing LLM Code Generation through Static Analysis and Fuzz Testing](https://arxiv.org/abs/2409.10737v2)
 - [2024 - Fixing Security Vulnerabilities with AI in OSS-Fuzz](https://arxiv.org/pdf/2411.03346) ✓
 - [2024 - ChatHTTPFuzz: Large Language Model-Assisted IoT HTTP Fuzzing](https://arxiv.org/pdf/2411.11929) ✓
 - [2024 - Harnessing Large Language Models for Seed Generation in Greybox Fuzzing](https://arxiv.org/pdf/2411.18143) ✓
@@ -432,6 +434,7 @@ Unread papers categorized by a common main theme.
 - [2024 - My Fuzzers Won’t Build: An Empirical Study of Fuzzing Build Failures](https://dl.acm.org/doi/abs/10.1145/3688842) ✓
 - [2024 - ECG: Augmenting Embedded Operating System Fuzzing via LLM-based Corpus Generation](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/paper_from_24/ECG_EMSOFT24.pdf) ✓
 - [2024 - FUZZCODER: Byte-level Fuzzing Test via Large Language Mode](https://arxiv.org/pdf/2409.01944) ✓
+- [2024 - CyberSecEval 2: A Wide-Ranging Cybersecurity Evaluation Suite for Large Language Models](https://arxiv.org/abs/2404.13161)
 - [2024 - ProphetFuzz: Fully Automated Prediction and Fuzzing of High-Risk Option Combinations with Only Documentation via Large Language Model](https://arxiv.org/pdf/2409.00922) ✓
 - [2024 - Is “AI” Useful for Fuzzing? (Keynote)](https://dl.acm.org/doi/abs/10.1145/3678722.3695731) ✓
 - [2024 - Initial Seeds Generation Using LLM for IoT Device Fuzzing](https://ieeexplore.ieee.org/abstract/document/10710191) ✓
@@ -843,6 +846,7 @@ Unread papers categorized by a common main theme.
 - [2006 - HDD: Hierarchical Delta Debugging](https://sci-hub.se/https://doi.org/10.1145/1134285.1134307) ✓
 
 ### Surveys, SoKs, and Studies
+
 - [2024 - SoK: Prudent Evaluation Practices for Fuzzing](https://oaklandsok.github.io/papers/schloegel2024.pdf)
 - [2024 - An Empirical Examination of Fuzzer Mutator Performance](https://www.jonbell.net/preprint/issta24-mutator.pdf) ✓
 - [2024 - An Empirical Study on the Distance Metric in Guiding Directed Grey-box Fuzzing](https://arxiv.org/pdf/2409.12701) ✓
