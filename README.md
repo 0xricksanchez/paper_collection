@@ -132,6 +132,7 @@ Unread papers categorized by a common main theme.
 
 - [2025 - Invivo Fuzzing by Amplifying Actual Executions](https://mpi-softsec.github.io/papers/ICSE25-invivo.pdf) ✓
 - [2025 - QMSan: Efficiently Detecting Uninitialized Memory Errors During Fuzzing](http://nebelwelt.net/files/25NDSS3.pdf) ✓
+- [2024 - Program Environment Fuzzing](https://arxiv.org/abs/2404.13951)
 - [2024 - Logos: Log Guided Fuzzing for Protocol Implementations](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/paper_from_24/Logos_issta24.pdf) ✓
 - [2024 - DDGF: Dynamic Directed Greybox Fuzzing with Path Profiling](https://dl.acm.org/doi/abs/10.1145/3650212.3680324) ✓
 - [2024 - Sleuth: A Switchable Dual-Mode Fuzzer to Investigate Bug Impacts Following a Single PoC](https://dl.acm.org/doi/pdf/10.1145/3650212.3680316) ✓
@@ -673,7 +674,7 @@ Unread papers categorized by a common main theme.
 - [2022 - RiscyROP: Automated Return-Oriented Programming Attacks on RISC-V and ARM64](https://www.syssec.wiwi.uni-due.de/fileadmin/fileupload/I-SYSSEC/research/RiscyROP.pdf) ✓
 - [2022 - Automatic Permission Check Analysis for Linux Kernel](https://www.computer.org/csdl/journal/tq/5555/01/09750908/1ClSWBlV5ao) ✓
 - [2022 - OS-Aware Vulnerability Prioritization via Differential Severity Analysis](https://www.usenix.org/system/files/sec22-wu-qiushi.pdf) ✓
-- [2022 - Arbiter: Bridging the Static and Dynamic Divide in Vulnerability Discovery on Binary Programs](http://193.55.114.4/docs/usenixsec22_arbiter.pdf) ✗
+- [2022 - Arbiter: Bridging the Static and Dynamic Divide in Vulnerability Discovery on Binary Programs](https://www.usenix.org/system/files/sec22fall_vadayath.pdf) ✗
 - [2022 - KASPER: Scanning for Generalized Transient Execution Gadgets in the Linux Kernel](https://download.vusec.net/papers/kasper_ndss22.pdf) ✓
 - [2022 - MaMaDroid 2.0 - The Holes of control flow graphs](https://arxiv.org/pdf/2202.13922.pdf) ✓
 - [2022 -ShadowHeap: Memory Safety through Efficient Heap Metadata Validation](https://isyou.info/jowua/papers/jowua-v12n4-1.pdf) ✓
