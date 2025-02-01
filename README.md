@@ -41,7 +41,7 @@ Feel free to suggest decent papers via a PR.
   - **Tags:** bcov, detour + trampoline, basic block coverage, sliced microexecution, superblocks, strongly connected components, dominator graph, BAP, angr, IDA, DynamoRIO, Intel PI, BAP, angr, IDA, DynamoRIO, Intel PIN
 - [2020 - Test-Case Reduction via Test-Case Generation: Insights From the Hypothesis Reducer](https://drmaciver.github.io/papers/reduction-via-generation-preview.pdf) ✓
   - **Tags:** Test case reducer, property based testing, CSmith, test case generation, hierachical delta debugging
-- [2020 - AFL++: Combining Incremental Steps of Fuzzing Research](https://aflplus.plus/papers/aflpp-woot2020.pdf) ✗
+- [2020 - AFL++: Combining Incremental Steps of Fuzzing Research](https://aflplus.plus/papers/aflpp-woot2020.pdf) ✓
   - **Tags:** AFL++, AFL, MOpt, LAF-Intel, Fuzzbench, Ngram, RedQueen, Unicorn, QBDI, CmpLog, AFLFast
 - [2020 - FirmXRay: Detecting Bluetooth Link Layer Vulnerabilities From Bare-Metal Firmware](https://dl.acm.org/doi/pdf/10.1145/3372297.3423344) ✓
   - **Tags:** Ghdira, static analysis, sound disassembly, base address finder, BLE, vulnerability discovery
@@ -51,7 +51,7 @@ Feel free to suggest decent papers via a PR.
   - **Tags:** context assisted type inference, stripped binaries, variable and type reconstruction, IDA Pro, Word2Vec, CNN,
 - [2020 - Causal Testing: Understanding Defects’ Root Causes](https://arxiv.org/pdf/1809.06991.pdf) ✓
   - **Tags:** Defects4J, causal relationships, Eclipse plugin, unit test mutation, program trace diffing, static value diffing, user study
-- [2020 - AURORA: Statistical Crash Analysis for Automated Root Cause Explanation](https://www.usenix.org/system/files/sec20fall_blazytko_prepub.pdf) ⚠
+- [2020 - AURORA: Statistical Crash Analysis for Automated Root Cause Explanation](https://www.usenix.org/system/files/sec20fall_blazytko_prepub.pdf) ✓
   - **Tags:** RCA, program traces, input diversification, Intel PIN, Rust, CFG,
 - [2020 - ParmeSan: Sanitizer-guided Greybox Fuzzing](https://download.vusec.net/papers/parmesan_sec20.pdf) ✓
   - Tags: interprocedural CFG, data flow analysis, directed fuzzing (DGF), disregarding 'hot paths', LAVA-M based primitives, LLVM, Angora, AFLGo, ASAP, santizer dependent
@@ -93,7 +93,7 @@ Feel free to suggest decent papers via a PR.
   - **Tags:** domain-specific fuzzing, AFL, LLVM, solve hard constraints like cmp, find dynamic memory allocations, binary-based
 - [2019 - Fuzzing File Systems via Two-Dimensional Input Space Exploration](https://taesoo.kim/pubs/2019/xu:janus.pdf) ✓
   - **Tags:** Ubuntu, file systems, library OS, ext4, brtfs, meta block mutations, edge cases
-- [2019 - REDQUEEN: Fuzzing with Input-to-State Correspondence](https://nyx-fuzz.com/papers/redqueen.pdf) ⚠
+- [2019 - REDQUEEN: Fuzzing with Input-to-State Correspondence](https://nyx-fuzz.com/papers/redqueen.pdf) ✓
   - **Tags:** feedback-driven, AFL, magic-bytes, nested contraints, input-to-state correspondence, I2S
 - [2019 - PeriScope: An Effective Probing and Fuzzing Framework for the Hardware-OS Boundary](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_04A-1_Song_paper.pdf) ✓
   - **Tags:** kernel, android, userland, embedded, hardware, Linux, device driver, WiFi
@@ -121,7 +121,7 @@ Feel free to suggest decent papers via a PR.
   - **Tags:** VPM vs DPM, prediction models on large scale systems, files with frequent changes leave more vulns, older code exhibits more vulns
 - [2014 - Optimizing Seed Selection for Fuzzing](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-rebert.pdf) ✓
   - **Tags:** BFF, (weighted) minset, peach, cover set problem, seed transferabilty, time minset, size minset, round robin
-- [2013 - Automatic Recovery of Root Causes from Bug-Fixing Changes](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=3024&context=sis_research) ✓
+- [2013 - Automatic Recovery of Root Causes from Bug-Fixing Changes](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=3024&context=sis_research) ✗
   - **Tags:** ML + SCA, F score, AST, PPA, source tree analysis
 
 ## Unread
@@ -132,7 +132,7 @@ Unread papers categorized by a common main theme.
 
 - [2025 - Invivo Fuzzing by Amplifying Actual Executions](https://mpi-softsec.github.io/papers/ICSE25-invivo.pdf) ✓
 - [2025 - QMSan: Efficiently Detecting Uninitialized Memory Errors During Fuzzing](http://nebelwelt.net/files/25NDSS3.pdf) ✓
-- [2024 - Program Environment Fuzzing](https://arxiv.org/abs/2404.13951)
+- [2024 - Program Environment Fuzzing](https://arxiv.org/abs/2404.13951) ✗
 - [2024 - Logos: Log Guided Fuzzing for Protocol Implementations](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/paper_from_24/Logos_issta24.pdf) ✓
 - [2024 - DDGF: Dynamic Directed Greybox Fuzzing with Path Profiling](https://dl.acm.org/doi/abs/10.1145/3650212.3680324) ✓
 - [2024 - Sleuth: A Switchable Dual-Mode Fuzzer to Investigate Bug Impacts Following a Single PoC](https://dl.acm.org/doi/pdf/10.1145/3650212.3680316) ✓
@@ -150,7 +150,7 @@ Unread papers categorized by a common main theme.
 - [2024 - Data Coverage for Guided Fuzzing](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/paper_from_24/Data_Security24.pdf) ✓
 - [2024 - Fuzzing at Scale: The Untold Story of the Scheduler](https://arxiv.org/pdf/2406.18058) ✓
 - [2024 - FOX: Coverage-guided Fuzzing as Online Stochastic Control](https://arxiv.org/abs/2406.04517) ✓
-- [2024 - Fuzzing-based grammar learning from a minimal set of seed inputs](https://www.sciencedirect.com/science/article/abs/pii/S259011842300062X) ✓
+- [2024 - Fuzzing-based grammar learning from a minimal set of seed inputs](https://www.sciencedirect.com/science/article/abs/pii/S259011842300062X) ✗
 - [2024 - LinFuzz: Program-Sensitive Seed Scheduling Greybox Fuzzing Based on LinUCB Algorithm](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10538260) ✓
 - [2024 - Graphuzz: Data-driven Seed Scheduling for Coverage-guided Greybox Fuzzing](https://dl.acm.org/doi/pdf/10.1145/3664603) ✓
 - [2024 - Towards Tightly-coupled Hybrid Fuzzing via Excavating Input Specifications](https://ieeexplore.ieee.org/abstract/document/10418578) ✓
@@ -162,9 +162,9 @@ Unread papers categorized by a common main theme.
 - [2023 - DSFuzz: Detecting Deep State Bugs with Dependent State Exploration](https://dl.acm.org/doi/abs/10.1145/3576915.3616594) ✓
 - [2023 - FA-Fuzz: A Novel Scheduling Scheme Using Firefly Algorithm for Mutation-Based Fuzzing](https://ieeexplore.ieee.org/abstract/document/10305545) ✓
 - [2023 - Make out like a (Multi-Armed) Bandit: Improving the Odds of Fuzzer Seed Scheduling with T-Scheduler](https://arxiv.org/pdf/2312.04749) ✓
-- [2023 - SYNTONY: Potential-Aware Fuzzing with Particle Swarm Optimization](https://www.sciencedirect.com/science/article/abs/pii/S0164121223002753) ✓
+- [2023 - SYNTONY: Potential-Aware Fuzzing with Particle Swarm Optimization](https://www.sciencedirect.com/science/article/abs/pii/S0164121223002753) ✗
 - [2023 - Triereme: Speeding up hybrid fuzzing through efficient query scheduling](https://goto.ucsd.edu/~gleissen/papers/triereme.pdf) ✓
-- [2023 - Hybrid Testing: Combining Static Analysis and Directed Fuzzing](https://dspace.mit.edu/handle/1721.1/151679) ✓
+- [2023 - Hybrid Testing: Combining Static Analysis and Directed Fuzzing](https://dspace.mit.edu/handle/1721.1/151679) ✗
 - [2023 - Titan : Efficient Multi-target Directed Greybox Fuzzing](https://5hadowblad3.github.io/files/Oakland24-Titan.pdf) ✓
 - [2023 - SpecFuzzer: A Tool for Inferring Class Specifications via Grammar-based Fuzzing](https://facumolina.github.io/files/specfuzzer-tooldemo-ase2023.pdf) ✓
 - [2023 - Hopper: Interpretative Fuzzing for Libraries](https://arxiv.org/pdf/2309.03496.pdf) ✓
@@ -188,9 +188,9 @@ Unread papers categorized by a common main theme.
 - [2023 - Large Language Models are Edge-Case Fuzzers: Testing Deep Learning Libraries via FuzzGPT](https://arxiv.org/pdf/2304.02014.pdf) ✓
 - [2023 - SBFT Tool Competition 2023 - Fuzzing Track](https://arxiv.org/pdf/2304.10070.pdf) ✓
 - [2023 - CarpetFuzz: Automatic Program Option Constraint Extraction from Documentation for Fuzzing](https://www.usenix.org/system/files/sec23fall-prepub-467-wang-dawei.pdf) ✓
-- [2023 - Learning Seed-Adaptive Mutation Strategies for Greybox Fuzzing](https://github.com/kupl/SeamFuzz-Artifact/blob/main/SeamFuzz-accepted-version.pdf) ✓
+- [2023 - Learning Seed-Adaptive Mutation Strategies for Greybox Fuzzing](https://github.com/kupl/SeamFuzz-Artifact/blob/main/SeamFuzz-accepted-version.pdf) ✗
 - [2023 - Directed Greybox Fuzzing with Stepwise Constraint Focusing](https://arxiv.org/pdf/2303.14895.pdf) ✓
-- [2023 - Generation-based fuzzing? Don’t build a new generator, reuse!](https://www.sciencedirect.com/science/article/pii/S0167404823000883) ✓
+- [2023 - Generation-based fuzzing? Don’t build a new generator, reuse!](https://www.sciencedirect.com/science/article/pii/S0167404823000883) ✗
 - [2023 - RCABench: Open Benchmarking Platform for Root Cause Analysis](https://arxiv.org/pdf/2303.05029.pdf) ✓
 - [2023 - Arvin: Greybox Fuzzing Using Approximate Dynamic CFG Analysis](https://hexhive.epfl.ch/publications/files/23AsiaCCS.pdf) ✓
 - [2023 - DAISY: Effective Fuzz Driver Synthesis with Object Usage Sequence Analysis](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/ICSE-SEIP23.pdf) ✓
@@ -229,15 +229,15 @@ Unread papers categorized by a common main theme.
 - [2022 - LibAFL: A Framework to Build Modular and Reusable Fuzzers](http://193.55.114.4/docs/ccs22_fioraldi.pdf) ✗
 - [2022 - FishFuzz: Throwing Larger Nets to Catch Deeper Bugs](https://arxiv.org/pdf/2207.13393.pdf) ✓
 - [2022 - SYMSAN: Time and Space Efficient Concolic Execution via Dynamic Data-flow Analysis](https://www.cs.ucr.edu/~csong/sec22-symsan.pdf) ✓
-- [2022 - AMSFuzz: An adaptive mutation schedule for fuzzing](https://www.sciencedirect.com/science/article/abs/pii/S0957417422013203) ✓
+- [2022 - AMSFuzz: An adaptive mutation schedule for fuzzing](https://www.sciencedirect.com/science/article/abs/pii/S0957417422013203) ✗
 - [2022 - FixReverter: A Realistic Bug Injection Methodology for Benchmarking Fuzz Testing](https://www.usenix.org/system/files/sec22-zhang-zenong.pdf) ✓
 - [2022 - Multiple Targets Directed Greybox Fuzzing](https://arxiv.org/pdf/2206.14977.pdf) ✓
 - [2022 - Combining BMC and Fuzzing Techniques for Finding Software Vulnerabilities in Concurrent Programs](https://arxiv.org/pdf/2206.06043.pdf) ✓
 - [2022 - DocTer: Documentation-Guided Fuzzing for Testing Deep Learning API Functions](https://www.cs.purdue.edu/homes/lintan/publications/docter-issta22.pdf) ✓
 - [2022 - Obtaining Fuzzing Results with Different Timeouts](https://ieeexplore.ieee.org/abstract/document/9787974) ✓
 - [2022 - FASSFuzzer—An Automated Vulnerability Detection System for Android System Services](https://web.archive.org/web/20220501200656id_/http://www.csroc.org.tw/journal/JOC33-2/JOC3302-17.pdf) ✓
-- [2022 - WindRanger: A Directed Greybox Fuzzer driven by Deviation Basic Blocks](https://dl.acm.org/doi/10.1145/3510003.3510197) ✗
-- [2022 - Drifuzz: Harvesting Bugs in Device Drivers from Golden Seeds](https://messlab.moyix.net/papers/drifuzz_sec22.pdf) ✓
+- [2022 - WindRanger: A Directed Greybox Fuzzer driven by Deviation Basic Blocks](https://dl.acm.org/doi/10.1145/3510003.3510197) ✓
+- [2022 - Drifuzz: Harvesting Bugs in Device Drivers from Golden Seeds](https://messlab.moyix.net/papers/drifuzz_sec22.pdf) ✗
 - [2022 - GraphFuzz: Library API Fuzzing with Lifetime-aware Dataflow Graphs](https://hgarrereyn.github.io/GraphFuzz/research/GraphFuzz_ICSE_2022.pdf) ✓
 - [2022 - AcoFuzz: Adaptive Energy Allocation for Greybox Fuzzing](https://ieeexplore.ieee.org/abstract/document/9787956) ✓
 - [2022 - TargetFuzz: Using DARTs to Guide Directed Greybox Fuzzers](https://www.honda-ri.de/pubs/pdf/4940.pdf) ✓
@@ -263,7 +263,7 @@ Unread papers categorized by a common main theme.
 - [2021 - Reducing Time-To-Fix For Fuzzer Bugs](https://ruimaranhao.com/assets/pdfs/ase2021.pdf) ✓
 - [2021 - Casr-Cluster: Crash Clustering for Linux Applications](https://arxiv.org/pdf/2112.13719.pdf) ✓
 - [2021 - Fuzzm: Finding Memory Bugs through Binary-Only Instrumentation and Fuzzing of WebAssembly](https://arxiv.org/pdf/2110.15433.pdf) ✓
-- [2021 - InstruGuard: Find and Fix Instrumentation Errors for Coverage-based Greybox Fuzzing](https://github.com/TCA-ISCAS/InstruGuard/blob/main/InstruGuard!%20Find%20and%20Fix%20Instrumentation%20Errors%20for%20Coverage-based%20Greybox%20Fuzzing.pdf) ✓
+- [2021 - InstruGuard: Find and Fix Instrumentation Errors for Coverage-based Greybox Fuzzing](https://github.com/TCA-ISCAS/InstruGuard/blob/main/InstruGuard!%20Find%20and%20Fix%20Instrumentation%20Errors%20for%20Coverage-based%20Greybox%20Fuzzing.pdf) ✗
 - [2021 - POSTER: OS Independent Fuzz Testing of I/O Boundary](https://dl.acm.org/doi/abs/10.1145/3460120.3485359) ✓
 - [2021 - HDBFuzzer–Target-oriented Hybrid Directed Binary Fuzzer](https://dl.acm.org/doi/abs/10.1145/3487075.3487124) ✓
 - [2021 - ovAFLow: Detecting Memory Corruption Bugs with Fuzzing-based Taint Inference](https://jcst.ict.ac.cn/EN/10.1007/s11390-021-1600-9) ✓
@@ -279,7 +279,7 @@ Unread papers categorized by a common main theme.
 - [2021 - HyperFuzzer: An Efficient Hybrid Fuzzer for Virtual CPUs](https://patricegodefroid.github.io/public_psfiles/hyperfuzzer-ccs21.pdf) ✓
 - [2021 - BigMap: Future-proofing Fuzzers with Efficient Large Maps](https://ieeexplore.ieee.org/abstract/document/9505052) ✓
 - [2021 - Token-Level Fuzzing](https://seclab.cs.ucsb.edu/files/publications/Salls2021Token_Level.pdf) ✓
-- [2021 - Hashing Fuzzing: Introducing Input Diversity to Improve Crash Detection](https://repository.mdx.ac.uk/download/5e44872ed0f410c636f70e852fef175fabc46b40e719cf8913b1e750288e305d/390968/main_TSE.pdf) ✗
+- [2021 - Hashing Fuzzing: Introducing Input Diversity to Improve Crash Detection](https://repository.mdx.ac.uk/download/5e44872ed0f410c636f70e852fef175fabc46b40e719cf8913b1e750288e305d/390968/main_TSE.pdf) ✓
 - [2021 - LeanSym: Efficient Hybrid Fuzzing Through Conservative Constraint Debloating](https://download.vusec.net/papers/leansym_raid21.pdf) ✓
 - [2021 - ESRFuzzer: an enhanced fuzzing framework for physical SOHO router devices to discover multi-Type vulnerabilities](https://cybersecurity.springeropen.com/articles/10.1186/s42400-021-00091-9) ✓
 - [2021 - KCFuzz: Directed Fuzzing Based on Keypoint Coverage](https://link.springer.com/chapter/10.1007/978-3-030-78609-0_27) ✓
@@ -295,7 +295,7 @@ Unread papers categorized by a common main theme.
 - [2021 - Seed Selection for Successful Fuzzing](https://nebelwelt.net/files/21ISSTA2.pdf) ✓
 - [2021 - Gramatron: Effective Grammar-Aware Fuzzing](https://nebelwelt.net/files/21ISSTA.pdf) ✓
 - [2021 - Hyntrospect: a fuzzer for Hyper-V devices](https://www.sstic.org/media/SSTIC2021/SSTIC-actes/hyntrospect_a_fuzzer_for_hyper-v_devices/SSTIC2021-Article-hyntrospect_a_fuzzer_for_hyper-v_devices-dubois.pdf) ✓
-- [2021 - FUZZOLIC: mixing fuzzing and concolic execution](https://www.sciencedirect.com/science/article/pii/S0167404821001929) ✓
+- [2021 - FUZZOLIC: mixing fuzzing and concolic execution](https://www.sciencedirect.com/science/article/pii/S0167404821001929) ✗
 - [2021 - QFuzz: Quantitative Fuzzing for Side Channels](https://arxiv.org/pdf/2106.03346.pdf) ✓
 - [2021 - Revizor: Fuzzing for Leaks in Black-box CPUs](https://arxiv.org/pdf/2105.06872.pdf) ✓
 - [2021 - Unleashing Fuzzing Through Comprehensive, Efficient, and Faithful Exploitable-Bug Exposing](https://ieeexplore.ieee.org/abstract/document/9430753) ✓
@@ -306,18 +306,18 @@ Unread papers categorized by a common main theme.
 - [2021 - PS-Fuzz: Efficient Graybox Firmware Fuzzing Based on Protocol State](https://search.proquest.com/openview/bd00ff3647f2802721db0e14448f8c2b/1?pq-origsite=gscholar&cbl=4585459) ✓
 - [2021 - MuDelta: Delta-Oriented Mutation Testing at Commit Time](https://orbilu.uni.lu/bitstream/10993/46742/1/RelevantMutantPrediction%20%281%29.pdf) ✓
 - [2021 - CollabFuzz: A Framework for Collaborative Fuzzing](https://download.vusec.net/papers/collabfuzz_eurosec21.pdf) ✓
-- [2021 - MUTAGEN: Faster Mutation-Based Random Testing](http://www.cse.chalmers.se/~mista/assets/pdf/icse21-src.pdf) ✓
+- [2021 - MUTAGEN: Faster Mutation-Based Random Testing](http://www.cse.chalmers.se/~mista/assets/pdf/icse21-src.pdf) ✗
 - [2021 - Inducing Subtle Mutations with Program Repair](http://rahul.gopinath.org/resources/icstw2021/schwander2021inducing.pdf) ✓
-- [2021 - Differential Analysis of X86-64 Instruction Decoders](https://easychair.org/publications/preprint/1LHr) ✓
+- [2021 - Differential Analysis of X86-64 Instruction Decoders](https://easychair.org/publications/preprint/1LHr) ✗
 - [2021 - On Introducing Automatic Test Case Generation in Practice: A Success Story and Lessons Learned](https://arxiv.org/pdf/2103.00465.pdf) ✓
-- [2021 - A Priority Based Path Searching Method for Improving Hybrid Fuzzing](https://www.sciencedirect.com/science/article/pii/S0167404821000663) ✓
+- [2021 - A Priority Based Path Searching Method for Improving Hybrid Fuzzing](https://www.sciencedirect.com/science/article/pii/S0167404821000663) ✗
 - [2021 - IntelliGen: Automatic Driver Synthesis for Fuzz Testing](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/icse_seip_0221.pdf) ✓
-- [2021 - icLibFuzzer: Isolated-context libFuzzer for Improving Fuzzer Comparability](https://bar2021.moyix.net/bar2021-preprint13.pdf) ✓
-- [2021 - SN4KE: Practical Mutation Testing at Binary Level](https://bar2021.moyix.net/bar2021-preprint17.pdf) ✓
+- [2021 - icLibFuzzer: Isolated-context libFuzzer for Improving Fuzzer Comparability](https://bar2021.moyix.net/bar2021-preprint13.pdf) ✗
+- [2021 - SN4KE: Practical Mutation Testing at Binary Level](https://bar2021.moyix.net/bar2021-preprint17.pdf) ✗
 - [2021 - One Engine to Fuzz ’em All: Generic Language Processor Testing with Semantic Validation](https://faculty.ist.psu.edu/wu/papers/polyglot.pdf) ✓
 - [2021 - Growing A Test Corpus with Bonsai Fuzzing](https://rohan.padhye.org/files/bonsai-icse21.pdf) ✓
 - [2021 - Fuzzing Symbolic Expressions](https://arxiv.org/pdf/2102.06580.pdf) ✓
-- [2021 - JMPscare: Introspection for Binary-Only Fuzzing](https://bar2021.moyix.net/bar2021-preprint3.pdf) ✓
+- [2021 - JMPscare: Introspection for Binary-Only Fuzzing](https://bar2021.moyix.net/bar2021-preprint3.pdf) ✗
 - [2021 - An Improved Directed Grey-box Fuzzer](https://ieeexplore.ieee.org/abstract/document/9338761) ✓
 - [2021 - A Binary Protocol Fuzzing Method Based on SeqGAN](https://ieeexplore.ieee.org/abstract/document/9339152) ✓
 - [2021 - Refined Grey-Box Fuzzing with Sivo](https://arxiv.org/pdf/2102.02394.pdf) ✓
@@ -327,8 +327,8 @@ Unread papers categorized by a common main theme.
 - [2021 - GTFuzz: Guard Token Directed Grey-Box Fuzzing](https://ieeexplore.ieee.org/abstract/document/9320425) ✓
 - [2021 - ProFuzzBench: A Benchmark for Stateful Protocol Fuzzing](https://arxiv.org/pdf/2101.05102.pdf) ✓
 - [2021 - SymQEMU:Compilation-based symbolic execution for binaries](http://www.s3.eurecom.fr/docs/ndss21_symqemu.pdf) ✓
-- [2021 - CONCOLIC EXECUTION TAILORED FOR HYBRID FUZZING THESIS](https://repository.gatech.edu/server/api/core/bitstreams/ae7b1a66-f74f-42f9-94a2-c549c0ae5ddc/content) ⚠
-- [2021 - Breaking Through Binaries: Compiler-quality Instrumentationfor Better Binary-only Fuzzing](http://static1.1.sqspcdn.com/static/f/543048/28391424/1610229123433/FIBRE_USENIX_21.pdf?token=XvHn0I3h9MvSnRBV%2Fo4dQ675sEA%3D) ✓
+- [2021 - CONCOLIC EXECUTION TAILORED FOR HYBRID FUZZING THESIS](https://repository.gatech.edu/server/api/core/bitstreams/ae7b1a66-f74f-42f9-94a2-c549c0ae5ddc/content) ✓
+- [2021 - Breaking Through Binaries: Compiler-quality Instrumentationfor Better Binary-only Fuzzing](http://static1.1.sqspcdn.com/static/f/543048/28391424/1610229123433/FIBRE_USENIX_21.pdf?token=XvHn0I3h9MvSnRBV%2Fo4dQ675sEA%3D) ✗
 - [2021 - AlphaFuzz: Evolutionary Mutation-based Fuzzing as Monte Carlo Tree Search](https://arxiv.org/pdf/2101.00612.pdf) ✓
 - [2020 - Fuzzing with Fast Failure Feedback](https://arxiv.org/pdf/2012.13516.pdf) ✓
 - [2020 - LAFuzz: Neural Network for Efficient Fuzzing](https://ieeexplore.ieee.org/abstract/document/9288180) ✓
@@ -336,7 +336,7 @@ Unread papers categorized by a common main theme.
 - [2020 - Program State Abstraction for Feedback-Driven Fuzz Testing using Likely Invariants](https://arxiv.org/pdf/2012.11182.pdf) ✓
 - [2020 - PMFuzz: Test Case Generation for Persistent Memory Programs](https://asplos-conference.org/abstracts/asplos21-paper8-extended_abstract.pdf) ✓
 - [2020 - FuSeBMC: A White-Box Fuzzer for Finding Security Vulnerabilities in C Programs](https://arxiv.org/pdf/2012.11223.pdf) ✓
-- [2020 - Integrity: Finding Integer Errors by Targeted Fuzzing](https://link.springer.com/chapter/10.1007/978-3-030-63086-7_20) ✓
+- [2020 - Integrity: Finding Integer Errors by Targeted Fuzzing](https://link.springer.com/chapter/10.1007/978-3-030-63086-7_20) ✗
 - [2020 - ConFuzz: Coverage-guided Property Fuzzing for Event-driven Programs](https://kcsrk.info/papers/confuzz_padl21.pdf) ✓
 - [2020 - AFLTurbo: Speed up Path Discovery for Greybox Fuzzing](https://ieeexplore.ieee.org/abstract/document/9251057) ✓
 - [2020 - Fuzzing Channel-Based Concurrency Runtimes using Types and Effects](http://soft.vub.ac.be/Publications/2020/vub-tr-soft-20-14.pdf) ✓
@@ -357,9 +357,9 @@ Unread papers categorized by a common main theme.
 - [2020 - CSI-Fuzz: Full-speed Edge Tracing Using Coverage Sensitive Instrumentation](https://sci-hub.se/10.1109/TDSC.2020.3008826) ✓
 - [2020 - Scalable Greybox Fuzzing for Effective Vulnerability Management DISS](https://mediatum.ub.tum.de/doc/1509837/file.pdf) ✓
 - [2020 - HotFuzz Discovering Algorithmic Denial-of-Service Vulnerabilities through Guided Micro-Fuzzing](https://pdfs.semanticscholar.org/6515/a12fc8615a401e3c7a80d5ada59e5d057971.pdf) ✓
-- [2020 - Fuzzing Binaries for Memory Safety Errors with QASan](https://www.researchgate.net/publication/342493914_Fuzzing_Binaries_for_Memory_Safety_Errors_with_QASan) ✓
+- [2020 - Fuzzing Binaries for Memory Safety Errors with QASan](https://www.researchgate.net/publication/342493914_Fuzzing_Binaries_for_Memory_Safety_Errors_with_QASan) ✗
 - [2020 - Suzzer: A Vulnerability-Guided Fuzzer Based on Deep Learning](https://link.springer.com/chapter/10.1007%2F978-3-030-42921-8_8) ✓
-- [2020 - IJON: Exploring Deep State Spaces via Fuzzing](https://nyx-fuzz.com/papers/ijon.pdf) ⚠
+- [2020 - IJON: Exploring Deep State Spaces via Fuzzing](https://nyx-fuzz.com/papers/ijon.pdf) ✓
 - [2020 - Binary-level Directed Fuzzing for Use-After-Free Vulnerabilities](https://arxiv.org/pdf/2002.10751.pdf) ✓
 - [2020 - PANGOLIN: Incremental Hybrid Fuzzing with Polyhedral Path Abstraction](https://qingkaishi.github.io/public_pdfs/SP2020.pdf) ✓
 - [2020 - UEFI Firmware Fuzzing with Simics Virtual Platform](http://web.cecs.pdx.edu/~zhenkun/pub/uefi-fuzzing-dac20.pdf) ✓
@@ -401,12 +401,12 @@ Unread papers categorized by a common main theme.
 - [2017 - Designing New Operating Primitives to ImproveFuzzing Performance](https://acmccs.github.io/papers/p2313-xuA.pdf) ✓
 - [2017 - VUzzer: Application-aware Evolutionary Fuzzing](https://download.vusec.net/papers/vuzzer_ndss17.pdf) ✓
 - [2017 - DIFUZE: Interface Aware Fuzzing for Kernel Drivers](https://acmccs.github.io/papers/p2123-corinaA.pdf) ✓
-- [2017 - Instruction Punning: Lightweight Instrumentation for x86-64](https://dl.acm.org/doi/pdf/10.1145/3062341.3062344?download=true) ✓
+- [2017 - Instruction Punning: Lightweight Instrumentation for x86-64](https://dl.acm.org/doi/pdf/10.1145/3062341.3062344?download=true) ✗
 - [2017 - Designing New Operating Primitives to Improve Fuzzing Performance](https://dl.acm.org/doi/pdf/10.1145/3133956.3134046) ✓
 - [2014 - A Large-Scale Analysis of the Security of Embedded Firmwares](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-costin.pdf) ✓
 - [2013 - Scheduling Black-box Mutational Fuzzing](https://softsec.kaist.ac.kr/~sangkilc/papers/woo-ccs13.pdf) ✓
 - [2013 - Dowsing for Overflows: A Guided Fuzzer to Find Buffer Boundary Violations](https://www.usenix.org/system/files/conference/usenixsecurity13/sec13-paper_haller.pdf) ✓
-- [2013 - RPFuzzer: A Framework for Discovering Router Protocols Vulnerabilities Based on Fuzzing](http://www.itiis.org/journals/tiis/digital-library/manuscript/file/20353/14.TIIS-RP-2012-Dec-0966.R1.pdf) ✓
+- [2013 - RPFuzzer: A Framework for Discovering Router Protocols Vulnerabilities Based on Fuzzing](http://www.itiis.org/journals/tiis/digital-library/manuscript/file/20353/14.TIIS-RP-2012-Dec-0966.R1.pdf) ✗
 - [2011 - Offset-Aware Mutation based Fuzzing for Buffer Overflow Vulnerabilities: Few Preliminary Results](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5954459) ✓
 - [2010 - TaintScope: A Checksum-Aware Directed Fuzzing Tool for Automatic Software Vulnerability Detection](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5504701) ✓
 - [2009 - Taint-based Directed Whitebox Fuzzing](https://people.csail.mit.edu/rinard/paper/icse09.pdf) ✓
@@ -425,8 +425,8 @@ Unread papers categorized by a common main theme.
 
 ### AI/LLM
 
-- [2024 - Pentest GPt: Evaluating and Harnessing Large Language Models for Automated Penetration Testing](https://www.usenix.org/system/files/usenixsecurity24-deng.pdf)
-- [2024 - AutoSafeCoder: A Multi-Agent Framework for Securing LLM Code Generation through Static Analysis and Fuzz Testing](https://arxiv.org/abs/2409.10737v2)
+- [2024 - Pentest GPt: Evaluating and Harnessing Large Language Models for Automated Penetration Testing](https://www.usenix.org/system/files/usenixsecurity24-deng.pdf) ✓
+- [2024 - AutoSafeCoder: A Multi-Agent Framework for Securing LLM Code Generation through Static Analysis and Fuzz Testing](https://arxiv.org/abs/2409.10737v2) ✓
 - [2024 - Fixing Security Vulnerabilities with AI in OSS-Fuzz](https://arxiv.org/pdf/2411.03346) ✓
 - [2024 - ChatHTTPFuzz: Large Language Model-Assisted IoT HTTP Fuzzing](https://arxiv.org/pdf/2411.11929) ✓
 - [2024 - Harnessing Large Language Models for Seed Generation in Greybox Fuzzing](https://arxiv.org/pdf/2411.18143) ✓
@@ -435,7 +435,7 @@ Unread papers categorized by a common main theme.
 - [2024 - My Fuzzers Won’t Build: An Empirical Study of Fuzzing Build Failures](https://dl.acm.org/doi/abs/10.1145/3688842) ✓
 - [2024 - ECG: Augmenting Embedded Operating System Fuzzing via LLM-based Corpus Generation](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/paper_from_24/ECG_EMSOFT24.pdf) ✓
 - [2024 - FUZZCODER: Byte-level Fuzzing Test via Large Language Mode](https://arxiv.org/pdf/2409.01944) ✓
-- [2024 - CyberSecEval 2: A Wide-Ranging Cybersecurity Evaluation Suite for Large Language Models](https://arxiv.org/abs/2404.13161)
+- [2024 - CyberSecEval 2: A Wide-Ranging Cybersecurity Evaluation Suite for Large Language Models](https://arxiv.org/abs/2404.13161) ✗
 - [2024 - ProphetFuzz: Fully Automated Prediction and Fuzzing of High-Risk Option Combinations with Only Documentation via Large Language Model](https://arxiv.org/pdf/2409.00922) ✓
 - [2024 - Is “AI” Useful for Fuzzing? (Keynote)](https://dl.acm.org/doi/abs/10.1145/3678722.3695731) ✓
 - [2024 - Initial Seeds Generation Using LLM for IoT Device Fuzzing](https://ieeexplore.ieee.org/abstract/document/10710191) ✓
@@ -458,7 +458,7 @@ Unread papers categorized by a common main theme.
 - [2023 - Exploring the Limits of ChatGPT in Software Security Applications](https://arxiv.org/pdf/2312.05275) ✓
 - [2023 - LLM-Based Code Generation Method for Golang Compiler Testing](https://guqiuhan.github.io/assets/pdf/conference-paper.pdf) ✓
 - [2023 - Large Language Model guided Protocol Fuzzing](https://mpi-softsec.github.io/papers/NDSS24-chatafl.pdf) ✓
-- [2023 - AI-assisted Vulnerability Analysis And Classification Framework for UDS on CAN-bus Fuzzer](https://www.researchgate.net/profile/Golam-Kayas/publication/374415112_AI-assisted_Vulnerability_Analysis_And_Classification_Framework_for_UDS_on_CAN-bus_Fuzzer/links/651c6261b0df2f20a20ae412/AI-assisted-Vulnerability-Analysis-And-Classification-Framework-for-UDS-on-CAN-bus-Fuzzer.pdf) ✓
+- [2023 - AI-assisted Vulnerability Analysis And Classification Framework for UDS on CAN-bus Fuzzer](https://www.researchgate.net/profile/Golam-Kayas/publication/374415112_AI-assisted_Vulnerability_Analysis_And_Classification_Framework_for_UDS_on_CAN-bus_Fuzzer/links/651c6261b0df2f20a20ae412/AI-assisted-Vulnerability-Analysis-And-Classification-Framework-for-UDS-on-CAN-bus-Fuzzer.pdf) ✗
 - [2023 - GPTFUZZER: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts](https://arxiv.org/pdf/2309.10253.pdf) ✓
 - [2023 - FUZZLLM: A NOVEL AND UNIVERSAL FUZZING FRAMEWORK FOR PROACTIVELY DISCOVERING JAILBREAK VULNERABILITIES IN LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2309.05274.pdf) ✓
 - [2023 - Universal Fuzzing via Large Language Models](https://arxiv.org/pdf/2308.04748.pdf) ✓
@@ -471,62 +471,62 @@ Unread papers categorized by a common main theme.
 ### IoT fuzzing
 
 - [2024 - Parallel Fuzzing of IoT Messaging Protocols through Collaborative Packet Generation](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/paper_from_24/MPFuzz_EMSOFT24.pdf) ✓
-- [2024 - TWFuzz: Fuzzing Embedded Systems with Three Wires](https://dl.acm.org/doi/abs/10.1145/3652032.3657568) ✓
-- [2024 - IoTFuzzSentry: Hunting Bugs In The IoT Wilderness In Operational Phase Using Payload Fuzzing](https://dl.acm.org/doi/abs/10.1145/3626232.3658642) ✓
+- [2024 - TWFuzz: Fuzzing Embedded Systems with Three Wires](https://dl.acm.org/doi/abs/10.1145/3652032.3657568) ✗
+- [2024 - IoTFuzzSentry: Hunting Bugs In The IoT Wilderness In Operational Phase Using Payload Fuzzing](https://dl.acm.org/doi/abs/10.1145/3626232.3658642) ✗
 - [2024 - TAIFuzz: taint analysis instrumentation-based firmware fuzzing system](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13181/131814D/TAIFuzz-taint-analysis-instrumentation-based-firmware-fuzzing-system/10.1117/12.3031105.full) ✓
 - [2024 - RIoTFuzzer: Companion App Assisted Remote Fuzzing for Detecting Vulnerabilities in IoT Devices](https://cse.seu.edu.cn/_upload/article/files/4e/cb/457914eb4249b778299c9d33acdd/2b22fda2-e00c-441a-b7a6-e61c0d12de57.pdf) ✓
 - [2024 - FIRMRCA: Towards Post-Fuzzing Analysis on ARM Embedded Firmware with Efficient Event-based Fault Localization](https://arxiv.org/pdf/2410.18483) ✓
 - [2024 - MSLFuzzer: black-box fuzzing of SOHO router devices via message segment list inference](https://cybersecurity.springeropen.com/articles/10.1186/s42400-023-00186-5) ✓
 - [2024 - MULTIFUZZ: A Multi-Stream Fuzzer For Testing Monolithic Firmware](https://www.usenix.org/system/files/sec24summer-prepub-805-chesser.pdf) ✓
-- [2023 - KVFL: Key-Value-Based Persistent Fuzzing for IoT Web Servers](https://academic.oup.com/comjnl/advance-article-abstract/doi/10.1093/comjnl/bxad110/7456153?login=false) ✓
-- [2023 - Firmulti Fuzzer: Discovering Multi-process Vulnerabilities in IoT Devices with Full System Emulation and VMI](https://dl.acm.org/doi/abs/10.1145/3605758.3623493) ✓
+- [2023 - KVFL: Key-Value-Based Persistent Fuzzing for IoT Web Servers](https://academic.oup.com/comjnl/advance-article-abstract/doi/10.1093/comjnl/bxad110/7456153?login=false) ✗
+- [2023 - Firmulti Fuzzer: Discovering Multi-process Vulnerabilities in IoT Devices with Full System Emulation and VMI](https://dl.acm.org/doi/abs/10.1145/3605758.3623493) ✗
 - [2023 - Fuzzability Testing Framework for Incomplete Firmware Binary](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10189855) ✓
 - [2023 - Fuzzing Embedded Systems Using Debug Interfaces](https://publications.cispa.saarland/3950/1/issta23-gdbfuzz.pdf) ✓
 - [2023 - Icicle: A Re-Designed Emulator for Grey-Box Firmware Fuzzing](https://arxiv.org/pdf/2301.13346.pdf) ✓
 - [2022 - FirmSolo: Enabling dynamic analysis of binary Linux-based IoT kernel modules](https://www.usenix.org/system/files/sec23summer_190-angelakopoulos-prepub.pdf) ✓
 - [2022 - FuzzDocs: An Automated Security Evaluation Framework for IoT](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9895405) ✓
-- [2022 - AflIot: Fuzzing on linux-based IoT device with binary-level instrumentation](https://www.sciencedirect.com/science/article/pii/S0167404822002838) ✓
+- [2022 - AflIot: Fuzzing on linux-based IoT device with binary-level instrumentation](https://www.sciencedirect.com/science/article/pii/S0167404822002838) ✗
 - [2022 - Tardis: Coverage-Guided Embedded Operating System Fuzzing](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/Emsoft22_Tardis.pdf) ✓
 - [2022 - Efficient greybox fuzzing of applications in Linux-based IoT devices via enhanced user-mode emulation](https://cenzhang.github.io/files/pubs/2022-issta-equafl.pdf) ✓
 - [2022 - Trampoline Over the Air: Breaking in IoT Devices Through MQTT Brokers](https://ieeexplore.ieee.org/abstract/document/9797386) ✓
-- [2022 - PDFuzzerGen: Policy-Driven Black-Box Fuzzer Generation for Smart Devices](https://www.hindawi.com/journals/scn/2022/9788219/) ✓
-- [2022 - RW-Fuzzer: A Fuzzing Method for Vulnerability Mining on Router Web Interface](https://www.hindawi.com/journals/wcmc/2022/5311295/) ✓
+- [2022 - PDFuzzerGen: Policy-Driven Black-Box Fuzzer Generation for Smart Devices](https://www.hindawi.com/journals/scn/2022/9788219/) ✗
+- [2022 - RW-Fuzzer: A Fuzzing Method for Vulnerability Mining on Router Web Interface](https://www.hindawi.com/journals/wcmc/2022/5311295/) ✗
 - [2022 - IoTInfer: Automated Blackbox Fuzz Testing of IoT Network Protocols Guided by Finite State Machine Inference](https://ieeexplore.ieee.org/abstract/document/9794676) ✓
 - [2022 - Debugger-driven Embedded Fuzzing](https://ieeexplore.ieee.org/abstract/document/9787842) ✓
-- [2022 - Game of Hide-and-Seek: Exposing Hidden Interfaces in Embedded Web Applications of IoT Devices](https://dl.acm.org/doi/abs/10.1145/3485447.3512213) ✓
+- [2022 - Game of Hide-and-Seek: Exposing Hidden Interfaces in Embedded Web Applications of IoT Devices](https://dl.acm.org/doi/abs/10.1145/3485447.3512213) ✗
 - [2022 - 𝜇AFL: Non-intrusive Feedback-driven Fuzzing for Microcontroller Firmware](https://arxiv.org/pdf/2202.03013.pdf) ✓
 - [2022 - FirVer: Concolic Testing for Systematic Validation of Firmware Binaries](https://web.cecs.pdx.edu/~zhenkun/pub/aspdac22.pdf) ✓
 - [2022 - Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing](https://sites.cs.ucsb.edu/~vigna/publications/2022_USENIXSecurity_Fuzzware.pdf) ✓
-- [2021 - CPscan: Detecting Bugs Caused by Code Pruning in IoT Kernels](https://dl.acm.org/doi/abs/10.1145/3460120.3484738) ✓
+- [2021 - CPscan: Detecting Bugs Caused by Code Pruning in IoT Kernels](https://dl.acm.org/doi/abs/10.1145/3460120.3484738) ✗
 - [2021 - An Efficient Feedback-enhanced Fuzzing Scheme for Linux-based IoT Firmwares](http://wenku.sougen.cn/static/publications/CT1281.pdf) ✗
 - [2021 - A Fuzzing Method for Embedded Software](https://ieeexplore.ieee.org/abstract/document/9587220) ✓
 - [2021 - Large-scale Firmware Vulnerability Analysis Based on Code Similarity](https://ieeexplore.ieee.org/abstract/document/9524216/) ✓
 - [2021 - Towards Fast and Scalable Firmware Fuzzing with Dual-Level Peripheral Modeling](https://ieeexplore.ieee.org/abstract/document/9564029) ✓
 - [2021 - Riding the IoT Wave with VFuzz: Discovering Security Flaws in Smart Home](https://ieeexplore.ieee.org/abstract/document/9663293) ✓
 - [2021 - Zero WFuzzer: Target-Oriented Fuzzing for Web Interface of Embedded Devices](https://ieeexplore.ieee.org/abstract/document/9544451) ✓
-- [2021 - StFuzzer: Contribution-Aware Coverage-Guided Fuzzing for Smart Devices](https://www.hindawi.com/journals/scn/2021/1987844/) ✓
+- [2021 - StFuzzer: Contribution-Aware Coverage-Guided Fuzzing for Smart Devices](https://www.hindawi.com/journals/scn/2021/1987844/) ✗
 - [2021 - Rtkaller: State-aware Task Generation for RTOS Fuzzing](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/emsoft21.pdf) ✓
 - [2021 - IFIZZ: Deep-State and Efficient Fault-Scenario Generation to Test IoT Firmware](https://nesa.zju.edu.cn/download/liu_pdf_ifizz.pdf) ✓
-- [2021 - Automatic Vulnerability Detection in Embedded Devices and Firmware: Survey and Layered Taxonomies](https://dl.acm.org/doi/abs/10.1145/3432893) ✓
+- [2021 - Automatic Vulnerability Detection in Embedded Devices and Firmware: Survey and Layered Taxonomies](https://dl.acm.org/doi/abs/10.1145/3432893) ✗
 - [2021 - Fuzzing the Internet of Things: A Review on the Techniques and Challenges for Efficient Vulnerability Discovery in Embedded Systems](https://ieeexplore.ieee.org/abstract/document/9344712) ✓
 - [2021 - FIRM-COV: High-Coverage Greybox Fuzzing for IoT Firmware via Optimized Process Emulation](https://ieeexplore.ieee.org/abstract/document/9489311) ✓
 - [2020 - Verification of Embedded Software Binaries using Virtual Prototypes](https://link.springer.com/chapter/10.1007/978-3-030-54828-5_6) ✓
 - [2020 - μSBS: Static Binary Sanitization of Bare-metal Embedded Devices forFault Observability](https://www.usenix.org/system/files/raid20-salehi.pdf) ✓
-- [2020 - Device-agnostic Firmware Execution is Possible: A Concolic Execution Approach for Peripheral Emulation](https://dl.acm.org/doi/abs/10.1145/3427228.3427280) ✓
+- [2020 - Device-agnostic Firmware Execution is Possible: A Concolic Execution Approach for Peripheral Emulation](https://dl.acm.org/doi/abs/10.1145/3427228.3427280) ✗
 - [2020 - Vulnerability Detection in SIoT Applications: A Fuzzing Method on their Binaries](https://ieeexplore.ieee.org/abstract/document/9259242) ✓
 - [2020 - FirmAE: Towards Large-Scale Emulation of IoT Firmware forDynamic Analysis](https://syssec.kaist.ac.kr/pub/2020/kim_acsac2020.pdf) ✓
-- [2020 - FIRMNANO: Toward IoT Firmware Fuzzing Through Augmented Virtual Execution](https://ieeexplore.ieee.org/abstract/document/9237719) �
+- [2020 - FIRMNANO: Toward IoT Firmware Fuzzing Through Augmented Virtual Execution](https://ieeexplore.ieee.org/abstract/document/9237719) � ✓
 - [2020 - ARM-AFL: Coverage-Guided Fuzzing Framework for ARM-Based IoT Devices](https://link.springer.com/chapter/10.1007/978-3-030-61638-0_14) ✓
 - [2020 - Bug detection in embedded environments by fuzzing and symbolic execution](https://ieeexplore.ieee.org/document/9245083) ✓
 - [2020 - EM-Fuzz: Augmented Firmware Fuzzing via Memory Checking](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/EMSOFT20.pdf) ✓
-- [2020 - Verification of Embedded Binaries using Coverage-guided Fuzzing with System C-based Virtual Prototypes](http://www.informatik.uni-bremen.de/agra/doc/konf/2020GLSVLSI_Verification-of-Embedded-Binaries-using-Coverage-guided-Fuzzing-with-SystemC-Virtual-Prototypes.pdf) �
+- [2020 - Verification of Embedded Binaries using Coverage-guided Fuzzing with System C-based Virtual Prototypes](http://www.informatik.uni-bremen.de/agra/doc/konf/2020GLSVLSI_Verification-of-Embedded-Binaries-using-Coverage-guided-Fuzzing-with-SystemC-Virtual-Prototypes.pdf) � ✓
 - [2020 - DICE: Automatic Emulation of DMA Input Channels for Dynamic Firmware Analysis](https://arxiv.org/pdf/2007.01502.pdf) ✓
-- [2020 - Fw‐fuzz: A code coverage‐guided fuzzing framework for network protocols on firmware](https://onlinelibrary.wiley.com/doi/full/10.1002/cpe.5756) ✓
+- [2020 - Fw‐fuzz: A code coverage‐guided fuzzing framework for network protocols on firmware](https://onlinelibrary.wiley.com/doi/full/10.1002/cpe.5756) ✗
 - [2020 - Taint-Driven Firmware Fuzzing of Embedded Systems](https://melisasavich.com/assets/pdf/taint-driven-firmware-fuzzing-embedded-systems-thesis.pdf) ✓
 - [2020 - A Dynamic Instrumentation Technology for IoT Devices](https://link.springer.com/chapter/10.1007/978-3-030-50399-4_29) ✓
-- [2020 - Vulcan: a state-aware fuzzing tool for wear OS ecosystem](https://dl.acm.org/doi/abs/10.1145/3386901.3397492) ✓
-- [2020 - A Novel Concolic Execution Approach on Embedded Device](https://dl.acm.org/doi/abs/10.1145/3377644.3377654) ✓
-- [2020 - HFuzz: Towards automatic fuzzing testing of NB-IoT core network protocols implementations](https://www.sciencedirect.com/science/article/pii/S0167739X19324409) ✓
+- [2020 - Vulcan: a state-aware fuzzing tool for wear OS ecosystem](https://dl.acm.org/doi/abs/10.1145/3386901.3397492) ✗
+- [2020 - A Novel Concolic Execution Approach on Embedded Device](https://dl.acm.org/doi/abs/10.1145/3377644.3377654) ✗
+- [2020 - HFuzz: Towards automatic fuzzing testing of NB-IoT core network protocols implementations](https://www.sciencedirect.com/science/article/pii/S0167739X19324409) ✗
 - [2020 - FIRMCORN: Vulnerability-Oriented Fuzzing of IoT Firmware via Optimized Virtual Execution](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8990098) ✓
 - [2018 - IoTFuzzer: Discovering Memory Corruptions in IoT Through App-based Fuzzing](https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_01A-1_Chen_paper.pdf) ✓
 - [2017 - Towards Automated Dynamic Analysis for Linux-based Embedded Firmware](https://www.ndss-symposium.org/wp-content/uploads/2017/09/towards-automated-dynamic-analysis-linux-based-embedded-firmware.pdf) ✓
@@ -539,11 +539,11 @@ Unread papers categorized by a common main theme.
 ### Firmware Emulation
 
 - [2024 - SyncEmu: Enabling Dynamic Analysis of Stateful Trusted Applications](https://ieeexplore.ieee.org/abstract/document/10628764) ✓
-- [2022 - What You See is Not What You Get: Revealing Hidden Memory Mapping for Peripheral Modeling](https://dl.acm.org/doi/pdf/10.1145/3545948.3545957) ✓
+- [2022 - What You See is Not What You Get: Revealing Hidden Memory Mapping for Peripheral Modeling](https://dl.acm.org/doi/pdf/10.1145/3545948.3545957) ✗
 - [2022 - What Your Firmware Tells You Is Not How You Should Emulate It: A Specification-Guided Approach for Firmware Emulation (Extended Version)](https://arxiv.org/pdf/2208.07833.pdf) ✓
 - [2022 - BEERR: Bench of Embedded system Experiments for Reproducible Research](https://www.s3.eurecom.fr/docs/silm22_olivier.pdf) ✓
 - [2022 - FIRMWIRE: Transparent Dynamic Analysis for Cellular Baseband Firmware](https://hernan.de/research/papers/firmwire-ndss22-hernandez.pdf) ✓
-- [2022 - An Automated Approach to Re-Hosting Embedded Firmware Through Removing Hardware Dependencies](https://hammer.purdue.edu/articles/thesis/An_Automated_Approach_to_Re-Hosting_Embedded_Firmware_Through_Removing_Hardware_Dependencies/17131628) ✓
+- [2022 - An Automated Approach to Re-Hosting Embedded Firmware Through Removing Hardware Dependencies](https://hammer.purdue.edu/articles/thesis/An_Automated_Approach_to_Re-Hosting_Embedded_Firmware_Through_Removing_Hardware_Dependencies/17131628) ✗
 - [2021 - FIRMGUIDE: Boosting the Capability of Rehosting Embedded Linux Kernels through Model-Guided Kernel Execution](https://yajin.org/papers/ase21_firmguide.pdf) ✓
 - [2021 - Automatic Firmware Emulation through Invalidity-guided Knowledge Inference(Extended Version)](https://arxiv.org/pdf/2107.07759.pdf) ✓
 - [2021 - Firmware Re-hosting Through Static Binary-level Porting](https://arxiv.org/pdf/2107.09856.pdf) ✓
@@ -557,19 +557,19 @@ Unread papers categorized by a common main theme.
 - [2024 - Stateful protocol fuzzing with statemap-based reverse state selection](https://arxiv.org/pdf/2408.06844) ✓
 - [2024 - Gudifu: Guided Differential Fuzzing for HTTP Request Parsing Discrepancies](https://www.onarlioglu.com/publications/raid2024gudifu.pdf) ✓
 - [2024 - Netfuzzlib: Adding First-Class Fuzzing Support to Network Protocol Implementations](https://papers.mathyvanhoef.com/esorics2024.pdf) ✓
-- [2023 - NSFuzz: Towards Eficient and State-Aware Network Service Fuzzing - RCR Report](https://dl.acm.org/doi/pdf/10.1145/3580599) ✓
+- [2023 - NSFuzz: Towards Eficient and State-Aware Network Service Fuzzing - RCR Report](https://dl.acm.org/doi/pdf/10.1145/3580599) ✗
 - [2023 - INTENDER: Fuzzing Intent-Based Networking with Intent-State Transition Guidance](https://www.usenix.org/system/files/sec23fall-prepub-285_kim-jiwon.pdf) ✓
-- [2023 - NSFuzz: Towards Eficient and State-Aware Network Service Fuzzing](https://dl.acm.org/doi/pdf/10.1145/3580598) ✓
+- [2023 - NSFuzz: Towards Eficient and State-Aware Network Service Fuzzing](https://dl.acm.org/doi/pdf/10.1145/3580598) ✗
 - [2022 - FitM: Binary-Only Coverage-Guided Fuzzing for Stateful Network Protocols](https://www.ndss-symposium.org/wp-content/uploads/bar2022_23008_paper.pdf) ✓
 - [2022 - WThreadAFL:Deterministic Greybox Fuzzing for Multi-threadNetwork Servers](https://conferences.sigcomm.org/events/apnet2022/posters/WThreadAFL.pdf) ✓
-- [2022 - Model-Based Grey-Box Fuzzing of Network Protocols](https://www.hindawi.com/journals/scn/2022/6880677/) ✓
+- [2022 - Model-Based Grey-Box Fuzzing of Network Protocols](https://www.hindawi.com/journals/scn/2022/6880677/) ✗
 - [2022 - Registered Report: NSFuzz: Towards Efficient and State-Aware Network Service Fuzzing](https://www.ndss-symposium.org/wp-content/uploads/fuzzing2022_23006_paper.pdf) ✓
 - [2022 - SnapFuzz: An Efficient Fuzzing Framework for Network Applications](https://arxiv.org/pdf/2201.04048.pdf) ✓
 - [2022 - REST API Fuzzing by Coverage Level Guided Blackbox Testing](https://arxiv.org/pdf/2112.15485.pdf) ✓
 - [2022 - SNPSFuzzer: A Fast Greybox Fuzzer for Stateful Network Protocols using Snapshots](https://arxiv.org/pdf/2202.03643.pdf) ✓
-- [2022 - WAFL: Binary-Only WebAssembly Fuzzing with Fast Snapshots](https://dl.acm.org/doi/abs/10.1145/3503921.3503924) ✓
+- [2022 - WAFL: Binary-Only WebAssembly Fuzzing with Fast Snapshots](https://dl.acm.org/doi/abs/10.1145/3503921.3503924) ✗
 - [2021 - Nyx-Net: Network Fuzzing with Incremental Snapshots](https://arxiv.org/pdf/2111.03013.pdf) ✓
-- [2021 - RapidFuzz: Accelerating Fuzzing via Generative Adversarial Networks](https://www.sciencedirect.com/science/article/abs/pii/S0925231221010122) ✓
+- [2021 - RapidFuzz: Accelerating Fuzzing via Generative Adversarial Networks](https://www.sciencedirect.com/science/article/abs/pii/S0925231221010122) ✗
 - [2021 - StateAFL: Greybox Fuzzing for Stateful Network Servers](https://arxiv.org/pdf/2110.06253.pdf) ✓
 - [2020 - AFLNET: A Greybox Fuzzer for Network Protocols](https://www.comp.nus.edu.sg/~abhik/pdf/AFLNet-ICST20.pdf) ✓
 - [2020 - Finding Security Vulnerabilities in Network Protocol Implementations](https://arxiv.org/pdf/2001.09592.pdf) ✓
@@ -585,24 +585,24 @@ Unread papers categorized by a common main theme.
 - [2024 - SyzRetrospector: A Large-Scale Retrospective Study of Syzbot](https://arxiv.org/pdf/2401.11642) ✓
 - [2024 - SyzRisk: A Change-Pattern-Based Continuous Kernel Regression Fuzzer](http://nebelwelt.net/files/24AsiaCCS.pdf) ✓
 - [2024 - MOCK: Optimizing Kernel Fuzzing Mutation with Context-aware Dependency](https://www.ndss-symposium.org/wp-content/uploads/2024-131-paper.pdf) ✓
-- [2023 - SyzDirect: Directed Greybox Fuzzing for Linux Kernel](https://dl.acm.org/doi/abs/10.1145/3576915.3623146) ✓
+- [2023 - SyzDirect: Directed Greybox Fuzzing for Linux Kernel](https://dl.acm.org/doi/abs/10.1145/3576915.3623146) ✗
 - [2023 - SyzBridge: Bridging the Gap in Exploitability Assessment of Linux Kernel Bugs in the Linux Ecosystem](https://etenal.me/download/SyzBridge.pdf) ✓
 - [2023 - KextFuzz: A Practical Fuzzer for macOS Kernel EXTensions on Apple Silicon](https://www.computer.org/csdl/journal/tq/5555/01/10315961/1S2UHhBqryU) ✓
-- [2023 - WinkFuzz: Model-based Script Synthesis for Fuzzing](https://dl.acm.org/doi/abs/10.1145/3591365.3592946) ✓
+- [2023 - WinkFuzz: Model-based Script Synthesis for Fuzzing](https://dl.acm.org/doi/abs/10.1145/3591365.3592946) ✗
 - [2023 - SyzDescribe: Principled, Automated, Static Generation of Syscall Descriptions for Kernel Drivers](https://www.cs.ucr.edu/~zhiyunq/pub/oakland23_syzdescribe.pdf) ✓
 - [2023 - ACTOR: Action-Guided Kernel Fuzzing](https://nebelwelt.net/files/23SEC6.pdf) ✓
 - [2023 - KextFuzz: Fuzzing macOS Kernel EXTensions on Apple Silicon via Exploiting Mitigations](https://www.usenix.org/system/files/sec23fall-prepub-425-yin-tingting.pdf) ✓
 - [2023 - BoKASAN: Binary-only Kernel Address Sanitizer for Effective Kernel Fuzzing](https://www.usenix.org/system/files/sec23fall-prepub-325-cho-mingi.pdf) ✓
 - [2023 - DDRace: Finding Concurrency UAF Vulnerabilities in Linux Drivers with Directed Fuzzing](https://www.usenix.org/system/files/sec23fall-prepub-193-yuan-ming.pdf) ✓
-- [2023 - Towards Unveiling Exploitation Potential With Multiple Error Behaviors for Kernel Bugs](https://ieeexplore.ieee.org/abstract/document/10048506) ✓
+- [2023 - Towards Unveiling Exploitation Potential With Multiple Error Behaviors for Kernel Bugs](https://ieeexplore.ieee.org/abstract/document/10048506) ✗
 - [2023 - No Grammar, No Problem: Towards Fuzzing the Linux Kernel without System-Call Descriptions](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f688_paper.pdf) ✓
-- [2022 - PrIntFuzz: fuzzing Linux drivers via automated virtual device simulation](https://dl.acm.org/doi/pdf/10.1145/3533767.3534226) ✓
+- [2022 - PrIntFuzz: fuzzing Linux drivers via automated virtual device simulation](https://dl.acm.org/doi/pdf/10.1145/3533767.3534226) ✗
 - [2022 - KSG: Augmenting Kernel Fuzzing with System Call Specification Generation](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/atc22.pdf) ✓
-- [2022 - Demystifying the Dependency Challenge in Kernel Fuzzing](https://dl.acm.org/doi/pdf/10.1145/3510003.3510126) ✓
+- [2022 - Demystifying the Dependency Challenge in Kernel Fuzzing](https://dl.acm.org/doi/pdf/10.1145/3510003.3510126) ✗
 - [2022 - Midas: Systematic Kernel TOCTTOU Protection](https://www.usenix.org/system/files/sec22summer_bhattacharyya.pdf) ✓
 - [2021 - Evaluating Code Coverage for Kernel Fuzzers via Function Call Graph](https://ieeexplore.ieee.org/abstract/document/9618942) ✓
-- [2021 - ACHyb: a hybrid analysis approach to detect kernel access control vulnerabilities](https://dl.acm.org/doi/abs/10.1145/3468264.3468627) ✓
-- [2021 - CVFuzz: Detecting complexity vulnerabilities in OpenCL kernels via automated pathological input generation](https://www.sciencedirect.com/science/article/abs/pii/S0167739X21003526) ✓
+- [2021 - ACHyb: a hybrid analysis approach to detect kernel access control vulnerabilities](https://dl.acm.org/doi/abs/10.1145/3468264.3468627) ✗
+- [2021 - CVFuzz: Detecting complexity vulnerabilities in OpenCL kernels via automated pathological input generation](https://www.sciencedirect.com/science/article/abs/pii/S0167739X21003526) ✗
 - [2021 - HEALER: Relation Learning Guided Kernel Fuzzing](www.wingtecher.com/themes/WingTecherResearch/assets/papers/healer-sosp21.pdf)
 - [2021 - SyzVegas: Beating Kernel Fuzzing Odds with Reinforcement Learning](https://www.usenix.org/conference/usenixsecurity21/presentation/wang-daimeng) ✓
 - [2021 - NTFUZZ: Enabling Type-Aware Kernel Fuzzing on Windows with Static Binary Analysis](https://islab-sogang.github.io/data/oakland2021.pdf) ✓
@@ -610,7 +610,7 @@ Unread papers categorized by a common main theme.
 - [2020 - A Hybrid Interface Recovery Method for Android Kernels Fuzzing](https://qrs20.techconf.org/QRS2020_FULL/pdfs/QRS2020-4LGdOos7NAbR8M2s6S6ezE/891300a335/891300a335.pdf) ✓
 - [2020 - FINDING RACE CONDITIONS IN KERNELS:FROM FUZZING TO SYMBOLIC EXECUTION - THESIS](https://gts3.org/assets/papers/2020/xu:thesis.pdf) ✓
 - [2020 - Agamotto: Accelerating Kernel Driver Fuzzing with Lightweight Virtual Machine Checkpoints](https://www.usenix.org/conference/usenixsecurity20/presentation/song) ✓
-- [2020 - X-AFL: a kernel fuzzer combining passive and active fuzzing](https://dl.acm.org/doi/abs/10.1145/3380786.3391400) ✓
+- [2020 - X-AFL: a kernel fuzzer combining passive and active fuzzing](https://dl.acm.org/doi/abs/10.1145/3380786.3391400) ✗
 - [2020 - Identification of Kernel Memory Corruption Using Kernel Memory Secret Observation Mechanism](https://search.ieice.org/bin/summary.php?id=e103-d_7_1462) ✓
 - [2020 - HFL: Hybrid Fuzzing on the Linux Kernel](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24018.pdf) ✓
 - [2020 - Realistic Error Injection for System Calls](https://arxiv.org/pdf/2006.04444.pdf) ✓
@@ -619,7 +619,7 @@ Unread papers categorized by a common main theme.
 - [2019 - Fuzzing File Systems via Two-Dimensional Input Space Exploration](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8835267) ✓
 - [2019 - Razzer: Finding Kernel Race Bugs through Fuzzing](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8835326) ✓
 - [2019 - Unicorefuzz: On the Viability of Emulation for Kernel space Fuzzing](https://www.usenix.org/system/files/woot19-paper_maier.pdf) ✓
-- [2017 - Stateful Fuzzing of Wireless Device Drivers in an Emulated Environment](https://pdfs.semanticscholar.org/26b9/97d7a83ce950db6d311ee65c268e756e0794.pdf) ✓
+- [2017 - Stateful Fuzzing of Wireless Device Drivers in an Emulated Environment](https://pdfs.semanticscholar.org/26b9/97d7a83ce950db6d311ee65c268e756e0794.pdf) ✗
 - [2017 - DIFUZE: Interface Aware Fuzzing for Kernel Drivers](https://acmccs.github.io/papers/p2123-corinaA.pdf) ✓
 - [2008 - Fuzzing Wi-Fi Drivers to Locate Security Vulnerabilities](https://www.di.fc.ul.pt/~nuno/PAPERS/EDCC08.pdf) ⚠
 
@@ -627,12 +627,12 @@ Unread papers categorized by a common main theme.
 
 - [2025 - DUMPLING: Fine-grained Differential JavaScript Engine Fuzzing](http://nebelwelt.net/files/25NDSS2.pdf) ✓
 - [2024 - SQLPass: A Semantic Effective Fuzzing Method for DBMS](https://ieeexplore.ieee.org/abstract/document/10633453) ✓
-- [2024 - Atlas: Automating Cross-Language Fuzzing on Android Closed-Source Libraries](https://dl.acm.org/doi/abs/10.1145/3650212.3652133) ✓
-- [2024 - Tacoma: Enhanced Browser Fuzzing with Fine-Grained Semantic Alignment](https://dl.acm.org/doi/abs/10.1145/3650212.3680351) ✓
+- [2024 - Atlas: Automating Cross-Language Fuzzing on Android Closed-Source Libraries](https://dl.acm.org/doi/abs/10.1145/3650212.3652133) ✗
+- [2024 - Tacoma: Enhanced Browser Fuzzing with Fine-Grained Semantic Alignment](https://dl.acm.org/doi/abs/10.1145/3650212.3680351) ✗
 - [2024 - Applying Fuzz Driver Generation to Native C/C++ Libraries of OEM Android Framework: Obstacles and Solutions](https://yuanxzhang.github.io/paper/fuzzgen++-ase24industry.pdf) ✓
-- [2024 - CrossFire: Fuzzing macOS Cross-XPU Memory on Apple Silicon](https://dl.acm.org/doi/abs/10.1145/3658644.3690376) ✓
+- [2024 - CrossFire: Fuzzing macOS Cross-XPU Memory on Apple Silicon](https://dl.acm.org/doi/abs/10.1145/3658644.3690376) ✗
 - [2024 - BArcherFuzzer: An Android System Services Fuzzier via Transaction Dependencies of BpBinder](https://cdn.techscience.cn/files/iasc/2024/TSP_IASC-39-3/TSP_IASC_47509/TSP_IASC_47509.pdf) ✓
-- [2024 - BRF: Fuzzing the eBPF Runtime](https://dl.acm.org/doi/pdf/10.1145/3643778) ✓
+- [2024 - BRF: Fuzzing the eBPF Runtime](https://dl.acm.org/doi/pdf/10.1145/3643778) ✗
 - [2024 - Monarch: A Fuzzing Framework for Distributed File Systems](https://hexhive.epfl.ch/publications/files/24ATC.pdf) ✓
 - [2023 - Android Fuzzing: Balancing User-Inputs and Intents](https://ieeexplore.ieee.org/abstract/document/10132258) ✓
 - [2023 - ItyFuzz: Snapshot-Based Fuzzer for Smart Contract](https://arxiv.org/pdf/2306.17135.pdf) ✓
@@ -643,7 +643,7 @@ Unread papers categorized by a common main theme.
 - [2023 - VIDEZZO: Dependency-aware Virtual Device Fuzzing](https://nebelwelt.net/files/23Oakland4.pdf) ✓
 - [2023 - HyPFuzz: Formal-Assisted Processor Fuzzing](https://arxiv.org/pdf/2304.02485.pdf) ✓
 - [2023 - FUZZILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f290_paper.pdf) ✓
-- [2022 - SFuzz: Slice-based Fuzzing for Real-Time Operating Systems](https://dl.acm.org/doi/abs/10.1145/3548606.3559367) ✓
+- [2022 - SFuzz: Slice-based Fuzzing for Real-Time Operating Systems](https://dl.acm.org/doi/abs/10.1145/3548606.3559367) ✗
 - [2022 - LFUZZ: Exploiting Locality for File-system Fuzzing](https://www.cs.fsu.edu/files/reports/TR220922.pdf) ✓
 - [2022 - MUNDOFUZZ: Hypervisor Fuzzing with Statistical Coverage Testing and Grammar Inference](https://lifeasageek.github.io/papers/cheolwoo-mundofuzz.pdf) ✓
 - [2022 - DTLS-Fuzzer: A DTLS Protocol State Fuzzer](https://assist-project.github.io/papers/DTLS-Fuzzer@ICST-22.pdf) ✓
@@ -654,12 +654,12 @@ Unread papers categorized by a common main theme.
 - [2020 - NYX: Greybox Hypervisor Fuzzing using Fast Snapshots and Affine Types](https://www.usenix.org/system/files/sec21summer_schumilo.pdf) ✓
 - [2020 - Tree2tree Structural Language Modeling for Compiler Fuzzing](https://link.springer.com/chapter/10.1007/978-3-030-60245-1_38) ✓
 - [2020 - Detecting Critical Bugs in SMT Solvers Using Blackbox Mutational Fuzzing](https://arxiv.org/pdf/2004.05934.pdf) ✓
-- [2020 - JS Engine - Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer](https://arxiv.org/abs/2001.04107.pdf) ✓
+- [2020 - JS Engine - Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer](https://arxiv.org/abs/2001.04107.pdf) ✗
 - [2020 - JS Engine - Fuzzing JavaScript Engines with Aspect-preserving Mutation](https://taesoo.kim/pubs/2020/park:die.pdf) ✓
 - [2020 - CUDA Compiler - CUDAsmith: A Fuzzer for CUDA Compilers](http://jiangbo.buaa.edu.cn/compsac20-CUDAsmith.pdf) ✓
 - [2020 - Smart Contracts - sFuzz: An Efficient Adaptive Fuzzer for Solidity Smart Contracts](https://arxiv.org/abs/2004.08563) ✓
 - [2019 - Compiler Fuzzing: How Much Does It Matter?](https://srg.doc.ic.ac.uk/files/papers/compilerbugs-oopsla-19.pdf) ✓
-- [2019 - Smart Contracts - Harvey: A Greybox Fuzzer for Smart Contracts](https://arxiv.org/abs/1905.06944.pdf) ✓
+- [2019 - Smart Contracts - Harvey: A Greybox Fuzzer for Smart Contracts](https://arxiv.org/abs/1905.06944.pdf) ✗
 - [2017 - XML - Skyfire: Data-Driven Seed Generation for Fuzzing](https://www.ieee-security.org/TC/SP2017/papers/42.pdf) ✓
 
 ### Exploitation
@@ -667,19 +667,19 @@ Unread papers categorized by a common main theme.
 - [2024 - Revealing the exploitability of heap overflow through PoC analysis](https://link.springer.com/article/10.1186/s42400-024-00244-6) ✓
 - [2024 - Take a Step Further: Understanding Page Spray in Linux Kernel Exploitation](https://arxiv.org/pdf/2406.02624) ✓
 - [2024 - K-LEAK: Towards Automating the Generation of Multi-Step Infoleak Exploits against the Linux Kernel](https://www.cs.ucr.edu/~zhiyunq/pub/ndss24_kleak.pdf) ✓
-- [2023 - Enhanced Memory Corruption Detection in C/C++ Programs](https://dl.acm.org/doi/abs/10.1145/3605731.3605903) ✓
+- [2023 - Enhanced Memory Corruption Detection in C/C++ Programs](https://dl.acm.org/doi/abs/10.1145/3605731.3605903) ✗
 - [2023 - Automated Exploitable Heap Layout Generation for Heap Overflows Through Manipulation Distance-Guided Fuzzing](https://www.usenix.org/system/files/sec23fall-prepub-581-zhang-bin.pdf) ✓
 - [2023 - The Most Dangerous Codec in the World: Finding and Exploiting Vulnerabilities in H.264 Decoders](https://wrv.github.io/h26forge.pdf) ✓
 - [2023 - Detecting Exploit Primitives Automatically for Heap Vulnerabilities on Binary Programs](https://arxiv.org/pdf/2212.13990.pdf) ✓
 - [2022 - RiscyROP: Automated Return-Oriented Programming Attacks on RISC-V and ARM64](https://www.syssec.wiwi.uni-due.de/fileadmin/fileupload/I-SYSSEC/research/RiscyROP.pdf) ✓
 - [2022 - Automatic Permission Check Analysis for Linux Kernel](https://www.computer.org/csdl/journal/tq/5555/01/09750908/1ClSWBlV5ao) ✓
 - [2022 - OS-Aware Vulnerability Prioritization via Differential Severity Analysis](https://www.usenix.org/system/files/sec22-wu-qiushi.pdf) ✓
-- [2022 - Arbiter: Bridging the Static and Dynamic Divide in Vulnerability Discovery on Binary Programs](https://www.usenix.org/system/files/sec22fall_vadayath.pdf) ✗
+- [2022 - Arbiter: Bridging the Static and Dynamic Divide in Vulnerability Discovery on Binary Programs](https://www.usenix.org/system/files/sec22fall_vadayath.pdf) ✓
 - [2022 - KASPER: Scanning for Generalized Transient Execution Gadgets in the Linux Kernel](https://download.vusec.net/papers/kasper_ndss22.pdf) ✓
 - [2022 - MaMaDroid 2.0 - The Holes of control flow graphs](https://arxiv.org/pdf/2202.13922.pdf) ✓
 - [2022 -ShadowHeap: Memory Safety through Efficient Heap Metadata Validation](https://isyou.info/jowua/papers/jowua-v12n4-1.pdf) ✓
 - [2022 - MACH2: System for Root Cause Analysis of Kernel Vulnerabilities \[THESIS\]](https://smartech.gatech.edu/bitstream/handle/1853/66274/DESAI-UNDERGRADUATERESEARCHOPTIONTHESIS-2021.pdf?sequence=1)
-- [2021 - Automated Bug Hunting With Data-Driven Symbolic Root Cause Analysis](https://dl.acm.org/doi/abs/10.1145/3460120.3485363) ✓
+- [2021 - Automated Bug Hunting With Data-Driven Symbolic Root Cause Analysis](https://dl.acm.org/doi/abs/10.1145/3460120.3485363) ✗
 - [2021 - MAJORCA: Multi-Architecture JOP and ROP Chain Assembler](https://arxiv.org/pdf/2111.05781.pdf) ✓
 - [2021 - A Novel Method for the Automatic Generation of JOP Chain Exploits](https://link.springer.com/chapter/10.1007/978-3-030-84614-5_7) ✓
 - [2021 - V0Finder: Discovering the Correct Origin of Publicly Reported Software Vulnerabilities](https://ccs.korea.ac.kr/pds/SECURITY21.pdf) ✓
@@ -691,15 +691,15 @@ Unread papers categorized by a common main theme.
 - [2021 - mallotROPism: a metamorphic engine for malicious software variation development](https://link.springer.com/article/10.1007/s10207-021-00541-y) ✓
 - [2020 - Automatic Techniques to Systematically Discover New Heap Exploitation Primitives](https://www.usenix.org/system/files/sec20-yun.pdf) ✓
 - [2020 - Shadow-Heap: Preventing Heap-based Memory Corruptions by Metadata Validation](https://lukasatkinson.de/research/Bouche2020ShadowHeapValidation.pdf) ✓
-- [2020 - Practical Fine-Grained Binary Code Randomization](https://dl.acm.org/doi/abs/10.1145/3427228.3427292) ✓
-- [2020 - Tiny-CFA: Minimalistic Control-Flow Attestation UsingVerified Proofs of Execution](https://arxiv.org/abs/2011.07400) ⚠
+- [2020 - Practical Fine-Grained Binary Code Randomization](https://dl.acm.org/doi/abs/10.1145/3427228.3427292) ✗
+- [2020 - Tiny-CFA: Minimalistic Control-Flow Attestation UsingVerified Proofs of Execution](https://arxiv.org/abs/2011.07400) ✓
 - [2020 - Greybox Automatic Exploit Generation for Heap Overflows in Language Interpreters - PHD THESIS](https://seanhn.files.wordpress.com/2020/11/heelan_phd_thesis.pdf) ✓
 - [2020 - ABCFI: Fast and Lightweight Fine-Grained Hardware-Assisted Control-Flow Integrity](https://www.sci-hub.se/10.1109/TCAD.2020.3012640) ✓
 - [2020 - HeapExpo: Pinpointing Promoted Pointers to Prevent Use-After-Free Vulnerabilities](http://moyix.net/~moyix/papers/heapexpo.pdf) ✗
 - [2020 - Localizing Patch Points From One Exploit](https://arxiv.org/pdf/2008.04516.pdf) ✓
 - [2020 - Speculative Dereferencing of Registers: Reviving Foreshadow](https://arxiv.org/pdf/2008.02307.pdf) ✓
 - [2020 - HAEPG: An Automatic Multi-hop Exploitation Generation Framework](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7338205/) ✓
-- [2020 - Exploiting More Binaries by Using Planning to Assemble ROP Exploiting More Binaries by Using Planning to Assemble ROP Attacks Attacks](https://scholars.unh.edu/cgi/viewcontent.cgi?article=2376&context=thesis) ✓
+- [2020 - Exploiting More Binaries by Using Planning to Assemble ROP Exploiting More Binaries by Using Planning to Assemble ROP Attacks Attacks](https://scholars.unh.edu/cgi/viewcontent.cgi?article=2376&context=thesis) ✗
 - [2020 - ROPminer: Learning-Based Static Detection of ROP Chain Considering Linkability of ROP Gadgets](https://search.ieice.org/bin/summary.php?id=e103-d_7_1476) ✓
 - [2020 - KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities](http://www.cs.ucr.edu/~zhiyunq/pub/sec20_koobe.pdf) ✓
 - [2020 - Preventing Return Oriented Programming Attacks By Preventing Return Instruction Pointer Overwrites](https://www.csee.umbc.edu/~allgood1/papers/611-rop.pdf) ✓
@@ -707,21 +707,21 @@ Unread papers categorized by a common main theme.
 - [2020 - ShadowGuard : Optimizing the Policy and Mechanism of Shadow Stack Instrumentation using Binary Static Analysis](https://arxiv.org/pdf/2002.07748.pdf) ✓
 - [2020 - VulHunter: An Automated Vulnerability Detection System Based on Deep Learning and Bytecode](https://link.springer.com/chapter/10.1007/978-3-030-41579-2_12) ✓
 - [2020 - Analysis and Evaluation of ROPInjector](http://dione.lib.unipi.gr/xmlui/bitstream/handle/unipi/12622/Tsioutsias_1633.pdf) ✓
-- [2020 - API Misuse Detection in C Programs: Practice on SSL APIs](https://www.worldscientific.com/doi/abs/10.1142/S0218194019400205) ✓
+- [2020 - API Misuse Detection in C Programs: Practice on SSL APIs](https://www.worldscientific.com/doi/abs/10.1142/S0218194019400205) ✗
 - [2020 - KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities](http://www.cs.ucr.edu/~zhiyunq/pub/sec20_koobe.pdf) ✓
 - [2020 - Egalito: Layout-Agnostic Binary Recompilation](http://www.cs.columbia.edu/~junfeng/papers/egalito-asplos20.pdf) ✓
 - [2020 - Verifying Software Vulnerabilities in IoT Cryptographic Protocols](https://arxiv.org/pdf/2001.09837.pdf) ✓
 - [2020 - μRAI: Securing Embedded Systems with Return Address Integrity](https://nebelwelt.net/files/20NDSS.pdf) ✓
 - [2020 - Preventing Return Oriented Programming Attacks By Preventing Return Instruction Pointer Overwrites](https://www.csee.umbc.edu/~allgood1/papers/611-rop.pdf) ✓
-- [2019 - Kernel Protection Against Just-In-Time Code Reuse](https://dl.acm.org/doi/abs/10.1145/3277592) ✓
+- [2019 - Kernel Protection Against Just-In-Time Code Reuse](https://dl.acm.org/doi/abs/10.1145/3277592) ✗
 - [2019 - Kernel Exploitation Via Uninitialized Stack](https://infocon.org/cons/DEF%20CON/DEF%20CON%2019/DEF%20CON%2019%20presentations/DEF%20CON%2019%20-%20Cook-Kernel-Exploitation.pdf) ✓
 - [2019 - KEPLER: Facilitating Control-flow Hijacking Primitive Evaluation for Linux Kernel Vulnerabilities](https://www.usenix.org/system/files/sec19-wu-wei.pdf) ✓
-- [2019 - SLAKE: Facilitating Slab Manipulation for Exploiting Vulnerabilities in the Linux Kernel](https://dl.acm.org/doi/abs/10.1145/3319535.3363212) ✓
+- [2019 - SLAKE: Facilitating Slab Manipulation for Exploiting Vulnerabilities in the Linux Kernel](https://dl.acm.org/doi/abs/10.1145/3319535.3363212) ✗
 - [2018 - HeapHopper: Bringing Bounded Model Checkingto Heap Implementation Security](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-eckert.pdf) ✓
 - [2018 - K-Miner: Uncovering Memory Corruption in Linux](https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_05A-1_Gens_paper.pdf) ✓
 - [2017 - HAIT: Heap Analyzer with Input Tracing](https://www.scitepress.org/papers/2017/64208/64208.pdf) ✓
 - [2017 - DROP THE ROP: Fine-grained Control-flow Integrity for the Linux Kernel](https://www.blackhat.com/docs/asia-17/materials/asia-17-Moreira-Drop-The-Rop-Fine-Grained-Control-Flow-Integrity-For-The-Linux-Kernel-wp.pdf) ✓
-- [2017 - kR^X: Comprehensive Kernel Protection against Just-In-Time Code Reuse](https://dl.acm.org/doi/abs/10.1145/3064176.3064216) ✓
+- [2017 - kR^X: Comprehensive Kernel Protection against Just-In-Time Code Reuse](https://dl.acm.org/doi/abs/10.1145/3064176.3064216) ✗
 - [2017 - Unleashing Use-Before-Initialization Vulnerabilities in the Linux Kernel Using Targeted Stack Spraying](https://www.ndss-symposium.org/wp-content/uploads/2017/09/ndss2017_09-2_Lu_paper.pdf) ✓
 - [2017 - Towards Automated Dynamic Analysis for Linux-based Embedded Firmware](https://www.ndss-symposium.org/wp-content/uploads/2017/09/towards-automated-dynamic-analysis-linux-based-embedded-firmware.pdf) ✓
 - [2016 - Scalable Graph-based Bug Search for Firmware Images](https://www.cs.ucr.edu/~heng/pubs/genius-ccs16.pdf) ✓
@@ -731,23 +731,23 @@ Unread papers categorized by a common main theme.
 - [2015 - PIE: Parser Identification in Embedded Systems](http://www.s3.eurecom.fr/docs/acsac15_cojocar.pdf) ✓
 - [2014 - ret2dir: Rethinking Kernel Isolation](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-kemerlis.pdf) ✓
 - [2014 - Make It Work, Make It Right, Make It Fast: Building a Platform-Neutral Whole-System Dynamic Binary Analysis Platform](https://www.cs.ucr.edu/~heng/pubs/issta14.pdf) ✓
-- [2011 - Linux kernel vulnerabilities: state-of-the-art defenses and open problems](https://dl.acm.org/doi/abs/10.1145/2103799.2103805) ✓
+- [2011 - Linux kernel vulnerabilities: state-of-the-art defenses and open problems](https://dl.acm.org/doi/abs/10.1145/2103799.2103805) ✗
 - [2011 - Protecting the Core: Kernel Exploitation Mitigations](http://census.gr/media/bheu-2011-wp.pdf) ✓
 - [2015 - From Collision To Exploitation: Unleashing Use-After-Free Vulnerabilities in Linux Kernel](http://repository.root-me.org/Exploitation%20-%20Syst%C3%A8me/Unix/EN%20-%20From%20collision%20to%20exploitation%3A%20Unleashing%20Use-After-Free%20vulnerabilities%20in%20Linux%20Kernel.pdf) ✓
 - [2014 - ret2dir: Rethinking Kernel Isolation](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-kemerlis.pdf) ✓
 - [2012 - Anatomy of a Remote Kernel Exploit](https://www.cs.dartmouth.edu/sergey/cs258/2012/Dan-Rosenberg-lecture.pdf) ⚠
-- [2012 - A Heap of Trouble: Breaking the Linux Kernel SLOB Allocator](http://vulnfactory.org/research/slob.pdf) ✗
-- [2011 - Linux kernel vulnerabilities: state-of-the-art defenses and open problems](https://dl.acm.org/doi/abs/10.1145/2103799.2103805) ✓
+- [2012 - A Heap of Trouble: Breaking the Linux Kernel SLOB Allocator](http://vulnfactory.org/research/slob.pdf) ✓
+- [2011 - Linux kernel vulnerabilities: state-of-the-art defenses and open problems](https://dl.acm.org/doi/abs/10.1145/2103799.2103805) ✗
 - [2011 - Protecting the Core: Kernel Exploitation Mitigations](http://census.gr/media/bheu-2011-wp.pdf) ✓
 
 ### Static Binary Analysis
 
-- [2024 - Effectiveness of ChatGPT for Static Analysis: How Far Are We?Effectiveness of ChatGPT for Static Analysis: How Far Are We?](https://dl.acm.org/doi/abs/10.1145/3664646.3664777) ✓
-- [2024 - Bin2Summary: Beyond Function Name Prediction in Stripped Binaries with Functionality-Specific Code Embeddings](https://dl.acm.org/doi/pdf/10.1145/3643729) ✓
+- [2024 - Effectiveness of ChatGPT for Static Analysis: How Far Are We?Effectiveness of ChatGPT for Static Analysis: How Far Are We?](https://dl.acm.org/doi/abs/10.1145/3664646.3664777) ✗
+- [2024 - Bin2Summary: Beyond Function Name Prediction in Stripped Binaries with Functionality-Specific Code Embeddings](https://dl.acm.org/doi/pdf/10.1145/3643729) ✗
 - [2021 - ICALLEE: Recovering Call Graphs for Binaries](https://arxiv.org/pdf/2111.01415.pdf) ✓
 - [2021 - EnBinDiff: Identifying Data-only Patches for Binaries](https://www.computer.org/csdl/journal/tq/5555/01/09645381/1zc6LAcyvHG) ✓
 - [2021 - VIVA: Binary Level Vulnerability Identification via Partial Signature](https://ieeexplore.ieee.org/abstract/document/9425910) ✓
-- [2021 - Overview of the advantages and disadvantages of static code analysis tools](https://courses.cs.ut.ee/MTAT.03.270/2021_spring/uploads/Main/report-draft.pdf) ✓
+- [2021 - Overview of the advantages and disadvantages of static code analysis tools](https://courses.cs.ut.ee/MTAT.03.270/2021_spring/uploads/Main/report-draft.pdf) ✗
 - [2021 - Multi-Level Cross-Architecture Binary Code Similarity Metric](https://link.springer.com/article/10.1007/s13369-021-05630-7) ✓
 - [2020 - VulDetector: Detecting Vulnerabilities using Weighted Feature Graph Comparison](https://ieeexplore.ieee.org/abstract/document/9309254) ✓
 - [2020 - DEEPBINDIFF: Learning Program-Wide Code Representations for Binary Diffing](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24311-paper.pdf) ✓
@@ -762,20 +762,20 @@ Unread papers categorized by a common main theme.
 - [2020 - IoTSIT: A Static Instrumentation Tool for IoT Devices](https://ieeexplore.ieee.org/document/9084145) ✓
 - [2019 - Code Similarity Detection using AST and Textual Information](http://www.ijpe-online.com/EN/10.23940/ijpe.19.10.p14.26832691) ✗
 - [2018 - CodEX: Source Code Plagiarism DetectionBased on Abstract Syntax Trees](https://ceur-ws.org/Vol-2259/aics_33.pdf) ✓
-- [2017 - rev.ng: a unified binary analysis framework to recover CFGs and function boundaries](https://dl.acm.org/doi/abs/10.1145/3033019.3033028) ✓
+- [2017 - rev.ng: a unified binary analysis framework to recover CFGs and function boundaries](https://dl.acm.org/doi/abs/10.1145/3033019.3033028) ✗
 - [2017 - Angr: The Next Generation of Binary Analysis](https://ieeexplore.ieee.org/abstract/document/8077799) ✓
-- [2016 - Binary code is not easy](https://dl.acm.org/doi/abs/10.1145/2931037.2931047) ✓
+- [2016 - Binary code is not easy](https://dl.acm.org/doi/abs/10.1145/2931037.2931047) ✗
 - [2015 - Cross-Architecture Bug Search in Binary Executables](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7163056) ✓
-- [2014 - A platform for secure static binary instrumentation](https://dl.acm.org/doi/abs/10.1145/2576195.2576208) ✓
+- [2014 - A platform for secure static binary instrumentation](https://dl.acm.org/doi/abs/10.1145/2576195.2576208) ✗
 - [2013 - MIL: A language to build program analysis tools through static binary instrumentation](https://ieeexplore.ieee.org/abstract/document/6799106) ✓
 - [2013 - Binary Code Analysis](https://ieeexplore.ieee.org/abstract/document/6583187) ✓
-- [2013 - A compiler-level intermediate representation based binary analysis and rewriting system](https://dl.acm.org/doi/abs/10.1145/2465351.2465380) ✓
-- [2013 - Protocol reverse engineering through dynamic and static binary analysis](https://www.sciencedirect.com/science/article/abs/pii/S1005888513602174) ✓
+- [2013 - A compiler-level intermediate representation based binary analysis and rewriting system](https://dl.acm.org/doi/abs/10.1145/2465351.2465380) ✗
+- [2013 - Protocol reverse engineering through dynamic and static binary analysis](https://www.sciencedirect.com/science/article/abs/pii/S1005888513602174) ✗
 - [2013 - BinaryPig: Scalable Static Binary Analysis Over Hadoop](https://media.blackhat.com/us-13/US-13-Hanif-Binarypig-Scalable-Malware-Analytics-in-Hadoop-WP.pdf) ✓
 - [2011 - BAP: A Binary Analysis Platform](https://link.springer.com/chapter/10.1007/978-3-642-22110-1_37) ✓
-- [2009 - Syntax tree fingerprinting for source code similarity detection](https://www.researchgate.net/publication/221219530_Syntax_tree_fingerprinting_for_source_code_similarity_detection) ✓
+- [2009 - Syntax tree fingerprinting for source code similarity detection](https://www.researchgate.net/publication/221219530_Syntax_tree_fingerprinting_for_source_code_similarity_detection) ✗
 - [2008 - BitBlaze: A New Approach to Computer Security via Binary Analysis](https://link.springer.com/chapter/10.1007/978-3-540-89862-7_1) ✓
-- [2005 - Practical analysis of stripped binary code](https://dl.acm.org/doi/abs/10.1145/1127577.1127590) ✓
+- [2005 - Practical analysis of stripped binary code](https://dl.acm.org/doi/abs/10.1145/1127577.1127590) ✗
 - [2004 - Detecting kernel-level rootkits through binary analysis](https://ieeexplore.ieee.org/abstract/document/1377219) ✓
 
 ### Misc
@@ -783,13 +783,13 @@ Unread papers categorized by a common main theme.
 - [2024 - Tyche: Making Sense of Property-Based Testing Effectiveness](https://harrisongoldste.in/papers/uist24-tyche.pdf) ✓
 - [2024 - ARVO: Atlas of Reproducible Vulnerabilities for Open Source Software](https://arxiv.org/pdf/2408.02153) ✓
 - [2024 - LeanBin: Harnessing Lifting and Recompilation to Debloat Binaries](https://arxiv.org/pdf/2406.16162) ✓
-- [2024 - Operation Mango: Scalable Discovery of Taint-Style Vulnerabilities in Binary Firmware Services](https://wilgibbs.com/papers/mango_usenix24.pdf) ✗
+- [2024 - Operation Mango: Scalable Discovery of Taint-Style Vulnerabilities in Binary Firmware Services](https://wilgibbs.com/papers/mango_usenix24.pdf) ✓
 - [2024 - A Binary-level Thread Sanitizer or Why Sanitizing on the Binary Level is Hard](https://www.usenix.org/system/files/sec24fall-prepub-921-schilling.pdf) ✓
 - [2023 - MTSan: A Feasible and Practical Memory Sanitizer for Fuzzing COTS Binaries](https://www.usenix.org/system/files/sec23fall-prepub-279-chen-xingman.pdf) ✓
 - [2023 - ARMore: Pushing Love Back Into Binaries](https://nebelwelt.net/files/23SEC3.pdf) ✓
-- [2023 - gMutant: A gCov based Mutation Testing Analyser](https://dl.acm.org/doi/abs/10.1145/3578527.3578546) ✓
-- [2022 - Auto Off-Target: Enabling Thorough and Scalable Testing for Complex Software Systems](https://dl.acm.org/doi/pdf/10.1145/3551349.3556915) ✓
-- [2022 - GRIN: Make Rewriting More Precise](https://dl.acm.org/doi/fullHtml/10.1145/3523181.3523207) ✓
+- [2023 - gMutant: A gCov based Mutation Testing Analyser](https://dl.acm.org/doi/abs/10.1145/3578527.3578546) ✗
+- [2022 - Auto Off-Target: Enabling Thorough and Scalable Testing for Complex Software Systems](https://dl.acm.org/doi/pdf/10.1145/3551349.3556915) ✗
+- [2022 - GRIN: Make Rewriting More Precise](https://dl.acm.org/doi/fullHtml/10.1145/3523181.3523207) ✗
 - [2022 - CFINSIGHT: A Comprehensive Metric for CFI Policies](https://www.ndss-symposium.org/wp-content/uploads/2022-165-paper.pdf) ✓
 - [2022 - Odin: On-Demand Instrumentation with On-the-Fly Recompilation](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/odin-final.pdf) ✓
 - [2022 - Debloating Address Sanitizer](https://www.usenix.org/system/files/sec22summer_zhang-yuchen.pdf) ✓
@@ -797,11 +797,11 @@ Unread papers categorized by a common main theme.
 - [2021 - Raising MIPS Binaries to LLVM IR](https://link.springer.com/chapter/10.1007/978-3-030-92571-0_6) ✓
 - [2021 - yzGen: Automated Generation of Syscall Specification of Closed-Source macOS Drivers](https://www.cs.ucr.edu/~zhiyunq/pub/ccs21_syzgen.pdf) ✓
 - [2021 - Igor: Crash Deduplication Through Root-Cause Clustering](http://www.nebelwelt.net/publications/files/21CCS.pdf) ✓
-- [2021 - UAFSan: an object-identifier-based dynamic approach for detecting use-after-free vulnerabilities](https://dl.acm.org/doi/abs/10.1145/3460319.3464835) ✓
+- [2021 - UAFSan: an object-identifier-based dynamic approach for detecting use-after-free vulnerabilities](https://dl.acm.org/doi/abs/10.1145/3460319.3464835) ✗
 - [2021 - SyML: Guiding Symbolic Execution Toward Vulnerable States Through Pattern Learning](https://conand.me/publications/ruaro-syml-2021.pdf) ✓
 - [2021 - LLSC: A Parallel Symbolic Execution Compiler for LLVM IR](https://continuation.passing.style/static/papers/fsedemo21.pdf) ✓
 - [2021 - FuzzSplore: Visualizing Feedback-Driven Fuzzing Techniques](https://arxiv.org/pdf/2102.02527.pdf) ✓
-- [2020 - Memory Error Detection Based on Dynamic Binary Translation](https://ieeexplore.ieee.org/abstract/document/9295756/keywords#keywords) ✓
+- [2020 - Memory Error Detection Based on Dynamic Binary Translation](https://ieeexplore.ieee.org/abstract/document/9295756/keywords#keywords) ✗
 - [2020 - Sydr: Cutting Edge Dynamic Symbolic Execution](https://arxiv.org/pdf/2011.09269.pdf) ✓
 - [2020 - DrPin: A dynamic binary instumentator for multiple processor architectures](https://sol.sbc.org.br/index.php/sscad/article/view/14074/13922) ✓
 - [2020 - MVP: Detecting Vulnerabilities using Patch-Enhanced Vulnerability Signatures](https://www.usenix.org/system/files/sec20-xiao.pdf) ✓
@@ -816,13 +816,13 @@ Unread papers categorized by a common main theme.
 - [2020 - FuzzGen: Automatic Fuzzer Generation](https://www.usenix.org/system/files/sec20fall_ispoglou_prepub.pdf) ✓
 - [2020 - Fuzzing: On the Exponential Cost of Vulnerability Discovery](https://mboehme.github.io/paper/FSE20.EmpiricalLaw.pdf) ✓
 - [2020 - Poster: Debugging Inputs](https://publications.cispa.saarland/3062/1/icse2020-poster-paper42-camera-ready.pdf) ✓
-- [2020 - API Misuse Detection in C Programs: Practice on SSL APIs](https://www.worldscientific.com/doi/abs/10.1142/S0218194019400205) ✓
+- [2020 - API Misuse Detection in C Programs: Practice on SSL APIs](https://www.worldscientific.com/doi/abs/10.1142/S0218194019400205) ✗
 - [2020 - Egalito: Layout-Agnostic Binary Recompilation](http://www.cs.columbia.edu/~junfeng/papers/egalito-asplos20.pdf) ✓
 - [2020 - Verifying Software Vulnerabilities in IoT Cryptographic Protocols](https://arxiv.org/pdf/2001.09837.pdf) ✓
 - [2020 - μRAI: Securing Embedded Systems with Return Address Integrity](https://nebelwelt.net/files/20NDSS.pdf) ✓
 - [2020 - Fast Bit-Vector Satisfiability](https://qingkaishi.github.io/public_pdfs/ISSTA20-Trident.pdf) ✓
 - [2020 - MARDU: Efficient and Scalable Code Re-randomization](https://www.unexploitable.systems/uploads/jelesnianski:mardu-systor.pdf) ✓
-- [2020 - Towards formal verification of IoT protocols: A Review](https://www.sciencedirect.com/science/article/abs/pii/S1389128619317116) ✓
+- [2020 - Towards formal verification of IoT protocols: A Review](https://www.sciencedirect.com/science/article/abs/pii/S1389128619317116) ✗
 - [2020 - Automating the fuzzing triage process](https://dr.ntu.edu.sg/handle/10356/140674) ✓
 - [2020 - COMPARING AFL SCALABILITY IN VIRTUAL-AND NATIVE ENVIRONMENT](https://jyx.jyu.fi/bitstream/handle/123456789/69772/URN%3ANBN%3Afi%3Ajyu-202006084029.pdf) ✓
 - [2020 - SYMBION: Interleaving Symbolic with Concrete Execution](https://conand.me/publications/gritti-symbion-2020.pdf) ✓
@@ -834,21 +834,21 @@ Unread papers categorized by a common main theme.
 - [2017 - Coarse Hierarchical Delta Debugging](https://sci-hub.se/10.1109/ICSME.2017.26) ✓
 - [2017 - VUDDY: A Scalable Approach for Vulnerable CodeClone Discovery](https://ccs.korea.ac.kr/pds/SNP17.pdf) ✓
 - [2017 - Postmortem Program Analysis with Hardware-Enhanced Post-Crash Artifacts](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-xu.pdf) ✓
-- [2017 - Synthesizing Program Input Grammars](https://dl.acm.org/doi/pdf/10.1145/3062341.3062349) ✓
+- [2017 - Synthesizing Program Input Grammars](https://dl.acm.org/doi/pdf/10.1145/3062341.3062349) ✗
 - [2017 - Designing New Operating Primitives to Improve Fuzzing Performance](https://acmccs.github.io/papers/p2313-xuA.pdf) ✓
-- [2017 - Instruction Punning: Lightweight Instrumentation for x86-64](https://dl.acm.org/doi/pdf/10.1145/3062341.3062344?download=true) ✓
+- [2017 - Instruction Punning: Lightweight Instrumentation for x86-64](https://dl.acm.org/doi/pdf/10.1145/3062341.3062344?download=true) ✗
 - [2016 - Modernizing Hierarchical Delta Debugging](https://sci-hub.se/https://doi.org/10.1145/2994291.2994296) ✓
-- [2016 - VulPecker: An Automated Vulnerability Detection SystemBased on Code Similarity Analysis](https://dl.acm.org/doi/pdf/10.1145/2991079.2991102) ✓
+- [2016 - VulPecker: An Automated Vulnerability Detection SystemBased on Code Similarity Analysis](https://dl.acm.org/doi/pdf/10.1145/2991079.2991102) ✗
 - [2016 - CREDAL: Towards Locating a Memory Corruption Vulnerability with Your Core Dump](https://mudongliang.github.io/files/papers/p529-xu.pdf) ✓
 - [2016 - RETracer: Triaging Crashes by Reverse Execution fromPartial Memory Dumps](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/06/retracer-2.pdf) ✓
 - [2015 - PIE: Parser Identification in Embedded Systems](http://www.s3.eurecom.fr/docs/acsac15_cojocar.pdf) ✓
-- [2010 - Iterative Delta Debugging](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.296.5948&rep=rep1&type=pdf) ✓
+- [2010 - Iterative Delta Debugging](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.296.5948&rep=rep1&type=pdf) ✗
 - [2009 - Dynamic Test Generation To Find Integer Bugs in x86 Binary Linux Programs](https://argp.github.io/public/50a11f65857c12c76995f843dbfe6dda.pdf) ✓
 - [2006 - HDD: Hierarchical Delta Debugging](https://sci-hub.se/https://doi.org/10.1145/1134285.1134307) ✓
 
 ### Surveys, SoKs, and Studies
 
-- [2024 - SoK: Prudent Evaluation Practices for Fuzzing](https://oaklandsok.github.io/papers/schloegel2024.pdf)
+- [2024 - SoK: Prudent Evaluation Practices for Fuzzing](https://oaklandsok.github.io/papers/schloegel2024.pdf) ✓
 - [2024 - An Empirical Examination of Fuzzer Mutator Performance](https://www.jonbell.net/preprint/issta24-mutator.pdf) ✓
 - [2024 - An Empirical Study on the Distance Metric in Guiding Directed Grey-box Fuzzing](https://arxiv.org/pdf/2409.12701) ✓
 - [2024 - Exploring the Adoption of Fuzz Testing in Open-Source Software: A Case Study of the Go Community](https://posl.ait.kyushu-u.ac.jp/~kamei/publications/Nourry_ICSME2024.pdf) ✓
@@ -859,9 +859,9 @@ Unread papers categorized by a common main theme.
 - [2024 - Large Language Models Based Fuzzing Techniques: A Survey](https://arxiv.org/pdf/2402.00350) ✓
 - [2024 - Fuzzing: Progress, Challenges, and Perspectives](https://cdn.techscience.cn/files/cmc/2024/TSP_CMC-78-1/TSP_CMC_42361/TSP_CMC_42361.pdf) ✓
 - [2023 - A systematic review of fuzzing](https://link.springer.com/article/10.1007/s00500-023-09306-2) ✓
-- [2023 - An Empirical Study on AST-level mutation-based fuzzing techniques for JavaScript Engines](https://dl.acm.org/doi/abs/10.1145/3609437.3609440) ✓
+- [2023 - An Empirical Study on AST-level mutation-based fuzzing techniques for JavaScript Engines](https://dl.acm.org/doi/abs/10.1145/3609437.3609440) ✗
 - [2023 - Software Bug Detection: Challenges and Synergies](https://drops.dagstuhl.de/opus/volltexte/2023/19230/pdf/dagrep_v013_i003_p092_23131.pdf) ✓
-- [2023 - Demystify the Fuzzing Methods: A Comprehensive Survey](https://dl.acm.org/doi/abs/10.1145/3623375) ✓
+- [2023 - Demystify the Fuzzing Methods: A Comprehensive Survey](https://dl.acm.org/doi/abs/10.1145/3623375) ✗
 - [2023 - The Human Side of Fuzzing: Challenges Faced by Developers During Fuzzing Activities](https://posl.ait.kyushu-u.ac.jp/~kamei/publications/Nourry_TOSEM2023.pdf) ✓
 - [2023 - ASanity: On Bug Shadowing by Early ASan Exits](https://wootconference.org/papers/woot23-paper34.pdf) ✓
 - [2023 - A Case Study on Fuzzing Satellite Firmware](https://www.ndss-symposium.org/wp-content/uploads/2023/06/spacesec2023-230707-paper.pdf) ✓
@@ -870,20 +870,20 @@ Unread papers categorized by a common main theme.
 - [2023 - Automated Binary Analysis: A Survey](https://link.springer.com/chapter/10.1007/978-3-031-22677-9_21) ✓
 - [2023 - Fuzzers for stateful systems: Survey and Research Directions](https://arxiv.org/pdf/2301.02490.pdf) ✓
 - [2022 - Detecting Vulnerability on IoT Device Firmware: A Survey](https://www.ieee-jas.net/en/article/id/e04bfa93-5629-4069-859b-35ecf4dc503b) ✓
-- [2022 - Fuzzing of Embedded Systems: A Survey](https://dl.acm.org/doi/pdf/10.1145/3538644) ✓
+- [2022 - Fuzzing of Embedded Systems: A Survey](https://dl.acm.org/doi/pdf/10.1145/3538644) ✗
 - [2022 - Embedded Fuzzing: a Review of Challenges, Tools, and Solutions](https://www.iris.unict.it/bitstream/20.500.11769/533199/1/paper%20%284%29.pdf) ✓
-- [2022 - An empirical study of vulnerability discovery methods over the past ten years](https://www.sciencedirect.com/science/article/pii/S0167404822002115) ✓
-- [2022 - Fuzzing vulnerability discovery techniques: Survey, challenges and future directions](https://www.sciencedirect.com/science/article/pii/S0167404822002073) ✓
-- [2022 - Fuzzing: A Survey for Roadmap](https://dl.acm.org/doi/abs/10.1145/3512345) ✓
+- [2022 - An empirical study of vulnerability discovery methods over the past ten years](https://www.sciencedirect.com/science/article/pii/S0167404822002115) ✗
+- [2022 - Fuzzing vulnerability discovery techniques: Survey, challenges and future directions](https://www.sciencedirect.com/science/article/pii/S0167404822002073) ✗
+- [2022 - Fuzzing: A Survey for Roadmap](https://dl.acm.org/doi/abs/10.1145/3512345) ✗
 - [2022 - How Long Do Vulnerabilities Live in the Code? A Large-Scale Empirical Measurement Study on FOSS Vulnerability Lifetimes](https://www.usenix.org/system/files/sec22summer_alexopoulos.pdf) ✓
-- [2021 - Protocol Reverse-Engineering Methods and Tools: A Survey](https://www.sciencedirect.com/science/article/abs/pii/S0140366421004382) ✓
+- [2021 - Protocol Reverse-Engineering Methods and Tools: A Survey](https://www.sciencedirect.com/science/article/abs/pii/S0140366421004382) ✗
 - [2021 - Exploratory Review of Hybrid Fuzzing for Automated Vulnerability Detection](https://ieeexplore.ieee.org/abstract/document/9541397) ✓
 - [2021 - A Systematic Review of Network Protocol Fuzzing Techniques](https://ieeexplore.ieee.org/abstract/document/9482063) ✓
 - [2021 - Vulnerability Detection is Just the Beginning](https://arxiv.org/pdf/2103.05160.pdf) ✓
 - [2021 - Evaluating Synthetic Bugs](https://wkr.io/publication/asiaccs-2021-bugs.pdf) ✓
 - [2020 - A Practical, Principled Measure of Fuzzer Appeal:A Preliminary Study](https://qrs20.techconf.org/QRS2020_FULL/pdfs/QRS2020-4LGdOos7NAbR8M2s6S6ezE/891300a510/891300a510.pdf) ✓
-- [2020 - A Systemic Review of Kernel Fuzzing](https://dl.acm.org/doi/abs/10.1145/3444370.3444586) ✓
-- [2020 - A Survey of Hybrid Fuzzing based on Symbolic Execution](https://dl.acm.org/doi/abs/10.1145/3444370.3444570) ✓
+- [2020 - A Systemic Review of Kernel Fuzzing](https://dl.acm.org/doi/abs/10.1145/3444370.3444586) ✗
+- [2020 - A Survey of Hybrid Fuzzing based on Symbolic Execution](https://dl.acm.org/doi/abs/10.1145/3444370.3444570) ✗
 - [2020 - A Study on Using Code Coverage Information Extracted from Binary to Guide Fuzzing](https://www.cscjournals.org/manuscript/Journals/IJCSS/Volume14/Issue5/IJCSS-1589.pdf) ✓
 - [2020 - Study of Security Flaws in the Linux Kernel by Fuzzing](https://ieeexplore.ieee.org/abstract/document/9271516) ✓
 - [2020 - Dynamic vulnerability detection approaches and tools: State of the Art](https://ieeexplore.ieee.org/abstract/document/9268686) ✓
@@ -891,7 +891,7 @@ Unread papers categorized by a common main theme.
 - [2020 - The Relevance of Classic Fuzz Testing: Have We Solved This One?](https://arxiv.org/pdf/2008.06537.pdf) ✓
 - [2020 - A Practical, Principled Measure of Fuzzer Appeal:A Preliminary Study](https://agroce.github.io/qrs20-1.pdf) ✓
 - [2020 - SoK: All You Ever Wanted to Know About x86/x64 Binary Disassembly But Were Afraid to Ask](https://arxiv.org/pdf/2007.14266) ✓
-- [2020 - A Quantitative Comparison of Coverage-Based Greybox Fuzzers](https://dl.acm.org/doi/10.1145/3387903.3389304) ✓
+- [2020 - A Quantitative Comparison of Coverage-Based Greybox Fuzzers](https://dl.acm.org/doi/10.1145/3387903.3389304) ✗
 - [2020 - A Survey of Security Vulnerability Analysis, Discovery, Detection, and Mitigation on IoT Devices](https://www.mdpi.com/1999-5903/12/2/27) ✓
 - [2020 - A systematic review of fuzzing based on machine learning techniques](https://arxiv.org/pdf/1908.01262.pdf) ✓
 - [2019 - A Survey of Binary Code Similarity](https://arxiv.org/pdf/1909.11424.pdf) ✓
