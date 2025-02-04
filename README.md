@@ -132,6 +132,7 @@ Unread papers categorized by a common main theme.
 
 - [2025 - Invivo Fuzzing by Amplifying Actual Executions](https://mpi-softsec.github.io/papers/ICSE25-invivo.pdf) ✓
 - [2025 - QMSan: Efficiently Detecting Uninitialized Memory Errors During Fuzzing](http://nebelwelt.net/files/25NDSS3.pdf) ✓
+- [2024 - LibAFL-DiFuzz: Advanced Architecture Enabling Directed Fuzzing](https://arxiv.org/abs/2412.19143)
 - [2024 - Program Environment Fuzzing](https://arxiv.org/abs/2404.13951)
 - [2024 - Logos: Log Guided Fuzzing for Protocol Implementations](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/paper_from_24/Logos_issta24.pdf) ✓
 - [2024 - DDGF: Dynamic Directed Greybox Fuzzing with Path Profiling](https://dl.acm.org/doi/abs/10.1145/3650212.3680324) ✓
@@ -156,7 +157,7 @@ Unread papers categorized by a common main theme.
 - [2024 - Towards Tightly-coupled Hybrid Fuzzing via Excavating Input Specifications](https://ieeexplore.ieee.org/abstract/document/10418578) ✓
 - [2024 - BazzAFL: Moving Fuzzing Campaigns Towards Bugs Via Grouping Bug-Oriented Seeds](https://www.computer.org/csdl/journal/tq/5555/01/10506549/1WlI5nzxKw0) ✓
 - [2024 - DeepGo: Predictive Directed Greybox Fuzzing](https://www.ndss-symposium.org/wp-content/uploads/2024-514-paper.pdf) ✓
-- [2024 - LibAFL QEMU: A Library for Fuzzing-oriented Emulation](https://hal.science/hal-04500872/document) ✓
+- [2024 - LibAFL QEMU: A Library for Fuzzing-oriented Emulation](https://s3.eurecom.fr/docs/bar24_malmain.pdf) ✓
 - [2023 - Beyond the Coverage Plateau: A Comprehensive Study of Fuzz Blockers](https://dl.acm.org/doi/pdf/10.1145/3605157.3605177) ✓
 - [2023 - NestFuzz: Enhancing Fuzzing with Comprehensive Understanding of Input Processing Logic](https://secsys.fudan.edu.cn/_upload/article/files/56/ed/788960544d56a38258aca7d3c8b5/216e599a-d6f6-4308-aa0b-ef45166a8431.pdf) ✓
 - [2023 - DSFuzz: Detecting Deep State Bugs with Dependent State Exploration](https://dl.acm.org/doi/abs/10.1145/3576915.3616594) ✓
@@ -226,7 +227,7 @@ Unread papers categorized by a common main theme.
 - [2022 - Automatically Seed Corpus and Fuzzing Executables Generation Using Test Framework](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9867993) ✓
 - [2022 - CAMFuzz: Explainable Fuzzing with Local Interpretation](https://cybersecurity.springeropen.com/articles/10.1186/s42400-022-00116-x) ✓
 - [2022 - Efficient Greybox Fuzzing to Detect Memory Errors](https://www.comp.nus.edu.sg/~gregory/papers/rezzan.pdf) ✓
-- [2022 - LibAFL: A Framework to Build Modular and Reusable Fuzzers](http://193.55.114.4/docs/ccs22_fioraldi.pdf) ✗
+- [2022 - LibAFL: A Framework to Build Modular and Reusable Fuzzers](https://www.s3.eurecom.fr/docs/ccs22_fioraldi.pdf) ✗
 - [2022 - FishFuzz: Throwing Larger Nets to Catch Deeper Bugs](https://arxiv.org/pdf/2207.13393.pdf) ✓
 - [2022 - SYMSAN: Time and Space Efficient Concolic Execution via Dynamic Data-flow Analysis](https://www.cs.ucr.edu/~csong/sec22-symsan.pdf) ✓
 - [2022 - AMSFuzz: An adaptive mutation schedule for fuzzing](https://www.sciencedirect.com/science/article/abs/pii/S0957417422013203) ✓
